@@ -1,0 +1,11 @@
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\bin\Debug\SoftwareConstructorProject.exe.config
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\bin\Debug\SoftwareConstructorProject.exe
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\bin\Debug\SoftwareConstructorProject.pdb
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.csproj.AssemblyReference.cache
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminLogin.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.HomePage.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.Properties.Resources.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.csproj.GenerateResource.cache
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.csproj.CoreCompileInputs.cache
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.exe
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.pdb
