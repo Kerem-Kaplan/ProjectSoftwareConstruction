@@ -9,3 +9,9 @@ C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\Softwa
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.csproj.CoreCompileInputs.cache
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.exe
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.pdb
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExaminerForgotPassword.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExaminerLogin.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExaminerRegister.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentForgotPassword.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentLogin.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentRegister.resources

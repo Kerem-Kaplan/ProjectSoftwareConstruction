@@ -105,6 +105,7 @@ namespace SoftwareConstructorProject
             this.BtnSinavSorumlusuGiris.TabIndex = 9;
             this.BtnSinavSorumlusuGiris.Text = "Giriş Yap";
             this.BtnSinavSorumlusuGiris.UseVisualStyleBackColor = true;
+            this.BtnSinavSorumlusuGiris.Click += new System.EventHandler(this.BtnSinavSorumlusuGiris_Click);
             // 
             // BtnSinavSorumlusuSifreUnuttum
             // 
@@ -115,6 +116,7 @@ namespace SoftwareConstructorProject
             this.BtnSinavSorumlusuSifreUnuttum.TabIndex = 10;
             this.BtnSinavSorumlusuSifreUnuttum.Text = "Şifremi Unuttum";
             this.BtnSinavSorumlusuSifreUnuttum.UseVisualStyleBackColor = true;
+            this.BtnSinavSorumlusuSifreUnuttum.Click += new System.EventHandler(this.BtnSinavSorumlusuSifreUnuttum_Click);
             // 
             // ExaminerLogin
             // 

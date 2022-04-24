@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExaminerForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExaminerForgotPassword.Designer.cs">
+      <DependentUpon>ExaminerForgotPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExaminerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ExaminerLogin.Designer.cs">
       <DependentUpon>ExaminerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExaminerRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExaminerRegister.Designer.cs">
+      <DependentUpon>ExaminerRegister.cs</DependentUpon>
     </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
@@ -66,6 +78,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnection.cs" />
+    <Compile Include="StudentForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentForgotPassword.Designer.cs">
+      <DependentUpon>StudentForgotPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,8 +100,14 @@
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ExaminerForgotPassword.resx">
+      <DependentUpon>ExaminerForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExaminerLogin.resx">
       <DependentUpon>ExaminerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExaminerRegister.resx">
+      <DependentUpon>ExaminerRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
@@ -96,6 +121,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StudentForgotPassword.resx">
+      <DependentUpon>StudentForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentLogin.resx">
       <DependentUpon>StudentLogin.cs</DependentUpon>
     </EmbeddedResource>

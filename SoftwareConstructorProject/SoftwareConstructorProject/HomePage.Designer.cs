@@ -37,8 +37,6 @@ namespace SoftwareConstructorProject
             this.LblKayıtSecenek = new System.Windows.Forms.Label();
             this.BtnOgrenciKayıt = new System.Windows.Forms.Button();
             this.BtnSinavSorumlusuKayit = new System.Windows.Forms.Button();
-            this.BtnAdminKayıt = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LblHosgeldiniz
@@ -63,6 +61,7 @@ namespace SoftwareConstructorProject
             this.BtnAdminGiris.TabIndex = 1;
             this.BtnAdminGiris.Text = "Admin Girişi";
             this.BtnAdminGiris.UseVisualStyleBackColor = false;
+            this.BtnAdminGiris.Click += new System.EventHandler(this.BtnAdminGiris_Click);
             // 
             // BtnSinavSorumluGiris
             // 
@@ -75,6 +74,7 @@ namespace SoftwareConstructorProject
             this.BtnSinavSorumluGiris.TabIndex = 2;
             this.BtnSinavSorumluGiris.Text = "Sınav Sorumlusu Girişi\r\n";
             this.BtnSinavSorumluGiris.UseVisualStyleBackColor = false;
+            this.BtnSinavSorumluGiris.Click += new System.EventHandler(this.BtnSinavSorumluGiris_Click);
             // 
             // BtnOgrenciGiris
             // 
@@ -87,6 +87,7 @@ namespace SoftwareConstructorProject
             this.BtnOgrenciGiris.TabIndex = 3;
             this.BtnOgrenciGiris.Text = "Öğrenci Girişi";
             this.BtnOgrenciGiris.UseVisualStyleBackColor = false;
+            this.BtnOgrenciGiris.Click += new System.EventHandler(this.BtnOgrenciGiris_Click);
             // 
             // LblGirisSecenek
             // 
@@ -113,44 +114,26 @@ namespace SoftwareConstructorProject
             this.BtnOgrenciKayıt.BackColor = System.Drawing.Color.Peru;
             this.BtnOgrenciKayıt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOgrenciKayıt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnOgrenciKayıt.Location = new System.Drawing.Point(582, 391);
+            this.BtnOgrenciKayıt.Location = new System.Drawing.Point(580, 334);
             this.BtnOgrenciKayıt.Name = "BtnOgrenciKayıt";
             this.BtnOgrenciKayıt.Size = new System.Drawing.Size(146, 56);
             this.BtnOgrenciKayıt.TabIndex = 8;
             this.BtnOgrenciKayıt.Text = "Öğrenci Kayıt\r\n";
             this.BtnOgrenciKayıt.UseVisualStyleBackColor = false;
+            this.BtnOgrenciKayıt.Click += new System.EventHandler(this.BtnOgrenciKayıt_Click);
             // 
             // BtnSinavSorumlusuKayit
             // 
             this.BtnSinavSorumlusuKayit.BackColor = System.Drawing.Color.Coral;
             this.BtnSinavSorumlusuKayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSinavSorumlusuKayit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnSinavSorumlusuKayit.Location = new System.Drawing.Point(582, 274);
+            this.BtnSinavSorumlusuKayit.Location = new System.Drawing.Point(580, 217);
             this.BtnSinavSorumlusuKayit.Name = "BtnSinavSorumlusuKayit";
             this.BtnSinavSorumlusuKayit.Size = new System.Drawing.Size(146, 80);
             this.BtnSinavSorumlusuKayit.TabIndex = 7;
             this.BtnSinavSorumlusuKayit.Text = "Sınav Sorumlusu Kayıt\r\n\r\n";
             this.BtnSinavSorumlusuKayit.UseVisualStyleBackColor = false;
-            // 
-            // BtnAdminKayıt
-            // 
-            this.BtnAdminKayıt.BackColor = System.Drawing.Color.Sienna;
-            this.BtnAdminKayıt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAdminKayıt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BtnAdminKayıt.Location = new System.Drawing.Point(582, 187);
-            this.BtnAdminKayıt.Name = "BtnAdminKayıt";
-            this.BtnAdminKayıt.Size = new System.Drawing.Size(146, 49);
-            this.BtnAdminKayıt.TabIndex = 6;
-            this.BtnAdminKayıt.Text = "Admin Kayıt";
-            this.BtnAdminKayıt.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(364, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "dsgfsdgsgs";
+            this.BtnSinavSorumlusuKayit.Click += new System.EventHandler(this.BtnSinavSorumlusuKayit_Click);
             // 
             // HomePage
             // 
@@ -158,10 +141,8 @@ namespace SoftwareConstructorProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(858, 537);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BtnOgrenciKayıt);
             this.Controls.Add(this.BtnSinavSorumlusuKayit);
-            this.Controls.Add(this.BtnAdminKayıt);
             this.Controls.Add(this.LblKayıtSecenek);
             this.Controls.Add(this.LblGirisSecenek);
             this.Controls.Add(this.BtnOgrenciGiris);
@@ -185,8 +166,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Label LblKayıtSecenek;
         private System.Windows.Forms.Button BtnOgrenciKayıt;
         private System.Windows.Forms.Button BtnSinavSorumlusuKayit;
-        private System.Windows.Forms.Button BtnAdminKayıt;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

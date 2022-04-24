@@ -38,7 +38,6 @@ namespace SoftwareConstructorProject
             this.TxtAdminSifre = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.BtnAdminGiris = new System.Windows.Forms.Button();
-            this.BtnAdminSifreUnuttum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblAdminGirisSayfasi
@@ -113,22 +112,11 @@ namespace SoftwareConstructorProject
             this.BtnAdminGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAdminGiris.Location = new System.Drawing.Point(217, 303);
             this.BtnAdminGiris.Name = "BtnAdminGiris";
-            this.BtnAdminGiris.Size = new System.Drawing.Size(98, 67);
+            this.BtnAdminGiris.Size = new System.Drawing.Size(205, 67);
             this.BtnAdminGiris.TabIndex = 7;
             this.BtnAdminGiris.Text = "Giriş Yap";
             this.BtnAdminGiris.UseVisualStyleBackColor = false;
-            // 
-            // BtnAdminSifreUnuttum
-            // 
-            this.BtnAdminSifreUnuttum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnAdminSifreUnuttum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAdminSifreUnuttum.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BtnAdminSifreUnuttum.Location = new System.Drawing.Point(334, 303);
-            this.BtnAdminSifreUnuttum.Name = "BtnAdminSifreUnuttum";
-            this.BtnAdminSifreUnuttum.Size = new System.Drawing.Size(88, 67);
-            this.BtnAdminSifreUnuttum.TabIndex = 8;
-            this.BtnAdminSifreUnuttum.Text = "Şifremi Unuttum";
-            this.BtnAdminSifreUnuttum.UseVisualStyleBackColor = false;
+            this.BtnAdminGiris.Click += new System.EventHandler(this.BtnAdminGiris_Click);
             // 
             // AdminLogin
             // 
@@ -136,7 +124,6 @@ namespace SoftwareConstructorProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnAdminSifreUnuttum);
             this.Controls.Add(this.BtnAdminGiris);
             this.Controls.Add(this.TxtAdminSifre);
             this.Controls.Add(this.TxtAdminMail);
@@ -161,6 +148,5 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.TextBox TxtAdminSifre;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button BtnAdminGiris;
-        private System.Windows.Forms.Button BtnAdminSifreUnuttum;
     }
 }
