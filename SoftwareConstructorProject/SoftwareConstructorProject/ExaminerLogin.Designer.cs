@@ -37,6 +37,7 @@ namespace SoftwareConstructorProject
             this.TxtSınavSorumlusuSifre = new System.Windows.Forms.TextBox();
             this.BtnSinavSorumlusuGiris = new System.Windows.Forms.Button();
             this.BtnSinavSorumlusuSifreUnuttum = new System.Windows.Forms.Button();
+            this.BtnGeri = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblSinavSorumlusuGirisSayfasi
@@ -93,6 +94,7 @@ namespace SoftwareConstructorProject
             // 
             this.TxtSınavSorumlusuSifre.Location = new System.Drawing.Point(205, 242);
             this.TxtSınavSorumlusuSifre.Name = "TxtSınavSorumlusuSifre";
+            this.TxtSınavSorumlusuSifre.PasswordChar = '*';
             this.TxtSınavSorumlusuSifre.Size = new System.Drawing.Size(196, 20);
             this.TxtSınavSorumlusuSifre.TabIndex = 8;
             // 
@@ -118,12 +120,25 @@ namespace SoftwareConstructorProject
             this.BtnSinavSorumlusuSifreUnuttum.UseVisualStyleBackColor = true;
             this.BtnSinavSorumlusuSifreUnuttum.Click += new System.EventHandler(this.BtnSinavSorumlusuSifreUnuttum_Click);
             // 
+            // BtnGeri
+            // 
+            this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGeri.Location = new System.Drawing.Point(245, 349);
+            this.BtnGeri.Name = "BtnGeri";
+            this.BtnGeri.Size = new System.Drawing.Size(101, 60);
+            this.BtnGeri.TabIndex = 11;
+            this.BtnGeri.Text = "Geri";
+            this.BtnGeri.UseVisualStyleBackColor = false;
+            this.BtnGeri.Click += new System.EventHandler(this.LblGeri_Click);
+            // 
             // ExaminerLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnSinavSorumlusuSifreUnuttum);
             this.Controls.Add(this.BtnSinavSorumlusuGiris);
             this.Controls.Add(this.TxtSınavSorumlusuSifre);
@@ -149,5 +164,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.TextBox TxtSınavSorumlusuSifre;
         private System.Windows.Forms.Button BtnSinavSorumlusuGiris;
         private System.Windows.Forms.Button BtnSinavSorumlusuSifreUnuttum;
+        private System.Windows.Forms.Button BtnGeri;
     }
 }

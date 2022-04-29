@@ -39,6 +39,12 @@ namespace SoftwareConstructorProject
             this.TxtOgrenciIsim = new System.Windows.Forms.TextBox();
             this.TxtOgrenciSifre = new System.Windows.Forms.TextBox();
             this.BtnKayitOl = new System.Windows.Forms.Button();
+            this.TxtGuvenlikNo = new System.Windows.Forms.TextBox();
+            this.LblGuvenlikNo = new System.Windows.Forms.Label();
+            this.TxtSifreTekrar = new System.Windows.Forms.TextBox();
+            this.LblSifreTekrar = new System.Windows.Forms.Label();
+            this.BtnHesapSahipligi = new System.Windows.Forms.Button();
+            this.LblGuvNoAralıgı = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LblOgrenciKayıt
@@ -58,7 +64,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciIsim.AutoSize = true;
             this.LblOgrenciIsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblOgrenciIsim.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblOgrenciIsim.Location = new System.Drawing.Point(79, 119);
+            this.LblOgrenciIsim.Location = new System.Drawing.Point(81, 122);
             this.LblOgrenciIsim.Name = "LblOgrenciIsim";
             this.LblOgrenciIsim.Size = new System.Drawing.Size(48, 24);
             this.LblOgrenciIsim.TabIndex = 1;
@@ -69,7 +75,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciSoyIsim.AutoSize = true;
             this.LblOgrenciSoyIsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblOgrenciSoyIsim.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblOgrenciSoyIsim.Location = new System.Drawing.Point(79, 170);
+            this.LblOgrenciSoyIsim.Location = new System.Drawing.Point(81, 173);
             this.LblOgrenciSoyIsim.Name = "LblOgrenciSoyIsim";
             this.LblOgrenciSoyIsim.Size = new System.Drawing.Size(80, 24);
             this.LblOgrenciSoyIsim.TabIndex = 2;
@@ -80,7 +86,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciKayitMail.AutoSize = true;
             this.LblOgrenciKayitMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblOgrenciKayitMail.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblOgrenciKayitMail.Location = new System.Drawing.Point(79, 230);
+            this.LblOgrenciKayitMail.Location = new System.Drawing.Point(81, 233);
             this.LblOgrenciKayitMail.Name = "LblOgrenciKayitMail";
             this.LblOgrenciKayitMail.Size = new System.Drawing.Size(108, 24);
             this.LblOgrenciKayitMail.TabIndex = 3;
@@ -91,7 +97,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciKayıtSifre.AutoSize = true;
             this.LblOgrenciKayıtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblOgrenciKayıtSifre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblOgrenciKayıtSifre.Location = new System.Drawing.Point(79, 284);
+            this.LblOgrenciKayıtSifre.Location = new System.Drawing.Point(81, 287);
             this.LblOgrenciKayıtSifre.Name = "LblOgrenciKayıtSifre";
             this.LblOgrenciKayıtSifre.Size = new System.Drawing.Size(52, 24);
             this.LblOgrenciKayıtSifre.TabIndex = 4;
@@ -99,48 +105,120 @@ namespace SoftwareConstructorProject
             // 
             // TxtOgrenciMail
             // 
-            this.TxtOgrenciMail.Location = new System.Drawing.Point(193, 235);
+            this.TxtOgrenciMail.Location = new System.Drawing.Point(219, 238);
             this.TxtOgrenciMail.Name = "TxtOgrenciMail";
             this.TxtOgrenciMail.Size = new System.Drawing.Size(180, 20);
             this.TxtOgrenciMail.TabIndex = 5;
             // 
             // TxtOgrenciSoyIsim
             // 
-            this.TxtOgrenciSoyIsim.Location = new System.Drawing.Point(193, 170);
+            this.TxtOgrenciSoyIsim.Location = new System.Drawing.Point(219, 173);
             this.TxtOgrenciSoyIsim.Name = "TxtOgrenciSoyIsim";
             this.TxtOgrenciSoyIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtOgrenciSoyIsim.TabIndex = 6;
             // 
             // TxtOgrenciIsim
             // 
-            this.TxtOgrenciIsim.Location = new System.Drawing.Point(193, 119);
+            this.TxtOgrenciIsim.Location = new System.Drawing.Point(219, 122);
             this.TxtOgrenciIsim.Name = "TxtOgrenciIsim";
             this.TxtOgrenciIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtOgrenciIsim.TabIndex = 7;
             // 
             // TxtOgrenciSifre
             // 
-            this.TxtOgrenciSifre.Location = new System.Drawing.Point(193, 284);
+            this.TxtOgrenciSifre.Location = new System.Drawing.Point(219, 287);
             this.TxtOgrenciSifre.Name = "TxtOgrenciSifre";
+            this.TxtOgrenciSifre.PasswordChar = '*';
             this.TxtOgrenciSifre.Size = new System.Drawing.Size(180, 20);
             this.TxtOgrenciSifre.TabIndex = 8;
             // 
             // BtnKayitOl
             // 
             this.BtnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKayitOl.Location = new System.Drawing.Point(193, 321);
+            this.BtnKayitOl.Location = new System.Drawing.Point(219, 442);
             this.BtnKayitOl.Name = "BtnKayitOl";
             this.BtnKayitOl.Size = new System.Drawing.Size(180, 60);
             this.BtnKayitOl.TabIndex = 9;
             this.BtnKayitOl.Text = "Kayıt Ol";
             this.BtnKayitOl.UseVisualStyleBackColor = true;
+            this.BtnKayitOl.Click += new System.EventHandler(this.BtnKayitOl_Click);
+            // 
+            // TxtGuvenlikNo
+            // 
+            this.TxtGuvenlikNo.Location = new System.Drawing.Point(219, 398);
+            this.TxtGuvenlikNo.MaxLength = 4;
+            this.TxtGuvenlikNo.Name = "TxtGuvenlikNo";
+            this.TxtGuvenlikNo.PasswordChar = '*';
+            this.TxtGuvenlikNo.Size = new System.Drawing.Size(180, 20);
+            this.TxtGuvenlikNo.TabIndex = 11;
+            this.TxtGuvenlikNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtGuvenlikNo_KeyPress);
+            // 
+            // LblGuvenlikNo
+            // 
+            this.LblGuvenlikNo.AutoSize = true;
+            this.LblGuvenlikNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblGuvenlikNo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LblGuvenlikNo.Location = new System.Drawing.Point(81, 398);
+            this.LblGuvenlikNo.Name = "LblGuvenlikNo";
+            this.LblGuvenlikNo.Size = new System.Drawing.Size(118, 24);
+            this.LblGuvenlikNo.TabIndex = 10;
+            this.LblGuvenlikNo.Text = "Güvenlik No:";
+            // 
+            // TxtSifreTekrar
+            // 
+            this.TxtSifreTekrar.Location = new System.Drawing.Point(219, 338);
+            this.TxtSifreTekrar.Name = "TxtSifreTekrar";
+            this.TxtSifreTekrar.PasswordChar = '*';
+            this.TxtSifreTekrar.Size = new System.Drawing.Size(180, 20);
+            this.TxtSifreTekrar.TabIndex = 13;
+            // 
+            // LblSifreTekrar
+            // 
+            this.LblSifreTekrar.AutoSize = true;
+            this.LblSifreTekrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSifreTekrar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LblSifreTekrar.Location = new System.Drawing.Point(78, 338);
+            this.LblSifreTekrar.Name = "LblSifreTekrar";
+            this.LblSifreTekrar.Size = new System.Drawing.Size(111, 24);
+            this.LblSifreTekrar.TabIndex = 12;
+            this.LblSifreTekrar.Text = "Şifre Tekrar:";
+            // 
+            // BtnHesapSahipligi
+            // 
+            this.BtnHesapSahipligi.BackColor = System.Drawing.Color.GreenYellow;
+            this.BtnHesapSahipligi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnHesapSahipligi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnHesapSahipligi.Location = new System.Drawing.Point(509, 150);
+            this.BtnHesapSahipligi.Name = "BtnHesapSahipligi";
+            this.BtnHesapSahipligi.Size = new System.Drawing.Size(180, 60);
+            this.BtnHesapSahipligi.TabIndex = 14;
+            this.BtnHesapSahipligi.Text = "Yoksa Bir Hesabınız mı Var?";
+            this.BtnHesapSahipligi.UseVisualStyleBackColor = false;
+            this.BtnHesapSahipligi.Click += new System.EventHandler(this.BtnHesapSahipligi_Click);
+            // 
+            // LblGuvNoAralıgı
+            // 
+            this.LblGuvNoAralıgı.AutoSize = true;
+            this.LblGuvNoAralıgı.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblGuvNoAralıgı.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LblGuvNoAralıgı.Location = new System.Drawing.Point(405, 402);
+            this.LblGuvNoAralıgı.Name = "LblGuvNoAralıgı";
+            this.LblGuvNoAralıgı.Size = new System.Drawing.Size(55, 16);
+            this.LblGuvNoAralıgı.TabIndex = 15;
+            this.LblGuvNoAralıgı.Text = "(1-9999)";
             // 
             // StudentRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1000, 693);
+            this.Controls.Add(this.LblGuvNoAralıgı);
+            this.Controls.Add(this.BtnHesapSahipligi);
+            this.Controls.Add(this.TxtSifreTekrar);
+            this.Controls.Add(this.LblSifreTekrar);
+            this.Controls.Add(this.TxtGuvenlikNo);
+            this.Controls.Add(this.LblGuvenlikNo);
             this.Controls.Add(this.BtnKayitOl);
             this.Controls.Add(this.TxtOgrenciSifre);
             this.Controls.Add(this.TxtOgrenciIsim);
@@ -170,5 +248,11 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.TextBox TxtOgrenciIsim;
         private System.Windows.Forms.TextBox TxtOgrenciSifre;
         private System.Windows.Forms.Button BtnKayitOl;
+        private System.Windows.Forms.TextBox TxtGuvenlikNo;
+        private System.Windows.Forms.Label LblGuvenlikNo;
+        private System.Windows.Forms.TextBox TxtSifreTekrar;
+        private System.Windows.Forms.Label LblSifreTekrar;
+        private System.Windows.Forms.Button BtnHesapSahipligi;
+        private System.Windows.Forms.Label LblGuvNoAralıgı;
     }
 }

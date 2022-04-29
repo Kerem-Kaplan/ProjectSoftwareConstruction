@@ -38,6 +38,7 @@ namespace SoftwareConstructorProject
             this.TxtAdminSifre = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.BtnAdminGiris = new System.Windows.Forms.Button();
+            this.BtnGeri = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblAdminGirisSayfasi
@@ -97,6 +98,7 @@ namespace SoftwareConstructorProject
             this.TxtAdminSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtAdminSifre.Location = new System.Drawing.Point(217, 253);
             this.TxtAdminSifre.Name = "TxtAdminSifre";
+            this.TxtAdminSifre.PasswordChar = '*';
             this.TxtAdminSifre.Size = new System.Drawing.Size(205, 21);
             this.TxtAdminSifre.TabIndex = 5;
             // 
@@ -112,11 +114,23 @@ namespace SoftwareConstructorProject
             this.BtnAdminGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAdminGiris.Location = new System.Drawing.Point(217, 303);
             this.BtnAdminGiris.Name = "BtnAdminGiris";
-            this.BtnAdminGiris.Size = new System.Drawing.Size(205, 67);
+            this.BtnAdminGiris.Size = new System.Drawing.Size(94, 67);
             this.BtnAdminGiris.TabIndex = 7;
             this.BtnAdminGiris.Text = "Giriş Yap";
             this.BtnAdminGiris.UseVisualStyleBackColor = false;
             this.BtnAdminGiris.Click += new System.EventHandler(this.BtnAdminGiris_Click);
+            // 
+            // BtnGeri
+            // 
+            this.BtnGeri.BackColor = System.Drawing.Color.Red;
+            this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGeri.Location = new System.Drawing.Point(317, 303);
+            this.BtnGeri.Name = "BtnGeri";
+            this.BtnGeri.Size = new System.Drawing.Size(105, 67);
+            this.BtnGeri.TabIndex = 8;
+            this.BtnGeri.Text = "Geri";
+            this.BtnGeri.UseVisualStyleBackColor = false;
+            this.BtnGeri.Click += new System.EventHandler(this.BtnGeri_Click);
             // 
             // AdminLogin
             // 
@@ -124,6 +138,7 @@ namespace SoftwareConstructorProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnAdminGiris);
             this.Controls.Add(this.TxtAdminSifre);
             this.Controls.Add(this.TxtAdminMail);
@@ -148,5 +163,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.TextBox TxtAdminSifre;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button BtnAdminGiris;
+        private System.Windows.Forms.Button BtnGeri;
     }
 }

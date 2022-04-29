@@ -40,16 +40,16 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumSifre = new System.Windows.Forms.Label();
             this.LblSifreUnuttumMail = new System.Windows.Forms.Label();
             this.LblSinavSorumlusuSifreUnuttum = new System.Windows.Forms.Label();
+            this.BtnGeri = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnSifreYenile
             // 
             this.BtnSifreYenile.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSifreYenile.ForeColor = System.Drawing.Color.Black;
-            this.BtnSifreYenile.Location = new System.Drawing.Point(333, 443);
-            this.BtnSifreYenile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSifreYenile.Location = new System.Drawing.Point(250, 360);
             this.BtnSifreYenile.Name = "BtnSifreYenile";
-            this.BtnSifreYenile.Size = new System.Drawing.Size(116, 74);
+            this.BtnSifreYenile.Size = new System.Drawing.Size(87, 60);
             this.BtnSifreYenile.TabIndex = 22;
             this.BtnSifreYenile.Text = "Şifreyi Yenile";
             this.BtnSifreYenile.UseVisualStyleBackColor = true;
@@ -57,44 +57,42 @@ namespace SoftwareConstructorProject
             // 
             // TxtSorumluSifreTekrar
             // 
-            this.TxtSorumluSifreTekrar.Location = new System.Drawing.Point(333, 315);
-            this.TxtSorumluSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSorumluSifreTekrar.Location = new System.Drawing.Point(250, 256);
             this.TxtSorumluSifreTekrar.Name = "TxtSorumluSifreTekrar";
-            this.TxtSorumluSifreTekrar.Size = new System.Drawing.Size(244, 22);
+            this.TxtSorumluSifreTekrar.PasswordChar = '*';
+            this.TxtSorumluSifreTekrar.Size = new System.Drawing.Size(184, 20);
             this.TxtSorumluSifreTekrar.TabIndex = 21;
             // 
             // TxtSorumluSifre
             // 
-            this.TxtSorumluSifre.Location = new System.Drawing.Point(333, 245);
-            this.TxtSorumluSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSorumluSifre.Location = new System.Drawing.Point(250, 199);
             this.TxtSorumluSifre.Name = "TxtSorumluSifre";
-            this.TxtSorumluSifre.Size = new System.Drawing.Size(244, 22);
+            this.TxtSorumluSifre.PasswordChar = '*';
+            this.TxtSorumluSifre.Size = new System.Drawing.Size(184, 20);
             this.TxtSorumluSifre.TabIndex = 20;
             // 
             // TxtSorumluMail
             // 
-            this.TxtSorumluMail.Location = new System.Drawing.Point(333, 176);
-            this.TxtSorumluMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSorumluMail.Location = new System.Drawing.Point(250, 143);
             this.TxtSorumluMail.Name = "TxtSorumluMail";
-            this.TxtSorumluMail.Size = new System.Drawing.Size(244, 22);
+            this.TxtSorumluMail.Size = new System.Drawing.Size(184, 20);
             this.TxtSorumluMail.TabIndex = 19;
             // 
             // TxtSorumluGuvNo
             // 
-            this.TxtSorumluGuvNo.Location = new System.Drawing.Point(333, 395);
-            this.TxtSorumluGuvNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSorumluGuvNo.Location = new System.Drawing.Point(250, 321);
             this.TxtSorumluGuvNo.Name = "TxtSorumluGuvNo";
-            this.TxtSorumluGuvNo.Size = new System.Drawing.Size(244, 22);
+            this.TxtSorumluGuvNo.PasswordChar = '*';
+            this.TxtSorumluGuvNo.Size = new System.Drawing.Size(184, 20);
             this.TxtSorumluGuvNo.TabIndex = 18;
             // 
             // LblOgrBilgiGir
             // 
             this.LblOgrBilgiGir.AutoSize = true;
             this.LblOgrBilgiGir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOgrBilgiGir.Location = new System.Drawing.Point(212, 95);
-            this.LblOgrBilgiGir.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblOgrBilgiGir.Location = new System.Drawing.Point(159, 77);
             this.LblOgrBilgiGir.Name = "LblOgrBilgiGir";
-            this.LblOgrBilgiGir.Size = new System.Drawing.Size(620, 29);
+            this.LblOgrBilgiGir.Size = new System.Drawing.Size(475, 24);
             this.LblOgrBilgiGir.TabIndex = 17;
             this.LblOgrBilgiGir.Text = "Şifrenizi yenilemek için aşağıdaki bilgileri eksiksiz giriniz.";
             // 
@@ -103,10 +101,9 @@ namespace SoftwareConstructorProject
             this.LblSorumluGuvNo.AutoSize = true;
             this.LblSorumluGuvNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSorumluGuvNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LblSorumluGuvNo.Location = new System.Drawing.Point(95, 389);
-            this.LblSorumluGuvNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSorumluGuvNo.Location = new System.Drawing.Point(71, 316);
             this.LblSorumluGuvNo.Name = "LblSorumluGuvNo";
-            this.LblSorumluGuvNo.Size = new System.Drawing.Size(221, 29);
+            this.LblSorumluGuvNo.Size = new System.Drawing.Size(173, 24);
             this.LblSorumluGuvNo.TabIndex = 16;
             this.LblSorumluGuvNo.Text = "Güvenlik Numarası:";
             // 
@@ -115,10 +112,9 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumSifreTekrar.AutoSize = true;
             this.LblSifreUnuttumSifreTekrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreUnuttumSifreTekrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LblSifreUnuttumSifreTekrar.Location = new System.Drawing.Point(95, 315);
-            this.LblSifreUnuttumSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreUnuttumSifreTekrar.Location = new System.Drawing.Point(71, 256);
             this.LblSifreUnuttumSifreTekrar.Name = "LblSifreUnuttumSifreTekrar";
-            this.LblSifreUnuttumSifreTekrar.Size = new System.Drawing.Size(146, 29);
+            this.LblSifreUnuttumSifreTekrar.Size = new System.Drawing.Size(111, 24);
             this.LblSifreUnuttumSifreTekrar.TabIndex = 15;
             this.LblSifreUnuttumSifreTekrar.Text = "Şifre Tekrar:";
             // 
@@ -127,10 +123,9 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumSifre.AutoSize = true;
             this.LblSifreUnuttumSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreUnuttumSifre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LblSifreUnuttumSifre.Location = new System.Drawing.Point(95, 245);
-            this.LblSifreUnuttumSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreUnuttumSifre.Location = new System.Drawing.Point(71, 199);
             this.LblSifreUnuttumSifre.Name = "LblSifreUnuttumSifre";
-            this.LblSifreUnuttumSifre.Size = new System.Drawing.Size(69, 29);
+            this.LblSifreUnuttumSifre.Size = new System.Drawing.Size(52, 24);
             this.LblSifreUnuttumSifre.TabIndex = 14;
             this.LblSifreUnuttumSifre.Text = "Şifre:";
             // 
@@ -139,10 +134,9 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumMail.AutoSize = true;
             this.LblSifreUnuttumMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreUnuttumMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LblSifreUnuttumMail.Location = new System.Drawing.Point(95, 176);
-            this.LblSifreUnuttumMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreUnuttumMail.Location = new System.Drawing.Point(71, 143);
             this.LblSifreUnuttumMail.Name = "LblSifreUnuttumMail";
-            this.LblSifreUnuttumMail.Size = new System.Drawing.Size(139, 29);
+            this.LblSifreUnuttumMail.Size = new System.Drawing.Size(108, 24);
             this.LblSifreUnuttumMail.TabIndex = 13;
             this.LblSifreUnuttumMail.Text = "Mail Adresi:";
             // 
@@ -151,19 +145,32 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuSifreUnuttum.AutoSize = true;
             this.LblSinavSorumlusuSifreUnuttum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumlusuSifreUnuttum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.LblSinavSorumlusuSifreUnuttum.Location = new System.Drawing.Point(101, 34);
-            this.LblSinavSorumlusuSifreUnuttum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumlusuSifreUnuttum.Location = new System.Drawing.Point(76, 28);
             this.LblSinavSorumlusuSifreUnuttum.Name = "LblSinavSorumlusuSifreUnuttum";
-            this.LblSinavSorumlusuSifreUnuttum.Size = new System.Drawing.Size(816, 29);
+            this.LblSinavSorumlusuSifreUnuttum.Size = new System.Drawing.Size(636, 24);
             this.LblSinavSorumlusuSifreUnuttum.TabIndex = 12;
             this.LblSinavSorumlusuSifreUnuttum.Text = "SINAV SORUMLUSU İÇİN ŞİFREMİ UNUTTUM EKRANINA HOŞGELDİNİZ\r\n";
             // 
+            // BtnGeri
+            // 
+            this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGeri.ForeColor = System.Drawing.Color.Black;
+            this.BtnGeri.Location = new System.Drawing.Point(347, 360);
+            this.BtnGeri.Name = "BtnGeri";
+            this.BtnGeri.Size = new System.Drawing.Size(87, 60);
+            this.BtnGeri.TabIndex = 23;
+            this.BtnGeri.Text = "Geri";
+            this.BtnGeri.UseVisualStyleBackColor = false;
+            this.BtnGeri.Click += new System.EventHandler(this.BtnGeri_Click);
+            // 
             // ExaminerForgotPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Violet;
-            this.ClientSize = new System.Drawing.Size(1037, 563);
+            this.ClientSize = new System.Drawing.Size(778, 457);
+            this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnSifreYenile);
             this.Controls.Add(this.TxtSorumluSifreTekrar);
             this.Controls.Add(this.TxtSorumluSifre);
@@ -175,7 +182,6 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblSifreUnuttumSifre);
             this.Controls.Add(this.LblSifreUnuttumMail);
             this.Controls.Add(this.LblSinavSorumlusuSifreUnuttum);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExaminerForgotPassword";
             this.Text = "ExaminerForgotPassword";
             this.ResumeLayout(false);
@@ -196,5 +202,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Label LblSifreUnuttumSifre;
         private System.Windows.Forms.Label LblSifreUnuttumMail;
         private System.Windows.Forms.Label LblSinavSorumlusuSifreUnuttum;
+        private System.Windows.Forms.Button BtnGeri;
     }
 }

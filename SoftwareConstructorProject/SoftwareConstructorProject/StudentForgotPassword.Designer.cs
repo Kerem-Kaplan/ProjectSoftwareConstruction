@@ -111,6 +111,7 @@ namespace SoftwareConstructorProject
             // 
             this.TxtOgrGuvNo.Location = new System.Drawing.Point(249, 317);
             this.TxtOgrGuvNo.Name = "TxtOgrGuvNo";
+            this.TxtOgrGuvNo.PasswordChar = '*';
             this.TxtOgrGuvNo.Size = new System.Drawing.Size(184, 20);
             this.TxtOgrGuvNo.TabIndex = 7;
             // 
@@ -125,6 +126,7 @@ namespace SoftwareConstructorProject
             // 
             this.TxtOgrSifre.Location = new System.Drawing.Point(249, 195);
             this.TxtOgrSifre.Name = "TxtOgrSifre";
+            this.TxtOgrSifre.PasswordChar = '*';
             this.TxtOgrSifre.Size = new System.Drawing.Size(184, 20);
             this.TxtOgrSifre.TabIndex = 9;
             // 
@@ -132,6 +134,7 @@ namespace SoftwareConstructorProject
             // 
             this.TxtOgrSifreTekrar.Location = new System.Drawing.Point(249, 252);
             this.TxtOgrSifreTekrar.Name = "TxtOgrSifreTekrar";
+            this.TxtOgrSifreTekrar.PasswordChar = '*';
             this.TxtOgrSifreTekrar.Size = new System.Drawing.Size(184, 20);
             this.TxtOgrSifreTekrar.TabIndex = 10;
             // 
@@ -145,6 +148,7 @@ namespace SoftwareConstructorProject
             this.BtnSifreYenile.TabIndex = 11;
             this.BtnSifreYenile.Text = "Şifreyi Yenile";
             this.BtnSifreYenile.UseVisualStyleBackColor = true;
+            this.BtnSifreYenile.Click += new System.EventHandler(this.BtnSifreYenile_Click);
             // 
             // StudentForgotPassword
             // 

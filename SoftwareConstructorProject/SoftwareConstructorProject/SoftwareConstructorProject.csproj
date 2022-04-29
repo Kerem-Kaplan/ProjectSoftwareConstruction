@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminGetStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGetStudents.Designer.cs">
+      <DependentUpon>AdminGetStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHomePage.Designer.cs">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExaminerAddQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExaminerAddQuestion.Designer.cs">
+      <DependentUpon>ExaminerAddQuestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExaminerForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ExaminerForgotPassword.Designer.cs">
       <DependentUpon>ExaminerForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExaminerHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExaminerHomePage.Designer.cs">
+      <DependentUpon>ExaminerHomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="ExaminerLogin.cs">
       <SubType>Form</SubType>
@@ -85,6 +109,12 @@
     <Compile Include="StudentForgotPassword.Designer.cs">
       <DependentUpon>StudentForgotPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentHomePage.Designer.cs">
+      <DependentUpon>StudentHomePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,11 +127,23 @@
     <Compile Include="StudentRegister.Designer.cs">
       <DependentUpon>StudentRegister.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminGetStudents.resx">
+      <DependentUpon>AdminGetStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHomePage.resx">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ExaminerAddQuestion.resx">
+      <DependentUpon>ExaminerAddQuestion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExaminerForgotPassword.resx">
       <DependentUpon>ExaminerForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExaminerHomePage.resx">
+      <DependentUpon>ExaminerHomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExaminerLogin.resx">
       <DependentUpon>ExaminerLogin.cs</DependentUpon>
@@ -123,6 +165,9 @@
     </Compile>
     <EmbeddedResource Include="StudentForgotPassword.resx">
       <DependentUpon>StudentForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentHomePage.resx">
+      <DependentUpon>StudentHomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentLogin.resx">
       <DependentUpon>StudentLogin.cs</DependentUpon>

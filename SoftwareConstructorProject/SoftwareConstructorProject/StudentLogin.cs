@@ -32,8 +32,23 @@ namespace SoftwareConstructorProject
             }
             else
             {
-                MessageBox.Show("yanlış kardeş"); 
+                MessageBox.Show("yanlış kardeş");
             }
+            reader.Close();
+        }
+
+        private void BtnOgrenciSİfreUnuttum_Click(object sender, EventArgs e)
+        {
+            StudentForgotPassword studentForgotPassword = new StudentForgotPassword();
+            studentForgotPassword.Show();
+            this.Hide();
+        }
+
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
         }
     }
 }

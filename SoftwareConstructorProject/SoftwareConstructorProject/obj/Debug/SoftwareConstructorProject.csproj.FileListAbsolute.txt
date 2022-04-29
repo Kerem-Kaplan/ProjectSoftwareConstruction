@@ -15,3 +15,8 @@ C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\Softwa
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentForgotPassword.resources
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentLogin.resources
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentRegister.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExaminerAddQuestion.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExaminerHomePage.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentHomePage.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminHomePage.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminGetStudents.resources

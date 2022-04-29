@@ -39,6 +39,12 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluKayitMail = new System.Windows.Forms.Label();
             this.LblSinavSorumluSoyIsim = new System.Windows.Forms.Label();
             this.LblSinavSorumluIsim = new System.Windows.Forms.Label();
+            this.BtnHesapSahipligi = new System.Windows.Forms.Button();
+            this.LblGuvenlikNo = new System.Windows.Forms.Label();
+            this.TxtGuvenlikNo = new System.Windows.Forms.TextBox();
+            this.TxtSifreTekrar = new System.Windows.Forms.TextBox();
+            this.LblSifreTekrar = new System.Windows.Forms.Label();
+            this.LblSayiAralıgı = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LblSinavSorumlusuKayit
@@ -55,37 +61,39 @@ namespace SoftwareConstructorProject
             // BtnKayitOl
             // 
             this.BtnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKayitOl.Location = new System.Drawing.Point(172, 310);
+            this.BtnKayitOl.Location = new System.Drawing.Point(182, 424);
             this.BtnKayitOl.Name = "BtnKayitOl";
             this.BtnKayitOl.Size = new System.Drawing.Size(180, 60);
             this.BtnKayitOl.TabIndex = 18;
             this.BtnKayitOl.Text = "Kayıt Ol";
             this.BtnKayitOl.UseVisualStyleBackColor = true;
+            this.BtnKayitOl.Click += new System.EventHandler(this.BtnKayitOl_Click);
             // 
             // TxtSinavSorumluSifre
             // 
-            this.TxtSinavSorumluSifre.Location = new System.Drawing.Point(172, 273);
+            this.TxtSinavSorumluSifre.Location = new System.Drawing.Point(182, 273);
             this.TxtSinavSorumluSifre.Name = "TxtSinavSorumluSifre";
+            this.TxtSinavSorumluSifre.PasswordChar = '*';
             this.TxtSinavSorumluSifre.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluSifre.TabIndex = 17;
             // 
             // TxtSinavSorumluIsim
             // 
-            this.TxtSinavSorumluIsim.Location = new System.Drawing.Point(172, 108);
+            this.TxtSinavSorumluIsim.Location = new System.Drawing.Point(182, 108);
             this.TxtSinavSorumluIsim.Name = "TxtSinavSorumluIsim";
             this.TxtSinavSorumluIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluIsim.TabIndex = 16;
             // 
             // TxtSinavSorumluSoyIsim
             // 
-            this.TxtSinavSorumluSoyIsim.Location = new System.Drawing.Point(172, 159);
+            this.TxtSinavSorumluSoyIsim.Location = new System.Drawing.Point(182, 159);
             this.TxtSinavSorumluSoyIsim.Name = "TxtSinavSorumluSoyIsim";
             this.TxtSinavSorumluSoyIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluSoyIsim.TabIndex = 15;
             // 
             // TxtSinavSorumluMail
             // 
-            this.TxtSinavSorumluMail.Location = new System.Drawing.Point(172, 224);
+            this.TxtSinavSorumluMail.Location = new System.Drawing.Point(182, 224);
             this.TxtSinavSorumluMail.Name = "TxtSinavSorumluMail";
             this.TxtSinavSorumluMail.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluMail.TabIndex = 14;
@@ -134,12 +142,82 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluIsim.TabIndex = 10;
             this.LblSinavSorumluIsim.Text = "İsim:";
             // 
+            // BtnHesapSahipligi
+            // 
+            this.BtnHesapSahipligi.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnHesapSahipligi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnHesapSahipligi.ForeColor = System.Drawing.SystemColors.Window;
+            this.BtnHesapSahipligi.Location = new System.Drawing.Point(507, 108);
+            this.BtnHesapSahipligi.Name = "BtnHesapSahipligi";
+            this.BtnHesapSahipligi.Size = new System.Drawing.Size(180, 60);
+            this.BtnHesapSahipligi.TabIndex = 19;
+            this.BtnHesapSahipligi.Text = "Yoksa Bir Hesabınız mı Var?";
+            this.BtnHesapSahipligi.UseVisualStyleBackColor = false;
+            this.BtnHesapSahipligi.Click += new System.EventHandler(this.BtnHesapSahipligi_Click);
+            // 
+            // LblGuvenlikNo
+            // 
+            this.LblGuvenlikNo.AutoSize = true;
+            this.LblGuvenlikNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblGuvenlikNo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LblGuvenlikNo.Location = new System.Drawing.Point(58, 372);
+            this.LblGuvenlikNo.Name = "LblGuvenlikNo";
+            this.LblGuvenlikNo.Size = new System.Drawing.Size(118, 24);
+            this.LblGuvenlikNo.TabIndex = 20;
+            this.LblGuvenlikNo.Text = "Güvenlik No:";
+            // 
+            // TxtGuvenlikNo
+            // 
+            this.TxtGuvenlikNo.Location = new System.Drawing.Point(182, 372);
+            this.TxtGuvenlikNo.MaxLength = 4;
+            this.TxtGuvenlikNo.Name = "TxtGuvenlikNo";
+            this.TxtGuvenlikNo.PasswordChar = '*';
+            this.TxtGuvenlikNo.Size = new System.Drawing.Size(180, 20);
+            this.TxtGuvenlikNo.TabIndex = 21;
+            this.TxtGuvenlikNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtGuvenlikNo_KeyPress);
+            // 
+            // TxtSifreTekrar
+            // 
+            this.TxtSifreTekrar.Location = new System.Drawing.Point(182, 324);
+            this.TxtSifreTekrar.Name = "TxtSifreTekrar";
+            this.TxtSifreTekrar.PasswordChar = '*';
+            this.TxtSifreTekrar.Size = new System.Drawing.Size(180, 20);
+            this.TxtSifreTekrar.TabIndex = 23;
+            // 
+            // LblSifreTekrar
+            // 
+            this.LblSifreTekrar.AutoSize = true;
+            this.LblSifreTekrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSifreTekrar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LblSifreTekrar.Location = new System.Drawing.Point(58, 324);
+            this.LblSifreTekrar.Name = "LblSifreTekrar";
+            this.LblSifreTekrar.Size = new System.Drawing.Size(111, 24);
+            this.LblSifreTekrar.TabIndex = 22;
+            this.LblSifreTekrar.Text = "Şifre Tekrar:";
+            // 
+            // LblSayiAralıgı
+            // 
+            this.LblSayiAralıgı.AutoSize = true;
+            this.LblSayiAralıgı.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSayiAralıgı.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.LblSayiAralıgı.Location = new System.Drawing.Point(368, 376);
+            this.LblSayiAralıgı.Name = "LblSayiAralıgı";
+            this.LblSayiAralıgı.Size = new System.Drawing.Size(55, 16);
+            this.LblSayiAralıgı.TabIndex = 24;
+            this.LblSayiAralıgı.Text = "(1-9999)";
+            // 
             // ExaminerRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 579);
+            this.Controls.Add(this.LblSayiAralıgı);
+            this.Controls.Add(this.TxtSifreTekrar);
+            this.Controls.Add(this.LblSifreTekrar);
+            this.Controls.Add(this.TxtGuvenlikNo);
+            this.Controls.Add(this.LblGuvenlikNo);
+            this.Controls.Add(this.BtnHesapSahipligi);
             this.Controls.Add(this.BtnKayitOl);
             this.Controls.Add(this.TxtSinavSorumluSifre);
             this.Controls.Add(this.TxtSinavSorumluIsim);
@@ -169,5 +247,11 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Label LblSinavSorumluKayitMail;
         private System.Windows.Forms.Label LblSinavSorumluSoyIsim;
         private System.Windows.Forms.Label LblSinavSorumluIsim;
+        private System.Windows.Forms.Button BtnHesapSahipligi;
+        private System.Windows.Forms.Label LblGuvenlikNo;
+        private System.Windows.Forms.TextBox TxtGuvenlikNo;
+        private System.Windows.Forms.TextBox TxtSifreTekrar;
+        private System.Windows.Forms.Label LblSifreTekrar;
+        private System.Windows.Forms.Label LblSayiAralıgı;
     }
 }
