@@ -23,5 +23,26 @@ namespace SoftwareConstructorProject
             adminGetStudents.Show();
             this.Hide();
         }
+
+        private void BtnSorumluBilgileri_Click(object sender, EventArgs e)
+        {
+            AdminGetExaminers adminGetExaminers = new AdminGetExaminers();
+            adminGetExaminers.Show();
+            this.Hide();
+        }
+
+        private void BtnSorulariGetir_Click(object sender, EventArgs e)
+        {
+            AdminGetQuestions adminGetQuestions = new AdminGetQuestions();
+            adminGetQuestions.Show();
+            this.Hide();
+        }
+
+        private void BtnCikis_Click(object sender, EventArgs e)
+        {
+            AdminLogin adminLogin = new AdminLogin();
+            adminLogin.Show();
+            this.Hide();
+        }
     }
 }

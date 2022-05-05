@@ -89,5 +89,12 @@ namespace SoftwareConstructorProject
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
+        }
     }
 }

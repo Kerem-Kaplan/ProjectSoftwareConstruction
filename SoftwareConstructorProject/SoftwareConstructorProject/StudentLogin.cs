@@ -22,13 +22,16 @@ namespace SoftwareConstructorProject
         {
             Sql_Connection baglanti = new Sql_Connection();
             baglanti.connection();
-            SqlCommand cmd = new SqlCommand("select * from Students where StudentMail=@mail and StudentPassword=@password", baglanti.connection());
+            SqlCommand cmd = new SqlCommand("select * from Students where StudentMail=@mail and StudentPassword=@password ", baglanti.connection()); ;
             cmd.Parameters.AddWithValue("@mail", TxtOgrenciMail.Text);
             cmd.Parameters.AddWithValue("@password", TxtOgrenciSifre.Text);
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
                 MessageBox.Show("basarılı");
+                StudentHomePage studentHomePage = new StudentHomePage();
+                studentHomePage.Show();
+                this.Hide();
             }
             else
             {
@@ -50,5 +53,7 @@ namespace SoftwareConstructorProject
             homePage.Show();
             this.Hide();
         }
+
+
     }
 }

@@ -45,9 +45,10 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuGirisSayfasi.AutoSize = true;
             this.LblSinavSorumlusuGirisSayfasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumlusuGirisSayfasi.ForeColor = System.Drawing.Color.Snow;
-            this.LblSinavSorumlusuGirisSayfasi.Location = new System.Drawing.Point(144, 31);
+            this.LblSinavSorumlusuGirisSayfasi.Location = new System.Drawing.Point(192, 38);
+            this.LblSinavSorumlusuGirisSayfasi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumlusuGirisSayfasi.Name = "LblSinavSorumlusuGirisSayfasi";
-            this.LblSinavSorumlusuGirisSayfasi.Size = new System.Drawing.Size(480, 24);
+            this.LblSinavSorumlusuGirisSayfasi.Size = new System.Drawing.Size(614, 29);
             this.LblSinavSorumlusuGirisSayfasi.TabIndex = 0;
             this.LblSinavSorumlusuGirisSayfasi.Text = "SINAV SORUMLUSU GİRİŞ SAYFASINA HOŞGELDİNİZ";
             // 
@@ -55,9 +56,10 @@ namespace SoftwareConstructorProject
             // 
             this.LblSınavSorumlusuUyari.AutoSize = true;
             this.LblSınavSorumlusuUyari.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSınavSorumlusuUyari.Location = new System.Drawing.Point(168, 100);
+            this.LblSınavSorumlusuUyari.Location = new System.Drawing.Point(224, 123);
+            this.LblSınavSorumlusuUyari.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSınavSorumlusuUyari.Name = "LblSınavSorumlusuUyari";
-            this.LblSınavSorumlusuUyari.Size = new System.Drawing.Size(432, 24);
+            this.LblSınavSorumlusuUyari.Size = new System.Drawing.Size(544, 29);
             this.LblSınavSorumlusuUyari.TabIndex = 4;
             this.LblSınavSorumlusuUyari.Text = "Lütfen Aşağıdaki Bilgileri Eksiksiz Doldurunuz";
             // 
@@ -66,9 +68,10 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuMail.AutoSize = true;
             this.LblSinavSorumlusuMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumlusuMail.ForeColor = System.Drawing.SystemColors.Info;
-            this.LblSinavSorumlusuMail.Location = new System.Drawing.Point(91, 172);
+            this.LblSinavSorumlusuMail.Location = new System.Drawing.Point(121, 212);
+            this.LblSinavSorumlusuMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumlusuMail.Name = "LblSinavSorumlusuMail";
-            this.LblSinavSorumlusuMail.Size = new System.Drawing.Size(108, 24);
+            this.LblSinavSorumlusuMail.Size = new System.Drawing.Size(139, 29);
             this.LblSinavSorumlusuMail.TabIndex = 5;
             this.LblSinavSorumlusuMail.Text = "Mail Adresi:";
             // 
@@ -77,33 +80,38 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuSifre.AutoSize = true;
             this.LblSinavSorumlusuSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumlusuSifre.ForeColor = System.Drawing.SystemColors.Info;
-            this.LblSinavSorumlusuSifre.Location = new System.Drawing.Point(91, 242);
+            this.LblSinavSorumlusuSifre.Location = new System.Drawing.Point(121, 298);
+            this.LblSinavSorumlusuSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumlusuSifre.Name = "LblSinavSorumlusuSifre";
-            this.LblSinavSorumlusuSifre.Size = new System.Drawing.Size(52, 24);
+            this.LblSinavSorumlusuSifre.Size = new System.Drawing.Size(69, 29);
             this.LblSinavSorumlusuSifre.TabIndex = 6;
             this.LblSinavSorumlusuSifre.Text = "Şifre:";
             // 
             // TxtSinavSorumlusuMail
             // 
-            this.TxtSinavSorumlusuMail.Location = new System.Drawing.Point(205, 177);
+            this.TxtSinavSorumlusuMail.Location = new System.Drawing.Point(273, 218);
+            this.TxtSinavSorumlusuMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtSinavSorumlusuMail.Name = "TxtSinavSorumlusuMail";
-            this.TxtSinavSorumlusuMail.Size = new System.Drawing.Size(196, 20);
+            this.TxtSinavSorumlusuMail.Size = new System.Drawing.Size(260, 22);
             this.TxtSinavSorumlusuMail.TabIndex = 7;
             // 
             // TxtSınavSorumlusuSifre
             // 
-            this.TxtSınavSorumlusuSifre.Location = new System.Drawing.Point(205, 242);
+            this.TxtSınavSorumlusuSifre.Location = new System.Drawing.Point(273, 298);
+            this.TxtSınavSorumlusuSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSınavSorumlusuSifre.MaxLength = 16;
             this.TxtSınavSorumlusuSifre.Name = "TxtSınavSorumlusuSifre";
             this.TxtSınavSorumlusuSifre.PasswordChar = '*';
-            this.TxtSınavSorumlusuSifre.Size = new System.Drawing.Size(196, 20);
+            this.TxtSınavSorumlusuSifre.Size = new System.Drawing.Size(260, 22);
             this.TxtSınavSorumlusuSifre.TabIndex = 8;
             // 
             // BtnSinavSorumlusuGiris
             // 
             this.BtnSinavSorumlusuGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSinavSorumlusuGiris.Location = new System.Drawing.Point(205, 283);
+            this.BtnSinavSorumlusuGiris.Location = new System.Drawing.Point(273, 348);
+            this.BtnSinavSorumlusuGiris.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSinavSorumlusuGiris.Name = "BtnSinavSorumlusuGiris";
-            this.BtnSinavSorumlusuGiris.Size = new System.Drawing.Size(75, 60);
+            this.BtnSinavSorumlusuGiris.Size = new System.Drawing.Size(100, 74);
             this.BtnSinavSorumlusuGiris.TabIndex = 9;
             this.BtnSinavSorumlusuGiris.Text = "Giriş Yap";
             this.BtnSinavSorumlusuGiris.UseVisualStyleBackColor = true;
@@ -112,9 +120,10 @@ namespace SoftwareConstructorProject
             // BtnSinavSorumlusuSifreUnuttum
             // 
             this.BtnSinavSorumlusuSifreUnuttum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSinavSorumlusuSifreUnuttum.Location = new System.Drawing.Point(300, 283);
+            this.BtnSinavSorumlusuSifreUnuttum.Location = new System.Drawing.Point(400, 348);
+            this.BtnSinavSorumlusuSifreUnuttum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSinavSorumlusuSifreUnuttum.Name = "BtnSinavSorumlusuSifreUnuttum";
-            this.BtnSinavSorumlusuSifreUnuttum.Size = new System.Drawing.Size(101, 60);
+            this.BtnSinavSorumlusuSifreUnuttum.Size = new System.Drawing.Size(135, 74);
             this.BtnSinavSorumlusuSifreUnuttum.TabIndex = 10;
             this.BtnSinavSorumlusuSifreUnuttum.Text = "Şifremi Unuttum";
             this.BtnSinavSorumlusuSifreUnuttum.UseVisualStyleBackColor = true;
@@ -124,9 +133,10 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(245, 349);
+            this.BtnGeri.Location = new System.Drawing.Point(327, 430);
+            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(101, 60);
+            this.BtnGeri.Size = new System.Drawing.Size(135, 74);
             this.BtnGeri.TabIndex = 11;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
@@ -134,10 +144,10 @@ namespace SoftwareConstructorProject
             // 
             // ExaminerLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Peru;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnSinavSorumlusuSifreUnuttum);
             this.Controls.Add(this.BtnSinavSorumlusuGiris);
@@ -147,6 +157,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblSinavSorumlusuMail);
             this.Controls.Add(this.LblSınavSorumlusuUyari);
             this.Controls.Add(this.LblSinavSorumlusuGirisSayfasi);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ExaminerLogin";
             this.Text = "ExaminerLogin";
             this.ResumeLayout(false);

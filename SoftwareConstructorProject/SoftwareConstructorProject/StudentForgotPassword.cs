@@ -55,5 +55,12 @@ namespace SoftwareConstructorProject
                 MessageBox.Show("Düzgün gir");
             }
         }
+
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            StudentLogin studentLogin = new StudentLogin();
+            studentLogin.Show();
+            this.Hide();
+        }
     }
 }

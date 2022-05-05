@@ -22,3 +22,5 @@ C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\Softwa
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminGetStudents.resources
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.StudentExamPage.resources
 C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.ExampleStudentExamPage.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminGetExaminers.resources
+C:\Users\kerem\OneDrive\Masaüstü\Software Construction Project\Solution\SoftwareConstructorProject\SoftwareConstructorProject\obj\Debug\SoftwareConstructorProject.AdminGetQuestions.resources

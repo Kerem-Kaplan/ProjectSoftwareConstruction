@@ -11,22 +11,28 @@ using System.Windows.Forms;
 
 namespace SoftwareConstructorProject
 {
-    public partial class AdminGetStudents : Form
+    public partial class AdminGetExaminers : Form
     {
-        public AdminGetStudents()
+        public AdminGetExaminers()
         {
             InitializeComponent();
         }
 
-        private void BtnKayıtGetir_Click(object sender, EventArgs e)
+        private void BtnBilgiGetir_Click(object sender, EventArgs e)
         {
             kayitGetir();
         }
 
-        private void BtnOgrenciSil_Click(object sender, EventArgs e)
+        private void BtnGeri_Click(object sender, EventArgs e)
         {
-            
-            foreach (DataGridViewRow drow in DtgOgrenciBilgileri.SelectedRows)
+            AdminHomePage adminHomePage = new AdminHomePage();
+            adminHomePage.Show();
+            this.Hide();
+        }
+
+        private void BtnSinavSorumluSil_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow drow in DtgSorumluBilgileri.SelectedRows)
             {
                 int id = Convert.ToInt32(drow.Cells[0].Value);
                 kayitSil(id);
@@ -37,33 +43,26 @@ namespace SoftwareConstructorProject
 
         private void kayitGetir()
         {
-            Sql_Connection baglantı = new Sql_Connection();
-            baglantı.connection();
-            string ogrKayit = "select * from Students";
-            SqlCommand cmd = new SqlCommand(ogrKayit, baglantı.connection());
+            Sql_Connection baglanti = new Sql_Connection();
+            baglanti.connection();
+            string srmKayit = "select * from Examiners";
+            SqlCommand cmd = new SqlCommand(srmKayit, baglanti.connection());
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
             sqlDataAdapter.Fill(dataTable);
-            DtgOgrenciBilgileri.DataSource = dataTable;
-            baglantı.connection().Close();
+            DtgSorumluBilgileri.DataSource = dataTable;
+            baglanti.connection().Close();
         }
 
-         void kayitSil(int id)
+        private void kayitSil(int id)
         {
             Sql_Connection baglanti = new Sql_Connection();
             baglanti.connection();
-            string kayitSil = "delete from Students where StudentID=@id";
+            string kayitSil = "delete from Examiners where ExaminerID=@id";
             SqlCommand cmd = new SqlCommand(kayitSil, baglanti.connection());
             cmd.Parameters.AddWithValue("@id", id);
             cmd.ExecuteNonQuery();
             baglanti.connection().Close();
-        }
-
-        private void BtnGeri_Click(object sender, EventArgs e)
-        {
-            AdminHomePage adminHomePage = new AdminHomePage();
-            adminHomePage.Show();
-            this.Hide();
         }
     }
 }

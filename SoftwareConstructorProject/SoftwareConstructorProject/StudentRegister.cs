@@ -77,13 +77,18 @@ namespace SoftwareConstructorProject
                 }
             }
 
-
-
         }
 
         private void TxtGuvenlikNo_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
         }
     }
 }

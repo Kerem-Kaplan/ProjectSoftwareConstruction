@@ -23,5 +23,12 @@ namespace SoftwareConstructorProject
             examinerAddQuestion.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ExaminerLogin examinerLogin = new ExaminerLogin();
+            examinerLogin.Show();
+            this.Hide();
+        }
     }
 }
