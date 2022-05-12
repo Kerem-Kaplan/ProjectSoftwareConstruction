@@ -120,8 +120,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandQuestion.cs" />
     <Compile Include="SqlConnection.cs" />
+    <Compile Include="StudentAnalysisReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAnalysisReport.Designer.cs">
+      <DependentUpon>StudentAnalysisReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentExamPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +156,18 @@
     </Compile>
     <Compile Include="StudentRegister.Designer.cs">
       <DependentUpon>StudentRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentFrequencySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentFrequencySetting.Designer.cs">
+      <DependentUpon>StudentFrequencySetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentUntimelyExamPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentUntimelyExamPage.Designer.cs">
+      <DependentUpon>StudentUntimelyExamPage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AdminGetExaminers.resx">
       <DependentUpon>AdminGetExaminers.cs</DependentUpon>
@@ -197,6 +214,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StudentAnalysisReport.resx">
+      <DependentUpon>StudentAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentExamPage.resx">
       <DependentUpon>StudentExamPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +231,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudentRegister.resx">
       <DependentUpon>StudentRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentFrequencySetting.resx">
+      <DependentUpon>StudentFrequencySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentUntimelyExamPage.resx">
+      <DependentUpon>StudentUntimelyExamPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

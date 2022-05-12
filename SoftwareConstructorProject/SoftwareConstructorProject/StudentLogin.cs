@@ -11,25 +11,34 @@ using System.Windows.Forms;
 
 namespace SoftwareConstructorProject
 {
+
     public partial class StudentLogin : Form
     {
+        public int[] id = new int[10];
         public StudentLogin()
         {
             InitializeComponent();
         }
 
-        private void TxtOgrenciGiris_Click(object sender, EventArgs e)
+        SqlDataReader reader;
+
+        public void TxtOgrenciGiris_Click(object sender, EventArgs e)
         {
             Sql_Connection baglanti = new Sql_Connection();
             baglanti.connection();
-            SqlCommand cmd = new SqlCommand("select * from Students where StudentMail=@mail and StudentPassword=@password ", baglanti.connection()); ;
+            SqlCommand cmd = new SqlCommand("select StudentID from Students where StudentMail=@mail and StudentPassword=@password ", baglanti.connection()); ;
             cmd.Parameters.AddWithValue("@mail", TxtOgrenciMail.Text);
             cmd.Parameters.AddWithValue("@password", TxtOgrenciSifre.Text);
-            SqlDataReader reader = cmd.ExecuteReader();
+
+            reader = cmd.ExecuteReader();
             if (reader.Read())
             {
+                LblID.Text = reader["StudentID"].ToString();
+                id[0] = Convert.ToInt32(reader["StudentID"].ToString());
+                MessageBox.Show(Convert.ToString(id[0]));
                 MessageBox.Show("basarılı");
                 StudentHomePage studentHomePage = new StudentHomePage();
+                studentHomePage.id[0] = id[0];
                 studentHomePage.Show();
                 this.Hide();
             }
@@ -37,6 +46,7 @@ namespace SoftwareConstructorProject
             {
                 MessageBox.Show("yanlış kardeş");
             }
+
             reader.Close();
         }
 

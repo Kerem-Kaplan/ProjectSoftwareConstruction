@@ -40,7 +40,7 @@ namespace SoftwareConstructorProject
             this.BtnSinavSistemiGiris.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnSinavSistemiGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSinavSistemiGiris.Location = new System.Drawing.Point(227, 103);
-            this.BtnSinavSistemiGiris.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSinavSistemiGiris.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSinavSistemiGiris.Name = "BtnSinavSistemiGiris";
             this.BtnSinavSistemiGiris.Size = new System.Drawing.Size(177, 103);
             this.BtnSinavSistemiGiris.TabIndex = 0;
@@ -53,36 +53,39 @@ namespace SoftwareConstructorProject
             this.BtnAyarlar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnAyarlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAyarlar.Location = new System.Drawing.Point(227, 309);
-            this.BtnAyarlar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAyarlar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAyarlar.Name = "BtnAyarlar";
             this.BtnAyarlar.Size = new System.Drawing.Size(177, 103);
             this.BtnAyarlar.TabIndex = 1;
             this.BtnAyarlar.Text = "Ayarlar";
             this.BtnAyarlar.UseVisualStyleBackColor = false;
+            this.BtnAyarlar.Click += new System.EventHandler(this.BtnAyarlar_Click);
             // 
             // BtnZamansizSinav
             // 
             this.BtnZamansizSinav.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnZamansizSinav.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnZamansizSinav.Location = new System.Drawing.Point(1033, 75);
-            this.BtnZamansizSinav.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnZamansizSinav.Margin = new System.Windows.Forms.Padding(4);
             this.BtnZamansizSinav.Name = "BtnZamansizSinav";
             this.BtnZamansizSinav.Size = new System.Drawing.Size(177, 161);
             this.BtnZamansizSinav.TabIndex = 2;
             this.BtnZamansizSinav.Text = "Zaman Bazlı Olmayan \r\nSınava Girmek İçin Tıklayınız";
             this.BtnZamansizSinav.UseVisualStyleBackColor = false;
+            this.BtnZamansizSinav.Click += new System.EventHandler(this.BtnZamansizSinav_Click);
             // 
             // BtnAnalizRaporu
             // 
             this.BtnAnalizRaporu.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnAnalizRaporu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAnalizRaporu.Location = new System.Drawing.Point(1033, 251);
-            this.BtnAnalizRaporu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAnalizRaporu.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAnalizRaporu.Name = "BtnAnalizRaporu";
             this.BtnAnalizRaporu.Size = new System.Drawing.Size(177, 161);
             this.BtnAnalizRaporu.TabIndex = 3;
             this.BtnAnalizRaporu.Text = "Başarınızı Görmek İçin Tıklayınız";
             this.BtnAnalizRaporu.UseVisualStyleBackColor = false;
+            this.BtnAnalizRaporu.Click += new System.EventHandler(this.BtnAnalizRaporu_Click);
             // 
             // StudentHomePage
             // 
@@ -94,9 +97,10 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.BtnZamansizSinav);
             this.Controls.Add(this.BtnAyarlar);
             this.Controls.Add(this.BtnSinavSistemiGiris);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentHomePage";
             this.Text = "StudentHomePage";
+            this.Load += new System.EventHandler(this.StudentHomePage_Load);
             this.ResumeLayout(false);
 
         }

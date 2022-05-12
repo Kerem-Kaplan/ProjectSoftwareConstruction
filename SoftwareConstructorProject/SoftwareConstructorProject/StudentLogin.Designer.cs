@@ -38,16 +38,14 @@ namespace SoftwareConstructorProject
             this.TxtOgrenciGiris = new System.Windows.Forms.Button();
             this.BtnOgrenciSİfreUnuttum = new System.Windows.Forms.Button();
             this.BtnGeri = new System.Windows.Forms.Button();
-            this.TxtId = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.LblID = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LblOgrenciGirisSayfasi
             // 
             this.LblOgrenciGirisSayfasi.AutoSize = true;
             this.LblOgrenciGirisSayfasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOgrenciGirisSayfasi.Location = new System.Drawing.Point(251, 39);
-            this.LblOgrenciGirisSayfasi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblOgrenciGirisSayfasi.Location = new System.Drawing.Point(188, 32);
             this.LblOgrenciGirisSayfasi.Name = "LblOgrenciGirisSayfasi";
             this.LblOgrenciGirisSayfasi.Size = new System.Drawing.Size(388, 24);
             this.LblOgrenciGirisSayfasi.TabIndex = 0;
@@ -57,8 +55,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblOgrenciUyari.AutoSize = true;
             this.LblOgrenciUyari.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOgrenciUyari.Location = new System.Drawing.Point(227, 122);
-            this.LblOgrenciUyari.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblOgrenciUyari.Location = new System.Drawing.Point(170, 99);
             this.LblOgrenciUyari.Name = "LblOgrenciUyari";
             this.LblOgrenciUyari.Size = new System.Drawing.Size(432, 24);
             this.LblOgrenciUyari.TabIndex = 5;
@@ -68,8 +65,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblOgrenciMail.AutoSize = true;
             this.LblOgrenciMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOgrenciMail.Location = new System.Drawing.Point(132, 225);
-            this.LblOgrenciMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblOgrenciMail.Location = new System.Drawing.Point(99, 183);
             this.LblOgrenciMail.Name = "LblOgrenciMail";
             this.LblOgrenciMail.Size = new System.Drawing.Size(108, 24);
             this.LblOgrenciMail.TabIndex = 6;
@@ -79,8 +75,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblOgrenciSifre.AutoSize = true;
             this.LblOgrenciSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOgrenciSifre.Location = new System.Drawing.Point(132, 303);
-            this.LblOgrenciSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblOgrenciSifre.Location = new System.Drawing.Point(99, 246);
             this.LblOgrenciSifre.Name = "LblOgrenciSifre";
             this.LblOgrenciSifre.Size = new System.Drawing.Size(52, 24);
             this.LblOgrenciSifre.TabIndex = 7;
@@ -88,20 +83,18 @@ namespace SoftwareConstructorProject
             // 
             // TxtOgrenciMail
             // 
-            this.TxtOgrenciMail.Location = new System.Drawing.Point(284, 231);
-            this.TxtOgrenciMail.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtOgrenciMail.Location = new System.Drawing.Point(213, 188);
             this.TxtOgrenciMail.Name = "TxtOgrenciMail";
-            this.TxtOgrenciMail.Size = new System.Drawing.Size(265, 22);
+            this.TxtOgrenciMail.Size = new System.Drawing.Size(200, 20);
             this.TxtOgrenciMail.TabIndex = 8;
             // 
             // TxtOgrenciSifre
             // 
-            this.TxtOgrenciSifre.Location = new System.Drawing.Point(284, 303);
-            this.TxtOgrenciSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtOgrenciSifre.Location = new System.Drawing.Point(213, 246);
             this.TxtOgrenciSifre.MaxLength = 16;
             this.TxtOgrenciSifre.Name = "TxtOgrenciSifre";
             this.TxtOgrenciSifre.PasswordChar = '*';
-            this.TxtOgrenciSifre.Size = new System.Drawing.Size(265, 22);
+            this.TxtOgrenciSifre.Size = new System.Drawing.Size(200, 20);
             this.TxtOgrenciSifre.TabIndex = 9;
             // 
             // TxtOgrenciGiris
@@ -109,10 +102,9 @@ namespace SoftwareConstructorProject
             this.TxtOgrenciGiris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.TxtOgrenciGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtOgrenciGiris.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.TxtOgrenciGiris.Location = new System.Drawing.Point(284, 357);
-            this.TxtOgrenciGiris.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtOgrenciGiris.Location = new System.Drawing.Point(213, 290);
             this.TxtOgrenciGiris.Name = "TxtOgrenciGiris";
-            this.TxtOgrenciGiris.Size = new System.Drawing.Size(100, 74);
+            this.TxtOgrenciGiris.Size = new System.Drawing.Size(75, 60);
             this.TxtOgrenciGiris.TabIndex = 10;
             this.TxtOgrenciGiris.Text = "Giriş Yap";
             this.TxtOgrenciGiris.UseVisualStyleBackColor = false;
@@ -122,10 +114,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnOgrenciSİfreUnuttum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.BtnOgrenciSİfreUnuttum.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOgrenciSİfreUnuttum.Location = new System.Drawing.Point(417, 357);
-            this.BtnOgrenciSİfreUnuttum.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnOgrenciSİfreUnuttum.Location = new System.Drawing.Point(313, 290);
             this.BtnOgrenciSİfreUnuttum.Name = "BtnOgrenciSİfreUnuttum";
-            this.BtnOgrenciSİfreUnuttum.Size = new System.Drawing.Size(133, 74);
+            this.BtnOgrenciSİfreUnuttum.Size = new System.Drawing.Size(100, 60);
             this.BtnOgrenciSİfreUnuttum.TabIndex = 11;
             this.BtnOgrenciSİfreUnuttum.Text = "Şifremi Unuttum";
             this.BtnOgrenciSİfreUnuttum.UseVisualStyleBackColor = false;
@@ -135,40 +126,30 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(335, 438);
-            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnGeri.Location = new System.Drawing.Point(251, 356);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(133, 74);
+            this.BtnGeri.Size = new System.Drawing.Size(100, 60);
             this.BtnGeri.TabIndex = 12;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
             this.BtnGeri.Click += new System.EventHandler(this.BtnGeri_Click);
             // 
-            // TxtId
+            // LblID
             // 
-            this.TxtId.Location = new System.Drawing.Point(1038, 520);
-            this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(17, 22);
-            this.TxtId.TabIndex = 13;
-            this.TxtId.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(773, 225);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 16);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "label1";
+            this.LblID.AutoSize = true;
+            this.LblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblID.Location = new System.Drawing.Point(705, 290);
+            this.LblID.Name = "LblID";
+            this.LblID.Size = new System.Drawing.Size(0, 19);
+            this.LblID.TabIndex = 13;
             // 
             // StudentLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.TxtId);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblID);
             this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnOgrenciSİfreUnuttum);
             this.Controls.Add(this.TxtOgrenciGiris);
@@ -178,7 +159,6 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblOgrenciMail);
             this.Controls.Add(this.LblOgrenciUyari);
             this.Controls.Add(this.LblOgrenciGirisSayfasi);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentLogin";
             this.Text = "StudentLogin";
             this.ResumeLayout(false);
@@ -197,7 +177,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Button BtnOgrenciSİfreUnuttum;
         private System.Windows.Forms.Button BtnGeri;
         public System.Windows.Forms.TextBox TxtOgrenciMail;
-        public System.Windows.Forms.TextBox TxtId;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label LblID;
     }
 }
