@@ -18,6 +18,7 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //ogrenci eger bir hesaba sahipse ogrenci icin giris ekranina yonlendirilme islemi
         private void BtnHesapSahipligi_Click(object sender, EventArgs e)
         {
             StudentLogin studentLogin = new StudentLogin();
@@ -25,6 +26,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //ogrenci bilgilerinin alinip veritabanina kayit yapilma islemi
         private void BtnKayitOl_Click(object sender, EventArgs e)
         {
             Sql_Connection baglanti = new Sql_Connection();
@@ -79,11 +81,13 @@ namespace SoftwareConstructorProject
 
         }
 
+        //guvenlik numarasinin yalnizca sayi girilmesi kısıtlamasi
         private void TxtGuvenlikNo_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
+        //onceki sayfaya yonlendirme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();

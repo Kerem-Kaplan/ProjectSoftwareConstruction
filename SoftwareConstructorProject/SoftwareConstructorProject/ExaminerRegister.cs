@@ -18,6 +18,7 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //sisteme yeni bir sorumlunun kayit islemi ve veritabanina kayit yapilmasi
         private void BtnKayitOl_Click(object sender, EventArgs e)
         {
             Sql_Connection baglanti = new Sql_Connection();
@@ -78,6 +79,7 @@ namespace SoftwareConstructorProject
 
         }
 
+        //sorumlu bir hesaba sahipse sorumlu icin giris ekranına ynlendirme islemi
         private void BtnHesapSahipligi_Click(object sender, EventArgs e)
         {
             ExaminerLogin examinerLogin = new ExaminerLogin();
@@ -85,11 +87,13 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //textboX'a girilecek degerlerin yalnızca sayi olmasini saglamak icin gereken islem
         private void TxtGuvenlikNo_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
+        //bir onceki sayfaya donme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();

@@ -18,11 +18,13 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //giris islemi
         private void BtnAdminGiris_Click(object sender, EventArgs e)
         {
             adminLogin();
         }
 
+        //bir onceki sayfaya yonlendirme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();
@@ -30,6 +32,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //giris yapmak icin gerekli olan bilgilerin veritabanından cekildigi kod blogu
         void adminLogin()
         {
             Sql_Connection baglantı = new Sql_Connection();

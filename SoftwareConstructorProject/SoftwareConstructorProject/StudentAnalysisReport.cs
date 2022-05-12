@@ -35,6 +35,9 @@ namespace SoftwareConstructorProject
         bool bFirstPage = false;
         bool bNewPage = false;
         int iHeaderHeight = 0;
+
+        //ogrencinin alacagı raporun tasarlanmasi ve veritabanından cekilen bilgileri 
+        //yazdırma ekranına yonlendirme islemi
         private void pdYazici_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
 
@@ -152,14 +155,15 @@ namespace SoftwareConstructorProject
             }
         }
 
-
-
+        //yazdirma islemi icin baslatma islemi
         private void BtnBasariYazdır_Click(object sender, EventArgs e)
         {
             ppdDialog.Document = pdYazici;
             ppdDialog.ShowDialog();
         }
 
+        //ogrencinin kurala uygun sekilde bildigi soruların bilgilerinin
+        //veritabanından cekilmesi ve dataGridView üzerinde gosterilme islemi
         private void BtnBasariGoruntule_Click(object sender, EventArgs e)
         {
             baglanti.connection();
@@ -175,6 +179,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //yazdirma isleminin ve sayfa konumunun ayarlandigi bolum
         private void pdYazici_BeginPrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
             try

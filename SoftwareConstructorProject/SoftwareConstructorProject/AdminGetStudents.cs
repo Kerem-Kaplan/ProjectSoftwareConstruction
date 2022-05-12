@@ -18,14 +18,16 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //sisteme kayitli olan ogrenci bilgilerinin getirilmesi
         private void BtnKayıtGetir_Click(object sender, EventArgs e)
         {
             kayitGetir();
         }
 
+        //secilen satira gore ogrencinin silinmesi
         private void BtnOgrenciSil_Click(object sender, EventArgs e)
         {
-            
+
             foreach (DataGridViewRow drow in DtgOgrenciBilgileri.SelectedRows)
             {
                 int id = Convert.ToInt32(drow.Cells[0].Value);
@@ -35,6 +37,7 @@ namespace SoftwareConstructorProject
             MessageBox.Show("Kayıt Silinmiştir");
         }
 
+        //ogrencilerin kaydini getirmesi icin gereken kod blogu
         private void kayitGetir()
         {
             Sql_Connection baglantı = new Sql_Connection();
@@ -48,7 +51,8 @@ namespace SoftwareConstructorProject
             baglantı.connection().Close();
         }
 
-         void kayitSil(int id)
+        //silinecek olan ogrenci icin gerekli olan kod blogu
+        void kayitSil(int id)
         {
             Sql_Connection baglanti = new Sql_Connection();
             baglanti.connection();
@@ -59,6 +63,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //bir onceki sayfaya donme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             AdminHomePage adminHomePage = new AdminHomePage();

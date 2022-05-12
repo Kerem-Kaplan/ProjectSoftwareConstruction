@@ -17,6 +17,7 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //soru ekleme sayfasinin acılacagı islem bolumu
         private void BtnSoruEkle_Click(object sender, EventArgs e)
         {
             ExaminerAddQuestion examinerAddQuestion = new ExaminerAddQuestion();
@@ -24,7 +25,8 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        //cıkıs yapma ve login ekranına geri donme islemi
+        private void BtnCıkıs_Click(object sender, EventArgs e)
         {
             ExaminerLogin examinerLogin = new ExaminerLogin();
             examinerLogin.Show();

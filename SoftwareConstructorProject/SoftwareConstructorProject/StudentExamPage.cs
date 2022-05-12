@@ -26,8 +26,6 @@ namespace SoftwareConstructorProject
 
         readonly string randomValue = "select top 1 * from Questions  order by NEWID() ";
 
-        //readonly string getDBOCorrectAnswer = "select * from CorrectAnswer";
-
         readonly string insertDBOCorrectAnswer = "insert into CorrectAnswer (StudentID,QuestionID,TotalCorrect,FirstCorrectDate,Frequency) values (@studentID,@questionID,@totalCorrect,@date,@fre)";
 
         readonly string GetCorrectAnswer = "select  * from CorrectAnswer inner join Questions on CorrectAnswer.QuestionID=Questions.QuestionID where CorrectAnswer.StudentID=@id";
@@ -40,6 +38,8 @@ namespace SoftwareConstructorProject
         SqlCommand getCorrectAnswer;
         SqlCommand randomvalue;
 
+        //sayfa yuklendiginde sıkların, bitirme butonunun ve bitirme butonun enabled durumu
+        //degistirme islemi ve 'BtnSonraki' butonunun yazısının degistirilmesi
         private void StudentExamPage_Load(object sender, EventArgs e)
         {
             timer1.Start();
@@ -55,6 +55,7 @@ namespace SoftwareConstructorProject
 
 
         int i;
+        //sonraki soruya gecme islemi
         public void BtnSonraki_Click(object sender, EventArgs e)
         {
 
@@ -110,6 +111,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //sinavi bitirme islemi
         private void BtnSinavBitir_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Sınav gönderildi");
@@ -119,6 +121,8 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //veritabanından gelen sorunun cevabının A olup olmadıgı kontrolu ve aynı zamanda eger
+        //cevap dogru ise o sorunun 'CorrectAnswer' veritabanına kayit islemi 
         private void BtnSoruA_Click(object sender, EventArgs e)
         {
 
@@ -210,8 +214,6 @@ namespace SoftwareConstructorProject
                 BtnSoruA.BackColor = Color.Red;
             }
 
-
-
             BtnSoruA.Enabled = false;
             BtnSoruB.Enabled = false;
             BtnSoruC.Enabled = false;
@@ -219,6 +221,8 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //veritabanından gelen sorunun cevabının B olup olmadıgı kontrolu ve aynı zamanda eger
+        //cevap dogru ise o sorunun 'CorrectAnswer' veritabanına kayit islemi 
         private void BtnSoruB_Click(object sender, EventArgs e)
         {
 
@@ -312,6 +316,8 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //veritabanından gelen sorunun cevabının C olup olmadıgı kontrolu ve aynı zamanda eger
+        //cevap dogru ise o sorunun 'CorrectAnswer' veritabanına kayit islemi 
         private void BtnSoruC_Click(object sender, EventArgs e)
         {
 
@@ -401,6 +407,8 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //veritabanından gelen sorunun cevabının D olup olmadıgı kontrolu ve aynı zamanda eger
+        //cevap dogru ise o sorunun 'CorrectAnswer' veritabanına kayit islemi 
         private void BtnSoruD_Click(object sender, EventArgs e)
         {
 
@@ -492,6 +500,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //ogrencinin eger onceden dogru bildigi soru varsa o sorularin ekrana gelmesi islemi
         private void BtnDevam_Click(object sender, EventArgs e)
         {
             BtnSoruA.Enabled = true;
@@ -530,6 +539,7 @@ namespace SoftwareConstructorProject
         int saniye = 0;
         int dakika = 0;
 
+        //sinav suresinin tanimlanmasi
         private void timer1_Tick(object sender, EventArgs e)
         {
             saniye++;

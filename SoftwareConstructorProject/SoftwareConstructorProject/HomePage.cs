@@ -18,6 +18,7 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //admin giris ekranına yonlendirme islemi
         private void BtnAdminGiris_Click(object sender, EventArgs e)
         {
             AdminLogin adminLogin = new AdminLogin();
@@ -26,6 +27,7 @@ namespace SoftwareConstructorProject
 
         }
 
+        //sorumlu giris ekranına yonlendirme islemi
         private void BtnSinavSorumluGiris_Click(object sender, EventArgs e)
         {
             ExaminerLogin examinerLogin = new ExaminerLogin();
@@ -33,6 +35,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //ogrenci giris ekranına yonlendirme islemi
         private void BtnOgrenciGiris_Click(object sender, EventArgs e)
         {
             StudentLogin studentLogin = new StudentLogin();
@@ -40,6 +43,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //sorumlu icin kayıt ekranına yonlendirme islemi
         private void BtnSinavSorumlusuKayit_Click(object sender, EventArgs e)
         {
             ExaminerRegister examinerRegister = new ExaminerRegister();
@@ -47,6 +51,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //ogrenci icin kayit ekranina yonşendirme islemi
         private void BtnOgrenciKayıt_Click(object sender, EventArgs e)
         {
             StudentRegister studentRegister = new StudentRegister();

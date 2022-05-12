@@ -18,11 +18,13 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //sisteme kayitli sinav sorumlularinin getirilmesi
         private void BtnBilgiGetir_Click(object sender, EventArgs e)
         {
             kayitGetir();
         }
 
+        //Bir onceki sayfaya donme
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             AdminHomePage adminHomePage = new AdminHomePage();
@@ -30,6 +32,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //Istenilen sinav sorumlusunun silinmesi 
         private void BtnSinavSorumluSil_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow drow in DtgSorumluBilgileri.SelectedRows)
@@ -41,6 +44,7 @@ namespace SoftwareConstructorProject
             MessageBox.Show("Kayıt Silinmiştir");
         }
 
+        //sinav sorumlusu getirmek icin gereken kod blogu
         private void kayitGetir()
         {
             Sql_Connection baglanti = new Sql_Connection();
@@ -54,6 +58,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //sinav sorumlusunu silmek icin gereken kod blogu
         private void kayitSil(int id)
         {
             Sql_Connection baglanti = new Sql_Connection();

@@ -94,6 +94,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.DtgSorumluBilgileri);
             this.Name = "AdminGetExaminers";
             this.Text = "AdminGetExaminers";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.DtgSorumluBilgileri)).EndInit();
             this.ResumeLayout(false);
 

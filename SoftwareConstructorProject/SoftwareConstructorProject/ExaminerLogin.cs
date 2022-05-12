@@ -18,11 +18,13 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //tiklandiginda bilgiler dogru ise yonlendirilmek istenen sayfanın acılması islemi
         private void BtnSinavSorumlusuGiris_Click(object sender, EventArgs e)
         {
             examinerLogin();
         }
 
+        //sifre yenileme ekanının acılma islemi
         private void BtnSinavSorumlusuSifreUnuttum_Click(object sender, EventArgs e)
         {
             ExaminerForgotPassword examinerForgotPassword = new ExaminerForgotPassword();
@@ -30,13 +32,15 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
-        private void LblGeri_Click(object sender, EventArgs e)
+        //bir onceki sayfaya donme islemi
+        private void BtnGeri_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();
             homePage.Show();
             this.Hide();
         }
 
+        //giris yapılacagında bilgilerin kontrol edildigi kod blogu
         void examinerLogin()
         {
             Sql_Connection baglantı = new Sql_Connection();
@@ -57,5 +61,6 @@ namespace SoftwareConstructorProject
                 MessageBox.Show("Kullanıcı adı veya şifre hatalı");
             }
         }
+
     }
 }

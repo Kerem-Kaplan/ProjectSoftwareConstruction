@@ -94,6 +94,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.BtnGeri);
             this.Name = "AdminGetQuestions";
             this.Text = "AdminGetQuestions";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.DtgSorular)).EndInit();
             this.ResumeLayout(false);
 

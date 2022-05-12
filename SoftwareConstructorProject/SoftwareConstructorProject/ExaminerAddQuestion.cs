@@ -18,6 +18,8 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //veritabanına soru , sıklar,dogru cevap ve resim ekleme islmelerinin yapıldıgı ve
+        //kontrol edildigi kod blogu
         private void BtnEkle_Click(object sender, EventArgs e)
         {
             Sql_Connection baglantı = new Sql_Connection();
@@ -82,7 +84,7 @@ namespace SoftwareConstructorProject
 
             cmd.Parameters.AddWithValue("@status", false);
 
-            
+
             if (CmbDogruCevap.SelectedItem != null)
             {
 
@@ -117,33 +119,38 @@ namespace SoftwareConstructorProject
             {
                 MessageBox.Show("Düzgün Gir");
             }
-            
+
         }
 
+        //soru icin resim ekleme islemi
         private void BtnSoruResimEkle_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
             PctSoru.ImageLocation = openFileDialog1.FileName;
         }
 
+        //A sıkkı icin resim ekleme islemi
         private void BtnSecenekAResimEkle_Click(object sender, EventArgs e)
         {
             openFileDialog2.ShowDialog();
             PctSecenekA.ImageLocation = openFileDialog2.FileName;
         }
 
+        //B sıkkı icin resim ekleme islemi
         private void BtnSecenekBResimEkle_Click(object sender, EventArgs e)
         {
             openFileDialog3.ShowDialog();
             PctSecenekB.ImageLocation = openFileDialog3.FileName;
         }
 
+        //C sıkkı icin resim ekleme islemi
         private void BtnSecenekCResimEkle_Click(object sender, EventArgs e)
         {
             openFileDialog4.ShowDialog();
             PctSecenekC.ImageLocation = openFileDialog4.FileName;
         }
 
+        //D sıkkı icin resim ekleme islemi
         private void BtnSecenekDResimEkle_Click(object sender, EventArgs e)
         {
             openFileDialog5.ShowDialog();

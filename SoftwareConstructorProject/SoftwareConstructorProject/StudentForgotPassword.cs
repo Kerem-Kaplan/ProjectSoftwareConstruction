@@ -18,11 +18,14 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //sifre yenileme islemi
         private void BtnSifreYenile_Click(object sender, EventArgs e)
         {
             resetStudentpassword();
         }
 
+        //sifre yenilemek isteyen ogrencinin veritabanından cekilen bilgilere göre
+        //sifesinin yenilenmesi ve sifrenin veritabanında guncellenmesi islemi
         void resetStudentpassword()
         {
             Sql_Connection baglanti = new Sql_Connection();
@@ -45,6 +48,7 @@ namespace SoftwareConstructorProject
                     MessageBox.Show("Şifre yenilendi");
                     reader2.Close();
                 }
+                MessageBox.Show("ŞİFRENİZ YENİLENDİ", "BİLGİ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 StudentLogin studentLogin = new StudentLogin();
                 studentLogin.Show();
@@ -56,6 +60,7 @@ namespace SoftwareConstructorProject
             }
         }
 
+        //bir onceki sayfaya yonlendirme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             StudentLogin studentLogin = new StudentLogin();

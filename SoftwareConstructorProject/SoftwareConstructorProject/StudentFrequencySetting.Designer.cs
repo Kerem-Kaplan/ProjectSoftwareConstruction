@@ -43,7 +43,8 @@ namespace SoftwareConstructorProject
             // 
             this.LblilkDogru.AutoSize = true;
             this.LblilkDogru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblilkDogru.Location = new System.Drawing.Point(213, 127);
+            this.LblilkDogru.Location = new System.Drawing.Point(284, 156);
+            this.LblilkDogru.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblilkDogru.Name = "LblilkDogru";
             this.LblilkDogru.Size = new System.Drawing.Size(52, 24);
             this.LblilkDogru.TabIndex = 0;
@@ -53,7 +54,8 @@ namespace SoftwareConstructorProject
             // 
             this.LblikinciDogru.AutoSize = true;
             this.LblikinciDogru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblikinciDogru.Location = new System.Drawing.Point(427, 126);
+            this.LblikinciDogru.Location = new System.Drawing.Point(569, 155);
+            this.LblikinciDogru.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblikinciDogru.Name = "LblikinciDogru";
             this.LblikinciDogru.Size = new System.Drawing.Size(115, 24);
             this.LblikinciDogru.TabIndex = 4;
@@ -61,19 +63,20 @@ namespace SoftwareConstructorProject
             // 
             // TxtSıklık
             // 
-            this.TxtSıklık.Location = new System.Drawing.Point(217, 167);
+            this.TxtSıklık.Location = new System.Drawing.Point(289, 206);
+            this.TxtSıklık.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtSıklık.MaxLength = 3;
             this.TxtSıklık.Name = "TxtSıklık";
-            this.TxtSıklık.Size = new System.Drawing.Size(100, 20);
+            this.TxtSıklık.Size = new System.Drawing.Size(132, 22);
             this.TxtSıklık.TabIndex = 6;
-            this.TxtSıklık.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtilkDogru_KeyPress);
             // 
             // BtnKaydet
             // 
             this.BtnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKaydet.Location = new System.Drawing.Point(217, 272);
+            this.BtnKaydet.Location = new System.Drawing.Point(289, 335);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(97, 46);
+            this.BtnKaydet.Size = new System.Drawing.Size(129, 57);
             this.BtnKaydet.TabIndex = 12;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
@@ -83,7 +86,8 @@ namespace SoftwareConstructorProject
             // 
             this.LblBilgilendirme.AutoSize = true;
             this.LblBilgilendirme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblBilgilendirme.Location = new System.Drawing.Point(147, 36);
+            this.LblBilgilendirme.Location = new System.Drawing.Point(196, 44);
+            this.LblBilgilendirme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblBilgilendirme.Name = "LblBilgilendirme";
             this.LblBilgilendirme.Size = new System.Drawing.Size(546, 48);
             this.LblBilgilendirme.TabIndex = 13;
@@ -94,9 +98,10 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(433, 272);
+            this.BtnGeri.Location = new System.Drawing.Point(577, 335);
+            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(97, 46);
+            this.BtnGeri.Size = new System.Drawing.Size(129, 57);
             this.BtnGeri.TabIndex = 14;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
@@ -104,17 +109,19 @@ namespace SoftwareConstructorProject
             // 
             // TxtDogruSayisi
             // 
-            this.TxtDogruSayisi.Location = new System.Drawing.Point(430, 167);
+            this.TxtDogruSayisi.Location = new System.Drawing.Point(573, 206);
+            this.TxtDogruSayisi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtDogruSayisi.MaxLength = 1;
             this.TxtDogruSayisi.Name = "TxtDogruSayisi";
-            this.TxtDogruSayisi.Size = new System.Drawing.Size(100, 20);
+            this.TxtDogruSayisi.Size = new System.Drawing.Size(132, 22);
             this.TxtDogruSayisi.TabIndex = 19;
             // 
             // LblAralık
             // 
             this.LblAralık.AutoSize = true;
             this.LblAralık.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAralık.Location = new System.Drawing.Point(536, 169);
+            this.LblAralık.Location = new System.Drawing.Point(715, 208);
+            this.LblAralık.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblAralık.Name = "LblAralık";
             this.LblAralık.Size = new System.Drawing.Size(29, 17);
             this.LblAralık.TabIndex = 26;
@@ -122,9 +129,9 @@ namespace SoftwareConstructorProject
             // 
             // StudentFrequencySetting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1146, 762);
+            this.ClientSize = new System.Drawing.Size(1528, 938);
             this.Controls.Add(this.LblAralık);
             this.Controls.Add(this.TxtDogruSayisi);
             this.Controls.Add(this.BtnGeri);
@@ -133,8 +140,10 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.TxtSıklık);
             this.Controls.Add(this.LblikinciDogru);
             this.Controls.Add(this.LblilkDogru);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "StudentFrequencySetting";
             this.Text = "StuudentFrequencySetting";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StudentFrequencySetting_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -18,11 +18,14 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //yenilenmek istenen sifrenin kime ait oldugunun kontrolu ve yeni sifrenin veritabanına
+        //yansıtıldıgı bolum
         private void BtnSifreYenile_Click(object sender, EventArgs e)
         {
             resetExaminerPassword();
         }
 
+        //islemden vazgecildiginde bir onceki sayfaya yonlendirme islemi 
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             ExaminerLogin examinerLogin = new ExaminerLogin();
@@ -30,6 +33,8 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //yenilenecek olan sifrenin kime ait oldugunu ve sifrenin veritabanına kaydedilmesi icin
+        //gerekli olan kod blogu
         void resetExaminerPassword()
         {
             Sql_Connection baglantı = new Sql_Connection();
@@ -48,7 +53,7 @@ namespace SoftwareConstructorProject
                 SqlDataReader reader2 = cmd2.ExecuteReader();
                 if (reader2.Read())
                 {
-                    MessageBox.Show("Şifreniz yenilendi=>", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Şifreniz yenilendi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     reader2.Close();
                 }
                 ExaminerLogin examiner = new ExaminerLogin();
@@ -57,7 +62,6 @@ namespace SoftwareConstructorProject
             }
             else
             {
-
                 MessageBox.Show("düzgün gir aslan");
             }
         }

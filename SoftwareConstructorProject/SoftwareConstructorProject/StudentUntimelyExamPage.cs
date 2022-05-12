@@ -28,6 +28,8 @@ namespace SoftwareConstructorProject
 
         SqlDataReader reader;
         SqlCommand randomvalue;
+
+        //butonlarin pasif yapilma islemi
         private void StudentUntimelyExamPage_Load(object sender, EventArgs e)
         {
             BtnSonraki.Text = "Başla";
@@ -38,8 +40,10 @@ namespace SoftwareConstructorProject
             BtnSinavBitir.Enabled = false;
 
         }
-        int i;
-        int j;
+
+        int i, j;
+        //sorularin goruntulenmesi icin gereken islemler ve bir sonraki soruya geçmek icin 
+        //gereken islemler
         private void BtnSonraki_Click(object sender, EventArgs e)
         {
             BtnSonraki.Text = "Sonraki";
@@ -89,6 +93,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //sinavi bitirme islemi
         private void BtnSinavBitir_Click(object sender, EventArgs e)
         {
             MessageBox.Show("SINAV SONUCUNUZ İÇİN TAMAM BUTONUNA BASINIZ", "SINAVINIZ BİTMİŞTİR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -105,6 +110,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //veritabanindan cekilen cevabin A olup olmadigi kontrolu
         private void BtnSoruA_Click(object sender, EventArgs e)
         {
             randomvalue.Parameters.AddWithValue("@id", id[0]);
@@ -126,6 +132,7 @@ namespace SoftwareConstructorProject
             BtnSoruD.Enabled = false;
         }
 
+        //veritabanindan cekilen cevabin B olup olmadigi kontrolu
         private void BtnSoruB_Click(object sender, EventArgs e)
         {
             randomvalue.Parameters.AddWithValue("@id", id[0]);
@@ -147,6 +154,7 @@ namespace SoftwareConstructorProject
             BtnSoruD.Enabled = false;
         }
 
+        //veritabanindan cekilen cevabin C olup olmadigi kontrolu
         private void BtnSoruC_Click(object sender, EventArgs e)
         {
             randomvalue.Parameters.AddWithValue("@id", id[0]);
@@ -168,6 +176,7 @@ namespace SoftwareConstructorProject
             BtnSoruD.Enabled = false;
         }
 
+        //veritabanindan cekilen cevabin D olup olmadigi kontrolu
         private void BtnSoruD_Click(object sender, EventArgs e)
         {
             randomvalue.Parameters.AddWithValue("@id", id[0]);

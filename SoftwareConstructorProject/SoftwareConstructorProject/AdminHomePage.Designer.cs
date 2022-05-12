@@ -42,7 +42,7 @@ namespace SoftwareConstructorProject
             this.BtnOgrenciBilgileri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOgrenciBilgileri.ForeColor = System.Drawing.Color.Maroon;
             this.BtnOgrenciBilgileri.Location = new System.Drawing.Point(165, 263);
-            this.BtnOgrenciBilgileri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOgrenciBilgileri.Margin = new System.Windows.Forms.Padding(4);
             this.BtnOgrenciBilgileri.Name = "BtnOgrenciBilgileri";
             this.BtnOgrenciBilgileri.Size = new System.Drawing.Size(223, 110);
             this.BtnOgrenciBilgileri.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace SoftwareConstructorProject
             this.LblBilgilendirme.Location = new System.Drawing.Point(267, 42);
             this.LblBilgilendirme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblBilgilendirme.Name = "LblBilgilendirme";
-            this.LblBilgilendirme.Size = new System.Drawing.Size(478, 29);
+            this.LblBilgilendirme.Size = new System.Drawing.Size(386, 24);
             this.LblBilgilendirme.TabIndex = 1;
             this.LblBilgilendirme.Text = "ADMİN ANA SAYFASINA HOŞGELDİNİZ";
             // 
@@ -69,7 +69,7 @@ namespace SoftwareConstructorProject
             this.LblIslemSecimi.Location = new System.Drawing.Point(316, 135);
             this.LblIslemSecimi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIslemSecimi.Name = "LblIslemSecimi";
-            this.LblIslemSecimi.Size = new System.Drawing.Size(371, 29);
+            this.LblIslemSecimi.Size = new System.Drawing.Size(286, 24);
             this.LblIslemSecimi.TabIndex = 2;
             this.LblIslemSecimi.Text = "Yapmak istediğiniz işlemi seçiniz.";
             // 
@@ -78,7 +78,7 @@ namespace SoftwareConstructorProject
             this.BtnSorumluBilgileri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSorumluBilgileri.ForeColor = System.Drawing.Color.Maroon;
             this.BtnSorumluBilgileri.Location = new System.Drawing.Point(428, 263);
-            this.BtnSorumluBilgileri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSorumluBilgileri.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSorumluBilgileri.Name = "BtnSorumluBilgileri";
             this.BtnSorumluBilgileri.Size = new System.Drawing.Size(223, 110);
             this.BtnSorumluBilgileri.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace SoftwareConstructorProject
             this.BtnSorulariGetir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSorulariGetir.ForeColor = System.Drawing.Color.Maroon;
             this.BtnSorulariGetir.Location = new System.Drawing.Point(696, 263);
-            this.BtnSorulariGetir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSorulariGetir.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSorulariGetir.Name = "BtnSorulariGetir";
             this.BtnSorulariGetir.Size = new System.Drawing.Size(223, 110);
             this.BtnSorulariGetir.TabIndex = 4;
@@ -125,9 +125,10 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblIslemSecimi);
             this.Controls.Add(this.LblBilgilendirme);
             this.Controls.Add(this.BtnOgrenciBilgileri);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AdminHomePage";
             this.Text = "AdminHomePage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

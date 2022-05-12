@@ -17,6 +17,7 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //ogrenci bilgilerinin goruntulenebilecegi ve islem yapılabilecegi sayfaya yonlendirme islemi
         private void BtnOgrenciBilgileri_Click(object sender, EventArgs e)
         {
             AdminGetStudents adminGetStudents = new AdminGetStudents();
@@ -24,6 +25,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //sorumlu bilgilerinin goruntulenebilecegi ve islem yapılabilecegi sayfaya yonlendirme islemi
         private void BtnSorumluBilgileri_Click(object sender, EventArgs e)
         {
             AdminGetExaminers adminGetExaminers = new AdminGetExaminers();
@@ -31,6 +33,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //soruların goruntulenecegi ve islem yapılacagı sayfaya yonlendirme islemi
         private void BtnSorulariGetir_Click(object sender, EventArgs e)
         {
             AdminGetQuestions adminGetQuestions = new AdminGetQuestions();
@@ -38,6 +41,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //cikis yapma islemi
         private void BtnCikis_Click(object sender, EventArgs e)
         {
             AdminLogin adminLogin = new AdminLogin();

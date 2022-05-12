@@ -22,7 +22,26 @@ namespace SoftwareConstructorProject
 
         SqlDataReader reader;
 
-        public void TxtOgrenciGiris_Click(object sender, EventArgs e)
+
+        //ogrencinin sifresini unutmasi durumunda sifre yenileme ekranina yonlendirme islemi
+        private void BtnOgrenciSİfreUnuttum_Click(object sender, EventArgs e)
+        {
+            StudentForgotPassword studentForgotPassword = new StudentForgotPassword();
+            studentForgotPassword.Show();
+            this.Hide();
+        }
+
+        //bir onceki sayfaya yonlendirme islemi
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
+        }
+
+        //ogrencinin anasayfasina yonlendirilmesi icin mail ve sifre bilgilerinin kontrolu ve
+        //anasayfaya yonlendirme islemi
+        private void BtnOgrenciGiris_Click(object sender, EventArgs e)
         {
             Sql_Connection baglanti = new Sql_Connection();
             baglanti.connection();
@@ -49,21 +68,5 @@ namespace SoftwareConstructorProject
 
             reader.Close();
         }
-
-        private void BtnOgrenciSİfreUnuttum_Click(object sender, EventArgs e)
-        {
-            StudentForgotPassword studentForgotPassword = new StudentForgotPassword();
-            studentForgotPassword.Show();
-            this.Hide();
-        }
-
-        private void BtnGeri_Click(object sender, EventArgs e)
-        {
-            HomePage homePage = new HomePage();
-            homePage.Show();
-            this.Hide();
-        }
-
-
     }
 }

@@ -16,7 +16,7 @@ namespace SoftwareConstructorProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StudentLogin());
+            Application.Run(new HomePage());
         }
     }
 }

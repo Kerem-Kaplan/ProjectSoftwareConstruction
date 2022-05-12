@@ -17,7 +17,8 @@ namespace SoftwareConstructorProject
         {
             InitializeComponent();
         }
-
+    
+        //ogerncinin sureye dayali sinav ekranina yonlendirme islemi
         private void BtnSinavSistemiGiris_Click(object sender, EventArgs e)
         {
             MessageBox.Show(Convert.ToString(id[0]));
@@ -29,6 +30,7 @@ namespace SoftwareConstructorProject
 
         }
 
+        //ogrencinin sıklık ayarlama ekranına yonlendirilme islemi
         private void BtnAyarlar_Click(object sender, EventArgs e)
         {
             MessageBox.Show(Convert.ToString(id[0]));
@@ -43,6 +45,7 @@ namespace SoftwareConstructorProject
             MessageBox.Show(Convert.ToString(id[0]));
         }
 
+        //ogrencinin sureye dayali olmayan sinav ekranina yönlendirilmesi
         private void BtnZamansizSinav_Click(object sender, EventArgs e)
         {
             MessageBox.Show(Convert.ToString(id[0]));
@@ -53,6 +56,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //ogrencinin kendisi hakkinda rapor almasi icin rapor sayfasina yonlendirilme islemi
         private void BtnAnalizRaporu_Click(object sender, EventArgs e)
         {
             StudentAnalysisReport studentAnalysisReport = new StudentAnalysisReport();

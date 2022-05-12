@@ -18,11 +18,13 @@ namespace SoftwareConstructorProject
             InitializeComponent();
         }
 
+        //sistemwe kayitli olan sorularin getirilmesi
         private void BtnSoruBilgiGetir_Click(object sender, EventArgs e)
         {
             kayitGetir();
         }
 
+        //secili satira göre istenilen sorunun silinmesi
         private void BtnSoruSil_Click(object sender, EventArgs e)
         {
             foreach (DataGridViewRow drow in DtgSorular.SelectedRows)
@@ -35,6 +37,7 @@ namespace SoftwareConstructorProject
 
         }
 
+        //bir onceki sayfaya donme islemi
         private void BtnGeri_Click(object sender, EventArgs e)
         {
             AdminHomePage adminHomePage = new AdminHomePage();
@@ -42,6 +45,7 @@ namespace SoftwareConstructorProject
             this.Hide();
         }
 
+        //sisteme kayitli soruların getirilmesi icin gereken kod blogu
         private void kayitGetir()
         {
             Sql_Connection baglanti = new Sql_Connection();
@@ -55,6 +59,7 @@ namespace SoftwareConstructorProject
             baglanti.connection().Close();
         }
 
+        //istenilen sorunun silinmesi icin gereken kod blogu
         private void kayitSil(int id)
         {
             Sql_Connection baglanti = new Sql_Connection();

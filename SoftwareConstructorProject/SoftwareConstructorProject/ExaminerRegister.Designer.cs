@@ -58,7 +58,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuKayit.Location = new System.Drawing.Point(180, 32);
             this.LblSinavSorumlusuKayit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumlusuKayit.Name = "LblSinavSorumlusuKayit";
-            this.LblSinavSorumlusuKayit.Size = new System.Drawing.Size(620, 29);
+            this.LblSinavSorumlusuKayit.Size = new System.Drawing.Size(486, 24);
             this.LblSinavSorumlusuKayit.TabIndex = 0;
             this.LblSinavSorumlusuKayit.Text = "SINAV SORUMLUSU KAYIT SAYFASINA HOŞGELDİNİZ\r\n";
             // 
@@ -116,7 +116,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluKayıtSifre.Location = new System.Drawing.Point(77, 336);
             this.LblSinavSorumluKayıtSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumluKayıtSifre.Name = "LblSinavSorumluKayıtSifre";
-            this.LblSinavSorumluKayıtSifre.Size = new System.Drawing.Size(69, 29);
+            this.LblSinavSorumluKayıtSifre.Size = new System.Drawing.Size(52, 24);
             this.LblSinavSorumluKayıtSifre.TabIndex = 13;
             this.LblSinavSorumluKayıtSifre.Text = "Şifre:";
             // 
@@ -128,7 +128,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluKayitMail.Location = new System.Drawing.Point(77, 270);
             this.LblSinavSorumluKayitMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumluKayitMail.Name = "LblSinavSorumluKayitMail";
-            this.LblSinavSorumluKayitMail.Size = new System.Drawing.Size(139, 29);
+            this.LblSinavSorumluKayitMail.Size = new System.Drawing.Size(108, 24);
             this.LblSinavSorumluKayitMail.TabIndex = 12;
             this.LblSinavSorumluKayitMail.Text = "Mail Adresi:";
             // 
@@ -140,7 +140,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluSoyIsim.Location = new System.Drawing.Point(77, 196);
             this.LblSinavSorumluSoyIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumluSoyIsim.Name = "LblSinavSorumluSoyIsim";
-            this.LblSinavSorumluSoyIsim.Size = new System.Drawing.Size(104, 29);
+            this.LblSinavSorumluSoyIsim.Size = new System.Drawing.Size(80, 24);
             this.LblSinavSorumluSoyIsim.TabIndex = 11;
             this.LblSinavSorumluSoyIsim.Text = "Soyİsim:";
             // 
@@ -152,7 +152,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluIsim.Location = new System.Drawing.Point(77, 133);
             this.LblSinavSorumluIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSinavSorumluIsim.Name = "LblSinavSorumluIsim";
-            this.LblSinavSorumluIsim.Size = new System.Drawing.Size(63, 29);
+            this.LblSinavSorumluIsim.Size = new System.Drawing.Size(48, 24);
             this.LblSinavSorumluIsim.TabIndex = 10;
             this.LblSinavSorumluIsim.Text = "İsim:";
             // 
@@ -178,7 +178,7 @@ namespace SoftwareConstructorProject
             this.LblGuvenlikNo.Location = new System.Drawing.Point(77, 458);
             this.LblGuvenlikNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblGuvenlikNo.Name = "LblGuvenlikNo";
-            this.LblGuvenlikNo.Size = new System.Drawing.Size(150, 29);
+            this.LblGuvenlikNo.Size = new System.Drawing.Size(118, 24);
             this.LblGuvenlikNo.TabIndex = 20;
             this.LblGuvenlikNo.Text = "Güvenlik No:";
             // 
@@ -211,7 +211,7 @@ namespace SoftwareConstructorProject
             this.LblSifreTekrar.Location = new System.Drawing.Point(77, 399);
             this.LblSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreTekrar.Name = "LblSifreTekrar";
-            this.LblSifreTekrar.Size = new System.Drawing.Size(146, 29);
+            this.LblSifreTekrar.Size = new System.Drawing.Size(111, 24);
             this.LblSifreTekrar.TabIndex = 22;
             this.LblSifreTekrar.Text = "Şifre Tekrar:";
             // 
@@ -223,7 +223,7 @@ namespace SoftwareConstructorProject
             this.LblSayiAralıgı.Location = new System.Drawing.Point(491, 463);
             this.LblSayiAralıgı.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSayiAralıgı.Name = "LblSayiAralıgı";
-            this.LblSayiAralıgı.Size = new System.Drawing.Size(72, 20);
+            this.LblSayiAralıgı.Size = new System.Drawing.Size(55, 16);
             this.LblSayiAralıgı.TabIndex = 24;
             this.LblSayiAralıgı.Text = "(1-9999)";
             // 
@@ -235,7 +235,7 @@ namespace SoftwareConstructorProject
             this.LblSifreMaxKarakter.Location = new System.Drawing.Point(490, 338);
             this.LblSifreMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreMaxKarakter.Name = "LblSifreMaxKarakter";
-            this.LblSifreMaxKarakter.Size = new System.Drawing.Size(136, 20);
+            this.LblSifreMaxKarakter.Size = new System.Drawing.Size(106, 16);
             this.LblSifreMaxKarakter.TabIndex = 25;
             this.LblSifreMaxKarakter.Text = "Max: 16 Karakter";
             // 
@@ -247,7 +247,7 @@ namespace SoftwareConstructorProject
             this.LblSifreTekrarMaxKarakter.Location = new System.Drawing.Point(490, 401);
             this.LblSifreTekrarMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreTekrarMaxKarakter.Name = "LblSifreTekrarMaxKarakter";
-            this.LblSifreTekrarMaxKarakter.Size = new System.Drawing.Size(136, 20);
+            this.LblSifreTekrarMaxKarakter.Size = new System.Drawing.Size(106, 16);
             this.LblSifreTekrarMaxKarakter.TabIndex = 26;
             this.LblSifreTekrarMaxKarakter.Text = "Max: 16 Karakter";
             // 
@@ -292,6 +292,7 @@ namespace SoftwareConstructorProject
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ExaminerRegister";
             this.Text = "ExaminerRegister";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

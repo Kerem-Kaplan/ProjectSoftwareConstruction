@@ -59,7 +59,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciKayıt.Location = new System.Drawing.Point(225, 41);
             this.LblOgrenciKayıt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciKayıt.Name = "LblOgrenciKayıt";
-            this.LblOgrenciKayıt.Size = new System.Drawing.Size(503, 29);
+            this.LblOgrenciKayıt.Size = new System.Drawing.Size(394, 24);
             this.LblOgrenciKayıt.TabIndex = 0;
             this.LblOgrenciKayıt.Text = "ÖĞRENCİ KAYIT SAYFASINA HOŞGELDİNİZ";
             // 
@@ -71,7 +71,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciIsim.Location = new System.Drawing.Point(108, 150);
             this.LblOgrenciIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciIsim.Name = "LblOgrenciIsim";
-            this.LblOgrenciIsim.Size = new System.Drawing.Size(63, 29);
+            this.LblOgrenciIsim.Size = new System.Drawing.Size(48, 24);
             this.LblOgrenciIsim.TabIndex = 1;
             this.LblOgrenciIsim.Text = "İsim:";
             // 
@@ -83,7 +83,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciSoyIsim.Location = new System.Drawing.Point(108, 213);
             this.LblOgrenciSoyIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciSoyIsim.Name = "LblOgrenciSoyIsim";
-            this.LblOgrenciSoyIsim.Size = new System.Drawing.Size(104, 29);
+            this.LblOgrenciSoyIsim.Size = new System.Drawing.Size(80, 24);
             this.LblOgrenciSoyIsim.TabIndex = 2;
             this.LblOgrenciSoyIsim.Text = "Soyİsim:";
             // 
@@ -95,7 +95,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciKayitMail.Location = new System.Drawing.Point(108, 287);
             this.LblOgrenciKayitMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciKayitMail.Name = "LblOgrenciKayitMail";
-            this.LblOgrenciKayitMail.Size = new System.Drawing.Size(139, 29);
+            this.LblOgrenciKayitMail.Size = new System.Drawing.Size(108, 24);
             this.LblOgrenciKayitMail.TabIndex = 3;
             this.LblOgrenciKayitMail.Text = "Mail Adresi:";
             // 
@@ -107,7 +107,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciKayıtSifre.Location = new System.Drawing.Point(108, 353);
             this.LblOgrenciKayıtSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciKayıtSifre.Name = "LblOgrenciKayıtSifre";
-            this.LblOgrenciKayıtSifre.Size = new System.Drawing.Size(69, 29);
+            this.LblOgrenciKayıtSifre.Size = new System.Drawing.Size(52, 24);
             this.LblOgrenciKayıtSifre.TabIndex = 4;
             this.LblOgrenciKayıtSifre.Text = "Şifre:";
             // 
@@ -176,7 +176,7 @@ namespace SoftwareConstructorProject
             this.LblGuvenlikNo.Location = new System.Drawing.Point(108, 490);
             this.LblGuvenlikNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblGuvenlikNo.Name = "LblGuvenlikNo";
-            this.LblGuvenlikNo.Size = new System.Drawing.Size(150, 29);
+            this.LblGuvenlikNo.Size = new System.Drawing.Size(118, 24);
             this.LblGuvenlikNo.TabIndex = 10;
             this.LblGuvenlikNo.Text = "Güvenlik No:";
             // 
@@ -198,7 +198,7 @@ namespace SoftwareConstructorProject
             this.LblSifreTekrar.Location = new System.Drawing.Point(104, 416);
             this.LblSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreTekrar.Name = "LblSifreTekrar";
-            this.LblSifreTekrar.Size = new System.Drawing.Size(146, 29);
+            this.LblSifreTekrar.Size = new System.Drawing.Size(111, 24);
             this.LblSifreTekrar.TabIndex = 12;
             this.LblSifreTekrar.Text = "Şifre Tekrar:";
             // 
@@ -224,7 +224,7 @@ namespace SoftwareConstructorProject
             this.LblGuvNoAralıgı.Location = new System.Drawing.Point(540, 495);
             this.LblGuvNoAralıgı.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblGuvNoAralıgı.Name = "LblGuvNoAralıgı";
-            this.LblGuvNoAralıgı.Size = new System.Drawing.Size(72, 20);
+            this.LblGuvNoAralıgı.Size = new System.Drawing.Size(55, 16);
             this.LblGuvNoAralıgı.TabIndex = 15;
             this.LblGuvNoAralıgı.Text = "(1-9999)";
             // 
@@ -236,7 +236,7 @@ namespace SoftwareConstructorProject
             this.LblOgrSifreMaxKarakter.Location = new System.Drawing.Point(540, 355);
             this.LblOgrSifreMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrSifreMaxKarakter.Name = "LblOgrSifreMaxKarakter";
-            this.LblOgrSifreMaxKarakter.Size = new System.Drawing.Size(136, 20);
+            this.LblOgrSifreMaxKarakter.Size = new System.Drawing.Size(106, 16);
             this.LblOgrSifreMaxKarakter.TabIndex = 16;
             this.LblOgrSifreMaxKarakter.Text = "Max: 16 Karakter";
             // 
@@ -248,7 +248,7 @@ namespace SoftwareConstructorProject
             this.LblOgrSifreTekrarMaxKarakter.Location = new System.Drawing.Point(540, 418);
             this.LblOgrSifreTekrarMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrSifreTekrarMaxKarakter.Name = "LblOgrSifreTekrarMaxKarakter";
-            this.LblOgrSifreTekrarMaxKarakter.Size = new System.Drawing.Size(141, 20);
+            this.LblOgrSifreTekrarMaxKarakter.Size = new System.Drawing.Size(109, 16);
             this.LblOgrSifreTekrarMaxKarakter.TabIndex = 17;
             this.LblOgrSifreTekrarMaxKarakter.Text = "Max: 16 Karakter ";
             // 
@@ -293,6 +293,7 @@ namespace SoftwareConstructorProject
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentRegister";
             this.Text = "StudentRegister";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

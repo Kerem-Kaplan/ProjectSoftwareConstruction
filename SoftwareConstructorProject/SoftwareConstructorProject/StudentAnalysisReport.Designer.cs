@@ -95,6 +95,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.BtnBasariYazdır);
             this.Name = "StudentAnalysisReport";
             this.Text = "StudentAnalysisReport";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.DgwOgrenciBasari)).EndInit();
             this.ResumeLayout(false);
 

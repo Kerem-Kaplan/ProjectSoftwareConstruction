@@ -51,7 +51,7 @@ namespace SoftwareConstructorProject
             this.LblOgrenciSifreUnuttum.Location = new System.Drawing.Point(152, 30);
             this.LblOgrenciSifreUnuttum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrenciSifreUnuttum.Name = "LblOgrenciSifreUnuttum";
-            this.LblOgrenciSifreUnuttum.Size = new System.Drawing.Size(699, 29);
+            this.LblOgrenciSifreUnuttum.Size = new System.Drawing.Size(544, 24);
             this.LblOgrenciSifreUnuttum.TabIndex = 0;
             this.LblOgrenciSifreUnuttum.Text = "ÖĞRENCİ İÇİN ŞİFREMİ UNUTTUM EKRANINA HOŞGELDİNİZ\r\n";
             // 
@@ -63,7 +63,7 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumMail.Location = new System.Drawing.Point(93, 171);
             this.LblSifreUnuttumMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreUnuttumMail.Name = "LblSifreUnuttumMail";
-            this.LblSifreUnuttumMail.Size = new System.Drawing.Size(139, 29);
+            this.LblSifreUnuttumMail.Size = new System.Drawing.Size(108, 24);
             this.LblSifreUnuttumMail.TabIndex = 2;
             this.LblSifreUnuttumMail.Text = "Mail Adresi:";
             // 
@@ -75,7 +75,7 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumSifre.Location = new System.Drawing.Point(93, 240);
             this.LblSifreUnuttumSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreUnuttumSifre.Name = "LblSifreUnuttumSifre";
-            this.LblSifreUnuttumSifre.Size = new System.Drawing.Size(69, 29);
+            this.LblSifreUnuttumSifre.Size = new System.Drawing.Size(52, 24);
             this.LblSifreUnuttumSifre.TabIndex = 3;
             this.LblSifreUnuttumSifre.Text = "Şifre:";
             // 
@@ -87,7 +87,7 @@ namespace SoftwareConstructorProject
             this.LblSifreUnuttumSifreTekrar.Location = new System.Drawing.Point(93, 310);
             this.LblSifreUnuttumSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblSifreUnuttumSifreTekrar.Name = "LblSifreUnuttumSifreTekrar";
-            this.LblSifreUnuttumSifreTekrar.Size = new System.Drawing.Size(146, 29);
+            this.LblSifreUnuttumSifreTekrar.Size = new System.Drawing.Size(111, 24);
             this.LblSifreUnuttumSifreTekrar.TabIndex = 4;
             this.LblSifreUnuttumSifreTekrar.Text = "Şifre Tekrar:";
             // 
@@ -99,7 +99,7 @@ namespace SoftwareConstructorProject
             this.LblOgrGuvNo.Location = new System.Drawing.Point(93, 384);
             this.LblOgrGuvNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrGuvNo.Name = "LblOgrGuvNo";
-            this.LblOgrGuvNo.Size = new System.Drawing.Size(221, 29);
+            this.LblOgrGuvNo.Size = new System.Drawing.Size(173, 24);
             this.LblOgrGuvNo.TabIndex = 5;
             this.LblOgrGuvNo.Text = "Güvenlik Numarası:";
             // 
@@ -110,14 +110,14 @@ namespace SoftwareConstructorProject
             this.LblOgrBilgiGir.Location = new System.Drawing.Point(189, 90);
             this.LblOgrBilgiGir.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblOgrBilgiGir.Name = "LblOgrBilgiGir";
-            this.LblOgrBilgiGir.Size = new System.Drawing.Size(620, 29);
+            this.LblOgrBilgiGir.Size = new System.Drawing.Size(475, 24);
             this.LblOgrBilgiGir.TabIndex = 6;
             this.LblOgrBilgiGir.Text = "Şifrenizi yenilemek için aşağıdaki bilgileri eksiksiz giriniz.";
             // 
             // TxtOgrGuvNo
             // 
             this.TxtOgrGuvNo.Location = new System.Drawing.Point(332, 390);
-            this.TxtOgrGuvNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrGuvNo.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrGuvNo.Name = "TxtOgrGuvNo";
             this.TxtOgrGuvNo.PasswordChar = '*';
             this.TxtOgrGuvNo.Size = new System.Drawing.Size(244, 22);
@@ -126,7 +126,7 @@ namespace SoftwareConstructorProject
             // TxtOgrMail
             // 
             this.TxtOgrMail.Location = new System.Drawing.Point(332, 171);
-            this.TxtOgrMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrMail.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrMail.Name = "TxtOgrMail";
             this.TxtOgrMail.Size = new System.Drawing.Size(244, 22);
             this.TxtOgrMail.TabIndex = 8;
@@ -134,7 +134,7 @@ namespace SoftwareConstructorProject
             // TxtOgrSifre
             // 
             this.TxtOgrSifre.Location = new System.Drawing.Point(332, 240);
-            this.TxtOgrSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrSifre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrSifre.Name = "TxtOgrSifre";
             this.TxtOgrSifre.PasswordChar = '*';
             this.TxtOgrSifre.Size = new System.Drawing.Size(244, 22);
@@ -143,7 +143,7 @@ namespace SoftwareConstructorProject
             // TxtOgrSifreTekrar
             // 
             this.TxtOgrSifreTekrar.Location = new System.Drawing.Point(332, 310);
-            this.TxtOgrSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrSifreTekrar.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrSifreTekrar.Name = "TxtOgrSifreTekrar";
             this.TxtOgrSifreTekrar.PasswordChar = '*';
             this.TxtOgrSifreTekrar.Size = new System.Drawing.Size(244, 22);
@@ -154,7 +154,7 @@ namespace SoftwareConstructorProject
             this.BtnSifreYenile.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSifreYenile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.BtnSifreYenile.Location = new System.Drawing.Point(332, 438);
-            this.BtnSifreYenile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSifreYenile.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSifreYenile.Name = "BtnSifreYenile";
             this.BtnSifreYenile.Size = new System.Drawing.Size(100, 74);
             this.BtnSifreYenile.TabIndex = 11;
@@ -195,9 +195,10 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblSifreUnuttumMail);
             this.Controls.Add(this.LblOgrenciSifreUnuttum);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentForgotPassword";
             this.Text = "StudentForgotPassword";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

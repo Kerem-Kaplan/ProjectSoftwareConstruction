@@ -94,12 +94,6 @@
     <Compile Include="ExaminerRegister.Designer.cs">
       <DependentUpon>ExaminerRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExampleStudentExamPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ExampleStudentExamPage.Designer.cs">
-      <DependentUpon>ExampleStudentExamPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="AdminGetQuestions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,9 +192,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ExaminerRegister.resx">
       <DependentUpon>ExaminerRegister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ExampleStudentExamPage.resx">
-      <DependentUpon>ExampleStudentExamPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>

@@ -100,6 +100,7 @@ namespace SoftwareConstructorProject
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentHomePage";
             this.Text = "StudentHomePage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StudentHomePage_Load);
             this.ResumeLayout(false);
 
