@@ -50,12 +50,9 @@ namespace SoftwareConstructorProject
                 cmd2.Parameters.AddWithValue("@password", TxtSorumluSifre.Text);
                 cmd2.Parameters.AddWithValue("@number", TxtSorumluGuvNo.Text);
                 cmd2.ExecuteNonQuery();
-                SqlDataReader reader2 = cmd2.ExecuteReader();
-                if (reader2.Read())
-                {
-                    MessageBox.Show("Şifreniz yenilendi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    reader2.Close();
-                }
+
+                MessageBox.Show("Şifreniz yenilendi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 ExaminerLogin examiner = new ExaminerLogin();
                 examiner.Show();
                 this.Hide();

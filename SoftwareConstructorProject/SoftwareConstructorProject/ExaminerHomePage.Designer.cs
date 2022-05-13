@@ -40,8 +40,7 @@ namespace SoftwareConstructorProject
             this.LblExaminerHomePage.AutoSize = true;
             this.LblExaminerHomePage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblExaminerHomePage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LblExaminerHomePage.Location = new System.Drawing.Point(193, 38);
-            this.LblExaminerHomePage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblExaminerHomePage.Location = new System.Drawing.Point(145, 31);
             this.LblExaminerHomePage.Name = "LblExaminerHomePage";
             this.LblExaminerHomePage.Size = new System.Drawing.Size(473, 24);
             this.LblExaminerHomePage.TabIndex = 0;
@@ -51,8 +50,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblIslemSec.AutoSize = true;
             this.LblIslemSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIslemSec.Location = new System.Drawing.Point(252, 84);
-            this.LblIslemSec.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblIslemSec.Location = new System.Drawing.Point(189, 68);
             this.LblIslemSec.Name = "LblIslemSec";
             this.LblIslemSec.Size = new System.Drawing.Size(389, 72);
             this.LblIslemSec.TabIndex = 1;
@@ -62,10 +60,9 @@ namespace SoftwareConstructorProject
             // BtnSoruEkle
             // 
             this.BtnSoruEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruEkle.Location = new System.Drawing.Point(197, 228);
-            this.BtnSoruEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSoruEkle.Location = new System.Drawing.Point(148, 185);
             this.BtnSoruEkle.Name = "BtnSoruEkle";
-            this.BtnSoruEkle.Size = new System.Drawing.Size(152, 63);
+            this.BtnSoruEkle.Size = new System.Drawing.Size(114, 51);
             this.BtnSoruEkle.TabIndex = 2;
             this.BtnSoruEkle.Text = "Soru Ekle";
             this.BtnSoruEkle.UseVisualStyleBackColor = true;
@@ -75,10 +72,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnCıkıs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnCıkıs.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCıkıs.Location = new System.Drawing.Point(514, 228);
-            this.BtnCıkıs.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCıkıs.Location = new System.Drawing.Point(386, 185);
             this.BtnCıkıs.Name = "BtnCıkıs";
-            this.BtnCıkıs.Size = new System.Drawing.Size(152, 63);
+            this.BtnCıkıs.Size = new System.Drawing.Size(114, 51);
             this.BtnCıkıs.TabIndex = 3;
             this.BtnCıkıs.Text = "Çıkış";
             this.BtnCıkıs.UseVisualStyleBackColor = false;
@@ -86,17 +82,16 @@ namespace SoftwareConstructorProject
             // 
             // ExaminerHomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnCıkıs);
             this.Controls.Add(this.BtnSoruEkle);
             this.Controls.Add(this.LblIslemSec);
             this.Controls.Add(this.LblExaminerHomePage);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ExaminerHomePage";
-            this.Text = "ExaminerHomePage";
+            this.Text = "Sorumlu Ana Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

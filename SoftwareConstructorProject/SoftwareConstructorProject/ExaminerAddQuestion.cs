@@ -24,8 +24,8 @@ namespace SoftwareConstructorProject
         {
             Sql_Connection baglantı = new Sql_Connection();
             baglantı.connection();
-            SqlCommand cmd = new SqlCommand("insert into Questions(QuestionText,QuestionImage,OptionA,ImageOptionA,OptionB,ImageOptionB,OptionC,ImageOptionC,OptionD,ImageOptionD,QuestionStatus,CorrectAnswer)" +
-                "values(@questiontext,@questionimage,@optionA,@imageoptionA,@optionB,@imageoptionB,@optionC,@imageoptionC,@optionD,@imageoptionD,@status,@answer)", baglantı.connection());
+            SqlCommand cmd = new SqlCommand("insert into Questions(QuestionText,QuestionImage,OptionA,ImageOptionA,OptionB,ImageOptionB,OptionC,ImageOptionC,OptionD,ImageOptionD,CorrectAnswer)" +
+                "values(@questiontext,@questionimage,@optionA,@imageoptionA,@optionB,@imageoptionB,@optionC,@imageoptionC,@optionD,@imageoptionD,@answer)", baglantı.connection());
 
             cmd.Parameters.AddWithValue("@questiontext", TxtSoru.Text);
             if (PctSoru.Image != null)
@@ -82,9 +82,6 @@ namespace SoftwareConstructorProject
                 cmd.Parameters.AddWithValue("@imageoptionD", openFileDialog5.FileName);
             }
 
-            cmd.Parameters.AddWithValue("@status", false);
-
-
             if (CmbDogruCevap.SelectedItem != null)
             {
 
@@ -108,7 +105,7 @@ namespace SoftwareConstructorProject
                 }
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Eklendi");
+                MessageBox.Show("Soru Başarıyla Eklendi", "TEBRİKLER", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ExaminerHomePage examinerHomePage = new ExaminerHomePage();
                 examinerHomePage.Show();
                 this.Hide();
@@ -117,7 +114,7 @@ namespace SoftwareConstructorProject
 
             else
             {
-                MessageBox.Show("Düzgün Gir");
+                MessageBox.Show("Lütfen Bilgileri Eksiksiz Giriniz!", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

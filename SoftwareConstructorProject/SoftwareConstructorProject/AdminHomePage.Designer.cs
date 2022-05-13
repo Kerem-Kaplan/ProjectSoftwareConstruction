@@ -41,10 +41,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnOgrenciBilgileri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnOgrenciBilgileri.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnOgrenciBilgileri.Location = new System.Drawing.Point(165, 263);
-            this.BtnOgrenciBilgileri.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnOgrenciBilgileri.Location = new System.Drawing.Point(124, 214);
             this.BtnOgrenciBilgileri.Name = "BtnOgrenciBilgileri";
-            this.BtnOgrenciBilgileri.Size = new System.Drawing.Size(223, 110);
+            this.BtnOgrenciBilgileri.Size = new System.Drawing.Size(167, 89);
             this.BtnOgrenciBilgileri.TabIndex = 0;
             this.BtnOgrenciBilgileri.Text = "Öğrenci Bilgileri";
             this.BtnOgrenciBilgileri.UseVisualStyleBackColor = true;
@@ -54,8 +53,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblBilgilendirme.AutoSize = true;
             this.LblBilgilendirme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblBilgilendirme.Location = new System.Drawing.Point(267, 42);
-            this.LblBilgilendirme.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblBilgilendirme.Location = new System.Drawing.Point(200, 34);
             this.LblBilgilendirme.Name = "LblBilgilendirme";
             this.LblBilgilendirme.Size = new System.Drawing.Size(386, 24);
             this.LblBilgilendirme.TabIndex = 1;
@@ -66,8 +64,7 @@ namespace SoftwareConstructorProject
             this.LblIslemSecimi.AutoSize = true;
             this.LblIslemSecimi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIslemSecimi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LblIslemSecimi.Location = new System.Drawing.Point(316, 135);
-            this.LblIslemSecimi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblIslemSecimi.Location = new System.Drawing.Point(237, 110);
             this.LblIslemSecimi.Name = "LblIslemSecimi";
             this.LblIslemSecimi.Size = new System.Drawing.Size(286, 24);
             this.LblIslemSecimi.TabIndex = 2;
@@ -77,10 +74,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSorumluBilgileri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSorumluBilgileri.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSorumluBilgileri.Location = new System.Drawing.Point(428, 263);
-            this.BtnSorumluBilgileri.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSorumluBilgileri.Location = new System.Drawing.Point(321, 214);
             this.BtnSorumluBilgileri.Name = "BtnSorumluBilgileri";
-            this.BtnSorumluBilgileri.Size = new System.Drawing.Size(223, 110);
+            this.BtnSorumluBilgileri.Size = new System.Drawing.Size(167, 89);
             this.BtnSorumluBilgileri.TabIndex = 3;
             this.BtnSorumluBilgileri.Text = "Sorumlu Bilgilerini Getir";
             this.BtnSorumluBilgileri.UseVisualStyleBackColor = true;
@@ -90,10 +86,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSorulariGetir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSorulariGetir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSorulariGetir.Location = new System.Drawing.Point(696, 263);
-            this.BtnSorulariGetir.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSorulariGetir.Location = new System.Drawing.Point(522, 214);
             this.BtnSorulariGetir.Name = "BtnSorulariGetir";
-            this.BtnSorulariGetir.Size = new System.Drawing.Size(223, 110);
+            this.BtnSorulariGetir.Size = new System.Drawing.Size(167, 89);
             this.BtnSorulariGetir.TabIndex = 4;
             this.BtnSorulariGetir.Text = "Soruları Görüntüle";
             this.BtnSorulariGetir.UseVisualStyleBackColor = true;
@@ -104,10 +99,9 @@ namespace SoftwareConstructorProject
             this.BtnCikis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCikis.ForeColor = System.Drawing.Color.Black;
-            this.BtnCikis.Location = new System.Drawing.Point(428, 426);
-            this.BtnCikis.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCikis.Location = new System.Drawing.Point(321, 346);
             this.BtnCikis.Name = "BtnCikis";
-            this.BtnCikis.Size = new System.Drawing.Size(223, 110);
+            this.BtnCikis.Size = new System.Drawing.Size(167, 89);
             this.BtnCikis.TabIndex = 5;
             this.BtnCikis.Text = "Çıkış";
             this.BtnCikis.UseVisualStyleBackColor = false;
@@ -115,19 +109,18 @@ namespace SoftwareConstructorProject
             // 
             // AdminHomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(1089, 598);
+            this.ClientSize = new System.Drawing.Size(817, 486);
             this.Controls.Add(this.BtnCikis);
             this.Controls.Add(this.BtnSorulariGetir);
             this.Controls.Add(this.BtnSorumluBilgileri);
             this.Controls.Add(this.LblIslemSecimi);
             this.Controls.Add(this.LblBilgilendirme);
             this.Controls.Add(this.BtnOgrenciBilgileri);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AdminHomePage";
-            this.Text = "AdminHomePage";
+            this.Text = "Admin Ana Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

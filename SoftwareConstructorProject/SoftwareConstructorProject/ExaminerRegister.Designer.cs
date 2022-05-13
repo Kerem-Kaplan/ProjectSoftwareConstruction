@@ -55,8 +55,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumlusuKayit.AutoSize = true;
             this.LblSinavSorumlusuKayit.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.LblSinavSorumlusuKayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSinavSorumlusuKayit.Location = new System.Drawing.Point(180, 32);
-            this.LblSinavSorumlusuKayit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumlusuKayit.Location = new System.Drawing.Point(135, 26);
             this.LblSinavSorumlusuKayit.Name = "LblSinavSorumlusuKayit";
             this.LblSinavSorumlusuKayit.Size = new System.Drawing.Size(486, 24);
             this.LblSinavSorumlusuKayit.TabIndex = 0;
@@ -65,10 +64,9 @@ namespace SoftwareConstructorProject
             // BtnKayitOl
             // 
             this.BtnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnKayitOl.Location = new System.Drawing.Point(243, 522);
-            this.BtnKayitOl.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnKayitOl.Location = new System.Drawing.Point(182, 424);
             this.BtnKayitOl.Name = "BtnKayitOl";
-            this.BtnKayitOl.Size = new System.Drawing.Size(240, 74);
+            this.BtnKayitOl.Size = new System.Drawing.Size(180, 60);
             this.BtnKayitOl.TabIndex = 18;
             this.BtnKayitOl.Text = "Kayıt Ol";
             this.BtnKayitOl.UseVisualStyleBackColor = true;
@@ -76,36 +74,32 @@ namespace SoftwareConstructorProject
             // 
             // TxtSinavSorumluSifre
             // 
-            this.TxtSinavSorumluSifre.Location = new System.Drawing.Point(243, 336);
-            this.TxtSinavSorumluSifre.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSinavSorumluSifre.Location = new System.Drawing.Point(182, 273);
             this.TxtSinavSorumluSifre.MaxLength = 16;
             this.TxtSinavSorumluSifre.Name = "TxtSinavSorumluSifre";
             this.TxtSinavSorumluSifre.PasswordChar = '*';
-            this.TxtSinavSorumluSifre.Size = new System.Drawing.Size(239, 22);
+            this.TxtSinavSorumluSifre.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluSifre.TabIndex = 17;
             // 
             // TxtSinavSorumluIsim
             // 
-            this.TxtSinavSorumluIsim.Location = new System.Drawing.Point(243, 133);
-            this.TxtSinavSorumluIsim.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSinavSorumluIsim.Location = new System.Drawing.Point(182, 108);
             this.TxtSinavSorumluIsim.Name = "TxtSinavSorumluIsim";
-            this.TxtSinavSorumluIsim.Size = new System.Drawing.Size(239, 22);
+            this.TxtSinavSorumluIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluIsim.TabIndex = 16;
             // 
             // TxtSinavSorumluSoyIsim
             // 
-            this.TxtSinavSorumluSoyIsim.Location = new System.Drawing.Point(243, 196);
-            this.TxtSinavSorumluSoyIsim.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSinavSorumluSoyIsim.Location = new System.Drawing.Point(182, 159);
             this.TxtSinavSorumluSoyIsim.Name = "TxtSinavSorumluSoyIsim";
-            this.TxtSinavSorumluSoyIsim.Size = new System.Drawing.Size(239, 22);
+            this.TxtSinavSorumluSoyIsim.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluSoyIsim.TabIndex = 15;
             // 
             // TxtSinavSorumluMail
             // 
-            this.TxtSinavSorumluMail.Location = new System.Drawing.Point(243, 276);
-            this.TxtSinavSorumluMail.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSinavSorumluMail.Location = new System.Drawing.Point(182, 224);
             this.TxtSinavSorumluMail.Name = "TxtSinavSorumluMail";
-            this.TxtSinavSorumluMail.Size = new System.Drawing.Size(239, 22);
+            this.TxtSinavSorumluMail.Size = new System.Drawing.Size(180, 20);
             this.TxtSinavSorumluMail.TabIndex = 14;
             // 
             // LblSinavSorumluKayıtSifre
@@ -113,8 +107,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluKayıtSifre.AutoSize = true;
             this.LblSinavSorumluKayıtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumluKayıtSifre.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblSinavSorumluKayıtSifre.Location = new System.Drawing.Point(77, 336);
-            this.LblSinavSorumluKayıtSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumluKayıtSifre.Location = new System.Drawing.Point(58, 273);
             this.LblSinavSorumluKayıtSifre.Name = "LblSinavSorumluKayıtSifre";
             this.LblSinavSorumluKayıtSifre.Size = new System.Drawing.Size(52, 24);
             this.LblSinavSorumluKayıtSifre.TabIndex = 13;
@@ -125,8 +118,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluKayitMail.AutoSize = true;
             this.LblSinavSorumluKayitMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumluKayitMail.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblSinavSorumluKayitMail.Location = new System.Drawing.Point(77, 270);
-            this.LblSinavSorumluKayitMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumluKayitMail.Location = new System.Drawing.Point(58, 219);
             this.LblSinavSorumluKayitMail.Name = "LblSinavSorumluKayitMail";
             this.LblSinavSorumluKayitMail.Size = new System.Drawing.Size(108, 24);
             this.LblSinavSorumluKayitMail.TabIndex = 12;
@@ -137,8 +129,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluSoyIsim.AutoSize = true;
             this.LblSinavSorumluSoyIsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumluSoyIsim.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblSinavSorumluSoyIsim.Location = new System.Drawing.Point(77, 196);
-            this.LblSinavSorumluSoyIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumluSoyIsim.Location = new System.Drawing.Point(58, 159);
             this.LblSinavSorumluSoyIsim.Name = "LblSinavSorumluSoyIsim";
             this.LblSinavSorumluSoyIsim.Size = new System.Drawing.Size(80, 24);
             this.LblSinavSorumluSoyIsim.TabIndex = 11;
@@ -149,8 +140,7 @@ namespace SoftwareConstructorProject
             this.LblSinavSorumluIsim.AutoSize = true;
             this.LblSinavSorumluIsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSinavSorumluIsim.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblSinavSorumluIsim.Location = new System.Drawing.Point(77, 133);
-            this.LblSinavSorumluIsim.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSinavSorumluIsim.Location = new System.Drawing.Point(58, 108);
             this.LblSinavSorumluIsim.Name = "LblSinavSorumluIsim";
             this.LblSinavSorumluIsim.Size = new System.Drawing.Size(48, 24);
             this.LblSinavSorumluIsim.TabIndex = 10;
@@ -161,10 +151,9 @@ namespace SoftwareConstructorProject
             this.BtnHesapSahipligi.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BtnHesapSahipligi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnHesapSahipligi.ForeColor = System.Drawing.SystemColors.Window;
-            this.BtnHesapSahipligi.Location = new System.Drawing.Point(676, 133);
-            this.BtnHesapSahipligi.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnHesapSahipligi.Location = new System.Drawing.Point(507, 108);
             this.BtnHesapSahipligi.Name = "BtnHesapSahipligi";
-            this.BtnHesapSahipligi.Size = new System.Drawing.Size(240, 74);
+            this.BtnHesapSahipligi.Size = new System.Drawing.Size(180, 60);
             this.BtnHesapSahipligi.TabIndex = 19;
             this.BtnHesapSahipligi.Text = "Yoksa Bir Hesabınız mı Var?";
             this.BtnHesapSahipligi.UseVisualStyleBackColor = false;
@@ -175,8 +164,7 @@ namespace SoftwareConstructorProject
             this.LblGuvenlikNo.AutoSize = true;
             this.LblGuvenlikNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblGuvenlikNo.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblGuvenlikNo.Location = new System.Drawing.Point(77, 458);
-            this.LblGuvenlikNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblGuvenlikNo.Location = new System.Drawing.Point(58, 372);
             this.LblGuvenlikNo.Name = "LblGuvenlikNo";
             this.LblGuvenlikNo.Size = new System.Drawing.Size(118, 24);
             this.LblGuvenlikNo.TabIndex = 20;
@@ -184,23 +172,21 @@ namespace SoftwareConstructorProject
             // 
             // TxtGuvenlikNo
             // 
-            this.TxtGuvenlikNo.Location = new System.Drawing.Point(243, 458);
-            this.TxtGuvenlikNo.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtGuvenlikNo.Location = new System.Drawing.Point(182, 372);
             this.TxtGuvenlikNo.MaxLength = 4;
             this.TxtGuvenlikNo.Name = "TxtGuvenlikNo";
             this.TxtGuvenlikNo.PasswordChar = '*';
-            this.TxtGuvenlikNo.Size = new System.Drawing.Size(239, 22);
+            this.TxtGuvenlikNo.Size = new System.Drawing.Size(180, 20);
             this.TxtGuvenlikNo.TabIndex = 21;
             this.TxtGuvenlikNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtGuvenlikNo_KeyPress);
             // 
             // TxtSifreTekrar
             // 
-            this.TxtSifreTekrar.Location = new System.Drawing.Point(243, 399);
-            this.TxtSifreTekrar.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSifreTekrar.Location = new System.Drawing.Point(182, 324);
             this.TxtSifreTekrar.MaxLength = 16;
             this.TxtSifreTekrar.Name = "TxtSifreTekrar";
             this.TxtSifreTekrar.PasswordChar = '*';
-            this.TxtSifreTekrar.Size = new System.Drawing.Size(239, 22);
+            this.TxtSifreTekrar.Size = new System.Drawing.Size(180, 20);
             this.TxtSifreTekrar.TabIndex = 23;
             // 
             // LblSifreTekrar
@@ -208,8 +194,7 @@ namespace SoftwareConstructorProject
             this.LblSifreTekrar.AutoSize = true;
             this.LblSifreTekrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreTekrar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LblSifreTekrar.Location = new System.Drawing.Point(77, 399);
-            this.LblSifreTekrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreTekrar.Location = new System.Drawing.Point(58, 324);
             this.LblSifreTekrar.Name = "LblSifreTekrar";
             this.LblSifreTekrar.Size = new System.Drawing.Size(111, 24);
             this.LblSifreTekrar.TabIndex = 22;
@@ -220,8 +205,7 @@ namespace SoftwareConstructorProject
             this.LblSayiAralıgı.AutoSize = true;
             this.LblSayiAralıgı.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSayiAralıgı.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.LblSayiAralıgı.Location = new System.Drawing.Point(491, 463);
-            this.LblSayiAralıgı.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSayiAralıgı.Location = new System.Drawing.Point(368, 376);
             this.LblSayiAralıgı.Name = "LblSayiAralıgı";
             this.LblSayiAralıgı.Size = new System.Drawing.Size(55, 16);
             this.LblSayiAralıgı.TabIndex = 24;
@@ -232,8 +216,7 @@ namespace SoftwareConstructorProject
             this.LblSifreMaxKarakter.AutoSize = true;
             this.LblSifreMaxKarakter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreMaxKarakter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.LblSifreMaxKarakter.Location = new System.Drawing.Point(490, 338);
-            this.LblSifreMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreMaxKarakter.Location = new System.Drawing.Point(368, 275);
             this.LblSifreMaxKarakter.Name = "LblSifreMaxKarakter";
             this.LblSifreMaxKarakter.Size = new System.Drawing.Size(106, 16);
             this.LblSifreMaxKarakter.TabIndex = 25;
@@ -244,8 +227,7 @@ namespace SoftwareConstructorProject
             this.LblSifreTekrarMaxKarakter.AutoSize = true;
             this.LblSifreTekrarMaxKarakter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblSifreTekrarMaxKarakter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.LblSifreTekrarMaxKarakter.Location = new System.Drawing.Point(490, 401);
-            this.LblSifreTekrarMaxKarakter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSifreTekrarMaxKarakter.Location = new System.Drawing.Point(368, 326);
             this.LblSifreTekrarMaxKarakter.Name = "LblSifreTekrarMaxKarakter";
             this.LblSifreTekrarMaxKarakter.Size = new System.Drawing.Size(106, 16);
             this.LblSifreTekrarMaxKarakter.TabIndex = 26;
@@ -255,10 +237,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(242, 615);
-            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnGeri.Location = new System.Drawing.Point(182, 500);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(240, 74);
+            this.BtnGeri.Size = new System.Drawing.Size(180, 60);
             this.BtnGeri.TabIndex = 27;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
@@ -266,10 +247,10 @@ namespace SoftwareConstructorProject
             // 
             // ExaminerRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1067, 713);
+            this.ClientSize = new System.Drawing.Size(800, 579);
             this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.LblSifreTekrarMaxKarakter);
             this.Controls.Add(this.LblSifreMaxKarakter);
@@ -289,9 +270,8 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblSinavSorumluSoyIsim);
             this.Controls.Add(this.LblSinavSorumluIsim);
             this.Controls.Add(this.LblSinavSorumlusuKayit);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ExaminerRegister";
-            this.Text = "ExaminerRegister";
+            this.Text = "Sorumlu Kayıt Ol Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

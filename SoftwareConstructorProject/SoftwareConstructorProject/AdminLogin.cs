@@ -42,14 +42,14 @@ namespace SoftwareConstructorProject
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                MessageBox.Show("basarılı");
+                MessageBox.Show("Giriş Başarılı", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 AdminHomePage adminHomePage = new AdminHomePage();
                 adminHomePage.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Lütfen düzgün gir");
+                MessageBox.Show("Lütfen Bilgileri Eksiksiz Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

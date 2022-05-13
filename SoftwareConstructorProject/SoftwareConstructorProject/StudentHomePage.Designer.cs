@@ -39,10 +39,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSinavSistemiGiris.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnSinavSistemiGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSinavSistemiGiris.Location = new System.Drawing.Point(227, 103);
-            this.BtnSinavSistemiGiris.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSinavSistemiGiris.Location = new System.Drawing.Point(170, 84);
             this.BtnSinavSistemiGiris.Name = "BtnSinavSistemiGiris";
-            this.BtnSinavSistemiGiris.Size = new System.Drawing.Size(177, 103);
+            this.BtnSinavSistemiGiris.Size = new System.Drawing.Size(133, 84);
             this.BtnSinavSistemiGiris.TabIndex = 0;
             this.BtnSinavSistemiGiris.Text = "Sınava Girmek İçin Tıklayınız";
             this.BtnSinavSistemiGiris.UseVisualStyleBackColor = false;
@@ -52,10 +51,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnAyarlar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnAyarlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAyarlar.Location = new System.Drawing.Point(227, 309);
-            this.BtnAyarlar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAyarlar.Location = new System.Drawing.Point(170, 251);
             this.BtnAyarlar.Name = "BtnAyarlar";
-            this.BtnAyarlar.Size = new System.Drawing.Size(177, 103);
+            this.BtnAyarlar.Size = new System.Drawing.Size(133, 84);
             this.BtnAyarlar.TabIndex = 1;
             this.BtnAyarlar.Text = "Ayarlar";
             this.BtnAyarlar.UseVisualStyleBackColor = false;
@@ -65,10 +63,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnZamansizSinav.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnZamansizSinav.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnZamansizSinav.Location = new System.Drawing.Point(1033, 75);
-            this.BtnZamansizSinav.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnZamansizSinav.Location = new System.Drawing.Point(775, 61);
             this.BtnZamansizSinav.Name = "BtnZamansizSinav";
-            this.BtnZamansizSinav.Size = new System.Drawing.Size(177, 161);
+            this.BtnZamansizSinav.Size = new System.Drawing.Size(133, 131);
             this.BtnZamansizSinav.TabIndex = 2;
             this.BtnZamansizSinav.Text = "Zaman Bazlı Olmayan \r\nSınava Girmek İçin Tıklayınız";
             this.BtnZamansizSinav.UseVisualStyleBackColor = false;
@@ -78,10 +75,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnAnalizRaporu.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.BtnAnalizRaporu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAnalizRaporu.Location = new System.Drawing.Point(1033, 251);
-            this.BtnAnalizRaporu.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnAnalizRaporu.Location = new System.Drawing.Point(775, 204);
             this.BtnAnalizRaporu.Name = "BtnAnalizRaporu";
-            this.BtnAnalizRaporu.Size = new System.Drawing.Size(177, 161);
+            this.BtnAnalizRaporu.Size = new System.Drawing.Size(133, 131);
             this.BtnAnalizRaporu.TabIndex = 3;
             this.BtnAnalizRaporu.Text = "Başarınızı Görmek İçin Tıklayınız";
             this.BtnAnalizRaporu.UseVisualStyleBackColor = false;
@@ -89,17 +85,16 @@ namespace SoftwareConstructorProject
             // 
             // StudentHomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1371, 687);
+            this.ClientSize = new System.Drawing.Size(1028, 558);
             this.Controls.Add(this.BtnAnalizRaporu);
             this.Controls.Add(this.BtnZamansizSinav);
             this.Controls.Add(this.BtnAyarlar);
             this.Controls.Add(this.BtnSinavSistemiGiris);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentHomePage";
-            this.Text = "StudentHomePage";
+            this.Text = "Öğrenci Ana Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StudentHomePage_Load);
             this.ResumeLayout(false);

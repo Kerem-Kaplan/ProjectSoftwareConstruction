@@ -33,6 +33,8 @@ namespace SoftwareConstructorProject
             this.BtnSoruSil = new System.Windows.Forms.Button();
             this.BtnSoruBilgiGetir = new System.Windows.Forms.Button();
             this.DtgSorular = new System.Windows.Forms.DataGridView();
+            this.LblDikkat = new System.Windows.Forms.Label();
+            this.LblBilgilendirme = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DtgSorular)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,10 +42,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(882, 140);
-            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnGeri.Location = new System.Drawing.Point(660, 196);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(327, 47);
+            this.BtnGeri.Size = new System.Drawing.Size(245, 38);
             this.BtnGeri.TabIndex = 3;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
@@ -52,10 +53,9 @@ namespace SoftwareConstructorProject
             // BtnSoruSil
             // 
             this.BtnSoruSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruSil.Location = new System.Drawing.Point(13, 140);
-            this.BtnSoruSil.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSoruSil.Location = new System.Drawing.Point(8, 196);
             this.BtnSoruSil.Name = "BtnSoruSil";
-            this.BtnSoruSil.Size = new System.Drawing.Size(435, 47);
+            this.BtnSoruSil.Size = new System.Drawing.Size(326, 38);
             this.BtnSoruSil.TabIndex = 4;
             this.BtnSoruSil.Text = "Seçili Soruyu Sil";
             this.BtnSoruSil.UseVisualStyleBackColor = true;
@@ -64,39 +64,67 @@ namespace SoftwareConstructorProject
             // BtnSoruBilgiGetir
             // 
             this.BtnSoruBilgiGetir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruBilgiGetir.Location = new System.Drawing.Point(1558, 140);
-            this.BtnSoruBilgiGetir.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSoruBilgiGetir.Location = new System.Drawing.Point(1166, 196);
             this.BtnSoruBilgiGetir.Name = "BtnSoruBilgiGetir";
-            this.BtnSoruBilgiGetir.Size = new System.Drawing.Size(327, 47);
+            this.BtnSoruBilgiGetir.Size = new System.Drawing.Size(245, 38);
             this.BtnSoruBilgiGetir.TabIndex = 5;
-            this.BtnSoruBilgiGetir.Text = "Bilgileri Getir";
+            this.BtnSoruBilgiGetir.Text = "Soruları Getir";
             this.BtnSoruBilgiGetir.UseVisualStyleBackColor = true;
             this.BtnSoruBilgiGetir.Click += new System.EventHandler(this.BtnSoruBilgiGetir_Click);
             // 
             // DtgSorular
             // 
             this.DtgSorular.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DtgSorular.Location = new System.Drawing.Point(13, 194);
+            this.DtgSorular.Location = new System.Drawing.Point(11, 239);
+            this.DtgSorular.Margin = new System.Windows.Forms.Padding(2);
             this.DtgSorular.Name = "DtgSorular";
             this.DtgSorular.RowHeadersWidth = 51;
             this.DtgSorular.RowTemplate.Height = 24;
-            this.DtgSorular.Size = new System.Drawing.Size(1873, 547);
+            this.DtgSorular.Size = new System.Drawing.Size(1405, 444);
             this.DtgSorular.TabIndex = 6;
+            // 
+            // LblDikkat
+            // 
+            this.LblDikkat.AutoSize = true;
+            this.LblDikkat.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblDikkat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.LblDikkat.Location = new System.Drawing.Point(222, 75);
+            this.LblDikkat.Name = "LblDikkat";
+            this.LblDikkat.Size = new System.Drawing.Size(81, 24);
+            this.LblDikkat.TabIndex = 7;
+            this.LblDikkat.Text = "DİKKAT:";
+            // 
+            // LblBilgilendirme
+            // 
+            this.LblBilgilendirme.AutoSize = true;
+            this.LblBilgilendirme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblBilgilendirme.Location = new System.Drawing.Point(323, 38);
+            this.LblBilgilendirme.Name = "LblBilgilendirme";
+            this.LblBilgilendirme.Size = new System.Drawing.Size(499, 96);
+            this.LblBilgilendirme.TabIndex = 8;
+            this.LblBilgilendirme.Text = "Soruları görüntülemek için \'Soruları Getir\' butouna basınız.\r\n\r\nSoru silmek için " +
+    "bilgileri getirdikten sonra soruyu seçiniz ve\r\nardından \'Seçili Soruyu Sil\' buto" +
+    "nuna basınız.";
             // 
             // AdminGetQuestions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1898, 745);
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.ClientSize = new System.Drawing.Size(1424, 694);
+            this.Controls.Add(this.LblBilgilendirme);
+            this.Controls.Add(this.LblDikkat);
             this.Controls.Add(this.DtgSorular);
             this.Controls.Add(this.BtnSoruBilgiGetir);
             this.Controls.Add(this.BtnSoruSil);
             this.Controls.Add(this.BtnGeri);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AdminGetQuestions";
-            this.Text = "AdminGetQuestions";
+            this.Text = "Sorular Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.DtgSorular)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -106,5 +134,7 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Button BtnSoruSil;
         private System.Windows.Forms.Button BtnSoruBilgiGetir;
         private System.Windows.Forms.DataGridView DtgSorular;
+        private System.Windows.Forms.Label LblDikkat;
+        private System.Windows.Forms.Label LblBilgilendirme;
     }
 }

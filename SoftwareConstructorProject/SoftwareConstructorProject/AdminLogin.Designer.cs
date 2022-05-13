@@ -46,8 +46,7 @@ namespace SoftwareConstructorProject
             this.LblAdminGirisSayfasi.AutoSize = true;
             this.LblAdminGirisSayfasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAdminGirisSayfasi.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.LblAdminGirisSayfasi.Location = new System.Drawing.Point(240, 37);
-            this.LblAdminGirisSayfasi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblAdminGirisSayfasi.Location = new System.Drawing.Point(180, 30);
             this.LblAdminGirisSayfasi.Name = "LblAdminGirisSayfasi";
             this.LblAdminGirisSayfasi.Size = new System.Drawing.Size(362, 24);
             this.LblAdminGirisSayfasi.TabIndex = 0;
@@ -58,8 +57,7 @@ namespace SoftwareConstructorProject
             this.LblAdminMail.AutoSize = true;
             this.LblAdminMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAdminMail.ForeColor = System.Drawing.Color.Maroon;
-            this.LblAdminMail.Location = new System.Drawing.Point(137, 231);
-            this.LblAdminMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblAdminMail.Location = new System.Drawing.Point(103, 188);
             this.LblAdminMail.Name = "LblAdminMail";
             this.LblAdminMail.Size = new System.Drawing.Size(108, 24);
             this.LblAdminMail.TabIndex = 1;
@@ -70,8 +68,7 @@ namespace SoftwareConstructorProject
             this.LblAdminSifre.AutoSize = true;
             this.LblAdminSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAdminSifre.ForeColor = System.Drawing.Color.Maroon;
-            this.LblAdminSifre.Location = new System.Drawing.Point(137, 311);
-            this.LblAdminSifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblAdminSifre.Location = new System.Drawing.Point(103, 253);
             this.LblAdminSifre.Name = "LblAdminSifre";
             this.LblAdminSifre.Size = new System.Drawing.Size(52, 24);
             this.LblAdminSifre.TabIndex = 2;
@@ -81,8 +78,7 @@ namespace SoftwareConstructorProject
             // 
             this.LblAdminUyari.AutoSize = true;
             this.LblAdminUyari.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAdminUyari.Location = new System.Drawing.Point(201, 137);
-            this.LblAdminUyari.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblAdminUyari.Location = new System.Drawing.Point(151, 111);
             this.LblAdminUyari.Name = "LblAdminUyari";
             this.LblAdminUyari.Size = new System.Drawing.Size(432, 24);
             this.LblAdminUyari.TabIndex = 3;
@@ -91,21 +87,19 @@ namespace SoftwareConstructorProject
             // TxtAdminMail
             // 
             this.TxtAdminMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAdminMail.Location = new System.Drawing.Point(289, 235);
-            this.TxtAdminMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAdminMail.Location = new System.Drawing.Point(217, 191);
             this.TxtAdminMail.Name = "TxtAdminMail";
-            this.TxtAdminMail.Size = new System.Drawing.Size(272, 21);
+            this.TxtAdminMail.Size = new System.Drawing.Size(205, 21);
             this.TxtAdminMail.TabIndex = 4;
             this.TxtAdminMail.Tag = "";
             // 
             // TxtAdminSifre
             // 
             this.TxtAdminSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAdminSifre.Location = new System.Drawing.Point(289, 311);
-            this.TxtAdminSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAdminSifre.Location = new System.Drawing.Point(217, 253);
             this.TxtAdminSifre.Name = "TxtAdminSifre";
             this.TxtAdminSifre.PasswordChar = '*';
-            this.TxtAdminSifre.Size = new System.Drawing.Size(272, 21);
+            this.TxtAdminSifre.Size = new System.Drawing.Size(205, 21);
             this.TxtAdminSifre.TabIndex = 5;
             // 
             // contextMenuStrip1
@@ -118,10 +112,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnAdminGiris.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.BtnAdminGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAdminGiris.Location = new System.Drawing.Point(289, 373);
-            this.BtnAdminGiris.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAdminGiris.Location = new System.Drawing.Point(217, 303);
             this.BtnAdminGiris.Name = "BtnAdminGiris";
-            this.BtnAdminGiris.Size = new System.Drawing.Size(125, 82);
+            this.BtnAdminGiris.Size = new System.Drawing.Size(94, 67);
             this.BtnAdminGiris.TabIndex = 7;
             this.BtnAdminGiris.Text = "Giriş Yap";
             this.BtnAdminGiris.UseVisualStyleBackColor = false;
@@ -131,10 +124,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnGeri.BackColor = System.Drawing.Color.Red;
             this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeri.Location = new System.Drawing.Point(423, 373);
-            this.BtnGeri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGeri.Location = new System.Drawing.Point(317, 303);
             this.BtnGeri.Name = "BtnGeri";
-            this.BtnGeri.Size = new System.Drawing.Size(140, 82);
+            this.BtnGeri.Size = new System.Drawing.Size(105, 67);
             this.BtnGeri.TabIndex = 8;
             this.BtnGeri.Text = "Geri";
             this.BtnGeri.UseVisualStyleBackColor = false;
@@ -142,10 +134,10 @@ namespace SoftwareConstructorProject
             // 
             // AdminLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnAdminGiris);
             this.Controls.Add(this.TxtAdminSifre);
@@ -154,9 +146,8 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblAdminSifre);
             this.Controls.Add(this.LblAdminMail);
             this.Controls.Add(this.LblAdminGirisSayfasi);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AdminLogin";
-            this.Text = "Admin Girişi";
+            this.Text = "Admin Giriş Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

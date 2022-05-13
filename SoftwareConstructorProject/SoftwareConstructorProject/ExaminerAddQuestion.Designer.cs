@@ -351,7 +351,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.LblSoru);
             this.Controls.Add(this.TxtSoru);
             this.Name = "ExaminerAddQuestion";
-            this.Text = "ExaminerAddQuestion";
+            this.Text = "Sorumlu Soru Ekleme Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.PctSoru)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PctSecenekA)).EndInit();

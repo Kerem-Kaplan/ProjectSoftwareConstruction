@@ -33,7 +33,7 @@ namespace SoftwareConstructorProject
                 kayitSil(id);
             }
             kayitGetir();
-            MessageBox.Show("Kayıt Silinmiştir");
+            MessageBox.Show("Kayıt Silinmiştir", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 

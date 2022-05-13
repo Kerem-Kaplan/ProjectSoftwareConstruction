@@ -291,7 +291,7 @@ namespace SoftwareConstructorProject
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.KeyPreview = true;
             this.Name = "StudentExamPage";
-            this.Text = "StudentExamPage";
+            this.Text = "Öğrenci Sınav Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StudentExamPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PctSoru)).EndInit();

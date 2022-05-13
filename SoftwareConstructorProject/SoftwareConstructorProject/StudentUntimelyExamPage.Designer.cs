@@ -52,10 +52,10 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSinavBitir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnSinavBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSinavBitir.Location = new System.Drawing.Point(935, 823);
-            this.BtnSinavBitir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnSinavBitir.Location = new System.Drawing.Point(701, 669);
+            this.BtnSinavBitir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnSinavBitir.Name = "BtnSinavBitir";
-            this.BtnSinavBitir.Size = new System.Drawing.Size(124, 100);
+            this.BtnSinavBitir.Size = new System.Drawing.Size(93, 81);
             this.BtnSinavBitir.TabIndex = 27;
             this.BtnSinavBitir.Text = "Bitir";
             this.BtnSinavBitir.UseVisualStyleBackColor = false;
@@ -64,10 +64,10 @@ namespace SoftwareConstructorProject
             // BtnSonraki
             // 
             this.BtnSonraki.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSonraki.Location = new System.Drawing.Point(265, 823);
-            this.BtnSonraki.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnSonraki.Location = new System.Drawing.Point(199, 669);
+            this.BtnSonraki.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnSonraki.Name = "BtnSonraki";
-            this.BtnSonraki.Size = new System.Drawing.Size(124, 100);
+            this.BtnSonraki.Size = new System.Drawing.Size(93, 81);
             this.BtnSonraki.TabIndex = 26;
             this.BtnSonraki.Text = "Sonraki";
             this.BtnSonraki.UseVisualStyleBackColor = true;
@@ -75,40 +75,36 @@ namespace SoftwareConstructorProject
             // 
             // PctSoruC
             // 
-            this.PctSoruC.Location = new System.Drawing.Point(444, 654);
-            this.PctSoruC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PctSoruC.Location = new System.Drawing.Point(333, 531);
             this.PctSoruC.Name = "PctSoruC";
-            this.PctSoruC.Size = new System.Drawing.Size(191, 162);
+            this.PctSoruC.Size = new System.Drawing.Size(143, 132);
             this.PctSoruC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctSoruC.TabIndex = 25;
             this.PctSoruC.TabStop = false;
             // 
             // PctSoruD
             // 
-            this.PctSoruD.Location = new System.Drawing.Point(689, 654);
-            this.PctSoruD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PctSoruD.Location = new System.Drawing.Point(517, 531);
             this.PctSoruD.Name = "PctSoruD";
-            this.PctSoruD.Size = new System.Drawing.Size(191, 162);
+            this.PctSoruD.Size = new System.Drawing.Size(143, 132);
             this.PctSoruD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctSoruD.TabIndex = 24;
             this.PctSoruD.TabStop = false;
             // 
             // PctSoruB
             // 
-            this.PctSoruB.Location = new System.Drawing.Point(689, 484);
-            this.PctSoruB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PctSoruB.Location = new System.Drawing.Point(517, 393);
             this.PctSoruB.Name = "PctSoruB";
-            this.PctSoruB.Size = new System.Drawing.Size(191, 162);
+            this.PctSoruB.Size = new System.Drawing.Size(143, 132);
             this.PctSoruB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctSoruB.TabIndex = 23;
             this.PctSoruB.TabStop = false;
             // 
             // PctSoruA
             // 
-            this.PctSoruA.Location = new System.Drawing.Point(444, 484);
-            this.PctSoruA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PctSoruA.Location = new System.Drawing.Point(333, 393);
             this.PctSoruA.Name = "PctSoruA";
-            this.PctSoruA.Size = new System.Drawing.Size(191, 162);
+            this.PctSoruA.Size = new System.Drawing.Size(143, 132);
             this.PctSoruA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctSoruA.TabIndex = 22;
             this.PctSoruA.TabStop = false;
@@ -117,10 +113,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruD.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruD.Location = new System.Drawing.Point(888, 654);
-            this.BtnSoruD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSoruD.Location = new System.Drawing.Point(666, 531);
             this.BtnSoruD.Name = "BtnSoruD";
-            this.BtnSoruD.Size = new System.Drawing.Size(169, 162);
+            this.BtnSoruD.Size = new System.Drawing.Size(127, 132);
             this.BtnSoruD.TabIndex = 21;
             this.BtnSoruD.UseVisualStyleBackColor = false;
             this.BtnSoruD.Click += new System.EventHandler(this.BtnSoruD_Click);
@@ -129,10 +124,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruB.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruB.Location = new System.Drawing.Point(888, 484);
-            this.BtnSoruB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSoruB.Location = new System.Drawing.Point(666, 393);
             this.BtnSoruB.Name = "BtnSoruB";
-            this.BtnSoruB.Size = new System.Drawing.Size(169, 162);
+            this.BtnSoruB.Size = new System.Drawing.Size(127, 132);
             this.BtnSoruB.TabIndex = 20;
             this.BtnSoruB.UseVisualStyleBackColor = false;
             this.BtnSoruB.Click += new System.EventHandler(this.BtnSoruB_Click);
@@ -141,10 +135,9 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruC.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruC.Location = new System.Drawing.Point(265, 654);
-            this.BtnSoruC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSoruC.Location = new System.Drawing.Point(199, 531);
             this.BtnSoruC.Name = "BtnSoruC";
-            this.BtnSoruC.Size = new System.Drawing.Size(172, 162);
+            this.BtnSoruC.Size = new System.Drawing.Size(129, 132);
             this.BtnSoruC.TabIndex = 19;
             this.BtnSoruC.UseVisualStyleBackColor = false;
             this.BtnSoruC.Click += new System.EventHandler(this.BtnSoruC_Click);
@@ -153,20 +146,18 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruA.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruA.Location = new System.Drawing.Point(265, 484);
-            this.BtnSoruA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSoruA.Location = new System.Drawing.Point(199, 393);
             this.BtnSoruA.Name = "BtnSoruA";
-            this.BtnSoruA.Size = new System.Drawing.Size(172, 162);
+            this.BtnSoruA.Size = new System.Drawing.Size(129, 132);
             this.BtnSoruA.TabIndex = 18;
             this.BtnSoruA.UseVisualStyleBackColor = false;
             this.BtnSoruA.Click += new System.EventHandler(this.BtnSoruA_Click);
             // 
             // PctSoru
             // 
-            this.PctSoru.Location = new System.Drawing.Point(1085, 95);
-            this.PctSoru.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PctSoru.Location = new System.Drawing.Point(814, 77);
             this.PctSoru.Name = "PctSoru";
-            this.PctSoru.Size = new System.Drawing.Size(499, 382);
+            this.PctSoru.Size = new System.Drawing.Size(374, 310);
             this.PctSoru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PctSoru.TabIndex = 17;
             this.PctSoru.TabStop = false;
@@ -177,21 +168,20 @@ namespace SoftwareConstructorProject
             this.TxtSoru.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtSoru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSoru.ForeColor = System.Drawing.Color.Black;
-            this.TxtSoru.Location = new System.Drawing.Point(267, 95);
-            this.TxtSoru.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoru.Location = new System.Drawing.Point(200, 77);
             this.TxtSoru.Multiline = true;
             this.TxtSoru.Name = "TxtSoru";
             this.TxtSoru.ReadOnly = true;
             this.TxtSoru.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtSoru.Size = new System.Drawing.Size(792, 382);
+            this.TxtSoru.Size = new System.Drawing.Size(594, 310);
             this.TxtSoru.TabIndex = 16;
             // 
             // StudentUntimelyExamPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1887, 958);
+            this.ClientSize = new System.Drawing.Size(1415, 778);
             this.Controls.Add(this.BtnSinavBitir);
             this.Controls.Add(this.BtnSonraki);
             this.Controls.Add(this.PctSoruC);
@@ -204,9 +194,8 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.BtnSoruA);
             this.Controls.Add(this.PctSoru);
             this.Controls.Add(this.TxtSoru);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "StudentUntimelyExamPage";
-            this.Text = "StudentUntimelyExamPage";
+            this.Text = "Öğrenci Zamansız Sınav Sayfası";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.StudentUntimelyExamPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PctSoruC)).EndInit();
