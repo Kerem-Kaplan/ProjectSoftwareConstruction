@@ -40,6 +40,7 @@ namespace SoftwareConstructorProject
             // 
             // DtgSorumluBilgileri
             // 
+            this.DtgSorumluBilgileri.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgSorumluBilgileri.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgSorumluBilgileri.Location = new System.Drawing.Point(9, 196);
             this.DtgSorumluBilgileri.Margin = new System.Windows.Forms.Padding(2);

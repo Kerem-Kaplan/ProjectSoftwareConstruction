@@ -79,9 +79,7 @@ namespace SoftwareConstructorProject
             reader = randomvalue.ExecuteReader();
             if (reader.Read())
             {
-                TxtSoru.Text = reader[0].ToString();
-
-                TxtSoru.Text += reader["QuestionText"].ToString();
+                TxtSoru.Text = reader["QuestionText"].ToString();
                 PctSoru.ImageLocation = reader["QuestionImage"].ToString();
 
                 BtnSoruA.Text = reader["OptionA"].ToString();
@@ -114,7 +112,7 @@ namespace SoftwareConstructorProject
         //sinavi bitirme islemi
         private void BtnSinavBitir_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sınav gönderildi");
+            MessageBox.Show("Sınavınız Gönderildi", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
             StudentHomePage studentHomePage = new StudentHomePage();
             studentHomePage.id[0] = id[0];
             studentHomePage.Show();
@@ -133,7 +131,6 @@ namespace SoftwareConstructorProject
                 BtnSoruA.BackColor = Color.Green;
                 baglanti.connection();
 
-                MessageBox.Show(Convert.ToString(id[0]));
                 insertCorrectAnswer.Parameters.AddWithValue("@studentID", id[0]);
                 insertCorrectAnswer.Parameters.AddWithValue("@questionID", reader["QuestionID"]);
                 insertCorrectAnswer.Parameters.AddWithValue("@totalCorrect", 1);
@@ -142,10 +139,6 @@ namespace SoftwareConstructorProject
 
                 insertCorrectAnswer.ExecuteNonQuery();
                 baglanti.connection().Close();
-            }
-            if (reader["CorrectAnswer"].ToString() != "A")
-            {
-                BtnSoruA.BackColor = Color.Red;
             }
 
 
@@ -196,20 +189,19 @@ namespace SoftwareConstructorProject
                         updateCorrectAnswer.Parameters.AddWithValue("@frequency", 365);
                         updateCorrectAnswer.ExecuteNonQuery();
                     }
-
+                    if ((readerCorrectAnswer["TotalCorrect"].ToString()) == "6")
+                    {
+                        string CompletedQuestions = "insert into CompletedQuestions(StudentID,QuestionID) values(@studentID,@questionID)";
+                        SqlCommand completedQuestions = new SqlCommand(CompletedQuestions, baglanti.connection());
+                        completedQuestions.Parameters.AddWithValue("@studentID", id[0]);
+                        completedQuestions.Parameters.AddWithValue("@questionID", readerCorrectAnswer["QuestionID"]);
+                        completedQuestions.ExecuteNonQuery();
+                    }
 
                 }
             }
-            if ((readerCorrectAnswer["TotalCorrect"].ToString()) == "6")
-            {
-                string CompletedQuestions = "insert into CompletedQuestions(StudentID,QuestionID) values(@studentID,@questionID)";
-                SqlCommand completedQuestions = new SqlCommand(CompletedQuestions, baglanti.connection());
-                completedQuestions.Parameters.AddWithValue("@studentID", id[0]);
-                completedQuestions.Parameters.AddWithValue("@questionID", readerCorrectAnswer["QuestionID"]);
-                completedQuestions.ExecuteNonQuery();
-            }
 
-            else
+            if (reader["CorrectAnswer"].ToString() != "A")
             {
                 BtnSoruA.BackColor = Color.Red;
             }
@@ -233,18 +225,12 @@ namespace SoftwareConstructorProject
                 BtnSoruB.BackColor = Color.Green;
                 baglanti.connection();
 
-                //SqlCommand getCorrectAnswer = new SqlCommand(getDBOCorrectAnswer, baglanti.connection());
-                //SqlDataReader readerCorrectAnswer = getCorrectAnswer.ExecuteReader();
 
-
-                MessageBox.Show(Convert.ToString(id[0]));
                 insertCorrectAnswer.Parameters.AddWithValue("@studentID", id[0]);
                 insertCorrectAnswer.Parameters.AddWithValue("@questionID", reader["QuestionID"]);
                 insertCorrectAnswer.Parameters.AddWithValue("@totalCorrect", 1);
                 insertCorrectAnswer.Parameters.AddWithValue("@date", DateTime.Now);
                 insertCorrectAnswer.Parameters.AddWithValue("@fre", 1);
-
-
 
                 insertCorrectAnswer.ExecuteNonQuery();
                 baglanti.connection().Close();
@@ -303,12 +289,11 @@ namespace SoftwareConstructorProject
                 }
             }
 
-
-
             if (reader["CorrectAnswer"].ToString() != "B")
             {
                 BtnSoruB.BackColor = Color.Red;
             }
+
             BtnSoruA.Enabled = false;
             BtnSoruB.Enabled = false;
             BtnSoruC.Enabled = false;
@@ -328,11 +313,7 @@ namespace SoftwareConstructorProject
                 BtnSoruC.BackColor = Color.Green;
                 baglanti.connection();
 
-                //SqlCommand getCorrectAnswer = new SqlCommand(getDBOCorrectAnswer, baglanti.connection());
-                //SqlDataReader readerCorrectAnswer = getCorrectAnswer.ExecuteReader();
 
-
-                MessageBox.Show(Convert.ToString(id[0]));
                 insertCorrectAnswer.Parameters.AddWithValue("@studentID", id[0]);
                 insertCorrectAnswer.Parameters.AddWithValue("@questionID", reader["QuestionID"]);
                 insertCorrectAnswer.Parameters.AddWithValue("@totalCorrect", 1);
@@ -419,13 +400,6 @@ namespace SoftwareConstructorProject
                 BtnSoruD.BackColor = Color.Green;
                 baglanti.connection();
 
-                //SqlCommand getCorrectAnswer = new SqlCommand(getDBOCorrectAnswer, baglanti.connection());
-                //SqlDataReader readerCorrectAnswer = getCorrectAnswer.ExecuteReader();
-
-
-
-
-                MessageBox.Show(Convert.ToString(id[0]));
                 insertCorrectAnswer.Parameters.AddWithValue("@studentID", id[0]);
                 insertCorrectAnswer.Parameters.AddWithValue("@questionID", reader["QuestionID"]);
                 insertCorrectAnswer.Parameters.AddWithValue("@totalCorrect", 1);
@@ -514,9 +488,7 @@ namespace SoftwareConstructorProject
             BtnSoruD.BackColor = Color.Aquamarine;
             if (readerCorrectAnswer.Read())
             {
-                TxtSoru.Text = readerCorrectAnswer["QuestionID"].ToString();
-
-                TxtSoru.Text += readerCorrectAnswer["QuestionText"].ToString();
+                TxtSoru.Text = readerCorrectAnswer["QuestionText"].ToString();
                 PctSoru.ImageLocation = readerCorrectAnswer["QuestionImage"].ToString();
 
                 BtnSoruA.Text = readerCorrectAnswer["OptionA"].ToString();

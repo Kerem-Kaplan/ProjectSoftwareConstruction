@@ -207,6 +207,14 @@ namespace SoftwareConstructorProject
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            StudentHomePage studentHomePage = new StudentHomePage();
+            studentHomePage.id[0] = id[0];
+            studentHomePage.Show();
+            this.Hide();
+        }
     }
 }
 

@@ -41,12 +41,14 @@ namespace SoftwareConstructorProject
 
                     changeFrequency.Parameters.AddWithValue("@totalCorrect", TxtDogruSayisi.Text);
                     changeFrequency.Parameters.AddWithValue("@frequency", TxtSıklık.Text);
+                    MessageBox.Show("Sıklık Güncellendi", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                     changeFrequency.ExecuteNonQuery();
 
                 }
                 else
                 {
-                    MessageBox.Show("Yanlıs");
+                    MessageBox.Show("Lütfen Değerleri Doğru Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
 

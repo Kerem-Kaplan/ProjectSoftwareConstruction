@@ -41,6 +41,9 @@ namespace SoftwareConstructorProject
             this.BtnSoruA = new System.Windows.Forms.Button();
             this.PctSoru = new System.Windows.Forms.PictureBox();
             this.TxtSoru = new System.Windows.Forms.TextBox();
+            this.LblBilgi = new System.Windows.Forms.Label();
+            this.LblBilgilendirme = new System.Windows.Forms.Label();
+            this.LblSoru = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PctSoruC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PctSoruD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PctSoruB)).BeginInit();
@@ -52,8 +55,8 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSinavBitir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BtnSinavBitir.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSinavBitir.Location = new System.Drawing.Point(701, 669);
-            this.BtnSinavBitir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnSinavBitir.Location = new System.Drawing.Point(700, 706);
+            this.BtnSinavBitir.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSinavBitir.Name = "BtnSinavBitir";
             this.BtnSinavBitir.Size = new System.Drawing.Size(93, 81);
             this.BtnSinavBitir.TabIndex = 27;
@@ -64,8 +67,8 @@ namespace SoftwareConstructorProject
             // BtnSonraki
             // 
             this.BtnSonraki.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSonraki.Location = new System.Drawing.Point(199, 669);
-            this.BtnSonraki.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnSonraki.Location = new System.Drawing.Point(198, 706);
+            this.BtnSonraki.Margin = new System.Windows.Forms.Padding(2);
             this.BtnSonraki.Name = "BtnSonraki";
             this.BtnSonraki.Size = new System.Drawing.Size(93, 81);
             this.BtnSonraki.TabIndex = 26;
@@ -75,7 +78,7 @@ namespace SoftwareConstructorProject
             // 
             // PctSoruC
             // 
-            this.PctSoruC.Location = new System.Drawing.Point(333, 531);
+            this.PctSoruC.Location = new System.Drawing.Point(332, 568);
             this.PctSoruC.Name = "PctSoruC";
             this.PctSoruC.Size = new System.Drawing.Size(143, 132);
             this.PctSoruC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -84,7 +87,7 @@ namespace SoftwareConstructorProject
             // 
             // PctSoruD
             // 
-            this.PctSoruD.Location = new System.Drawing.Point(517, 531);
+            this.PctSoruD.Location = new System.Drawing.Point(516, 568);
             this.PctSoruD.Name = "PctSoruD";
             this.PctSoruD.Size = new System.Drawing.Size(143, 132);
             this.PctSoruD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,7 +96,7 @@ namespace SoftwareConstructorProject
             // 
             // PctSoruB
             // 
-            this.PctSoruB.Location = new System.Drawing.Point(517, 393);
+            this.PctSoruB.Location = new System.Drawing.Point(516, 430);
             this.PctSoruB.Name = "PctSoruB";
             this.PctSoruB.Size = new System.Drawing.Size(143, 132);
             this.PctSoruB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -102,7 +105,7 @@ namespace SoftwareConstructorProject
             // 
             // PctSoruA
             // 
-            this.PctSoruA.Location = new System.Drawing.Point(333, 393);
+            this.PctSoruA.Location = new System.Drawing.Point(332, 430);
             this.PctSoruA.Name = "PctSoruA";
             this.PctSoruA.Size = new System.Drawing.Size(143, 132);
             this.PctSoruA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +116,7 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruD.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruD.Location = new System.Drawing.Point(666, 531);
+            this.BtnSoruD.Location = new System.Drawing.Point(665, 568);
             this.BtnSoruD.Name = "BtnSoruD";
             this.BtnSoruD.Size = new System.Drawing.Size(127, 132);
             this.BtnSoruD.TabIndex = 21;
@@ -124,7 +127,7 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruB.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruB.Location = new System.Drawing.Point(666, 393);
+            this.BtnSoruB.Location = new System.Drawing.Point(665, 430);
             this.BtnSoruB.Name = "BtnSoruB";
             this.BtnSoruB.Size = new System.Drawing.Size(127, 132);
             this.BtnSoruB.TabIndex = 20;
@@ -135,7 +138,7 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruC.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruC.Location = new System.Drawing.Point(199, 531);
+            this.BtnSoruC.Location = new System.Drawing.Point(198, 568);
             this.BtnSoruC.Name = "BtnSoruC";
             this.BtnSoruC.Size = new System.Drawing.Size(129, 132);
             this.BtnSoruC.TabIndex = 19;
@@ -146,7 +149,7 @@ namespace SoftwareConstructorProject
             // 
             this.BtnSoruA.BackColor = System.Drawing.Color.Honeydew;
             this.BtnSoruA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSoruA.Location = new System.Drawing.Point(199, 393);
+            this.BtnSoruA.Location = new System.Drawing.Point(198, 430);
             this.BtnSoruA.Name = "BtnSoruA";
             this.BtnSoruA.Size = new System.Drawing.Size(129, 132);
             this.BtnSoruA.TabIndex = 18;
@@ -155,7 +158,7 @@ namespace SoftwareConstructorProject
             // 
             // PctSoru
             // 
-            this.PctSoru.Location = new System.Drawing.Point(814, 77);
+            this.PctSoru.Location = new System.Drawing.Point(813, 114);
             this.PctSoru.Name = "PctSoru";
             this.PctSoru.Size = new System.Drawing.Size(374, 310);
             this.PctSoru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -168,7 +171,7 @@ namespace SoftwareConstructorProject
             this.TxtSoru.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtSoru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSoru.ForeColor = System.Drawing.Color.Black;
-            this.TxtSoru.Location = new System.Drawing.Point(200, 77);
+            this.TxtSoru.Location = new System.Drawing.Point(199, 114);
             this.TxtSoru.Multiline = true;
             this.TxtSoru.Name = "TxtSoru";
             this.TxtSoru.ReadOnly = true;
@@ -176,12 +179,47 @@ namespace SoftwareConstructorProject
             this.TxtSoru.Size = new System.Drawing.Size(594, 310);
             this.TxtSoru.TabIndex = 16;
             // 
+            // LblBilgi
+            // 
+            this.LblBilgi.AutoSize = true;
+            this.LblBilgi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblBilgi.Location = new System.Drawing.Point(253, 9);
+            this.LblBilgi.Name = "LblBilgi";
+            this.LblBilgi.Size = new System.Drawing.Size(516, 72);
+            this.LblBilgi.TabIndex = 29;
+            this.LblBilgi.Text = "HERHANGİ BİR SÜRE SINIRLAMASI BULUNMAMAKTADIR.\r\n\r\nBAŞARILAR";
+            // 
+            // LblBilgilendirme
+            // 
+            this.LblBilgilendirme.AutoSize = true;
+            this.LblBilgilendirme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblBilgilendirme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.LblBilgilendirme.Location = new System.Drawing.Point(166, 33);
+            this.LblBilgilendirme.Name = "LblBilgilendirme";
+            this.LblBilgilendirme.Size = new System.Drawing.Size(81, 24);
+            this.LblBilgilendirme.TabIndex = 28;
+            this.LblBilgilendirme.Text = "DİKKAT:";
+            // 
+            // LblSoru
+            // 
+            this.LblSoru.AutoSize = true;
+            this.LblSoru.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSoru.ForeColor = System.Drawing.Color.Black;
+            this.LblSoru.Location = new System.Drawing.Point(78, 266);
+            this.LblSoru.Name = "LblSoru";
+            this.LblSoru.Size = new System.Drawing.Size(54, 19);
+            this.LblSoru.TabIndex = 30;
+            this.LblSoru.Text = "SORU:";
+            // 
             // StudentUntimelyExamPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1415, 778);
+            this.Controls.Add(this.LblSoru);
+            this.Controls.Add(this.LblBilgi);
+            this.Controls.Add(this.LblBilgilendirme);
             this.Controls.Add(this.BtnSinavBitir);
             this.Controls.Add(this.BtnSonraki);
             this.Controls.Add(this.PctSoruC);
@@ -221,5 +259,8 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Button BtnSoruA;
         private System.Windows.Forms.PictureBox PctSoru;
         private System.Windows.Forms.TextBox TxtSoru;
+        private System.Windows.Forms.Label LblBilgi;
+        private System.Windows.Forms.Label LblBilgilendirme;
+        private System.Windows.Forms.Label LblSoru;
     }
 }

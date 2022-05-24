@@ -51,7 +51,7 @@ namespace SoftwareConstructorProject
                 cmd2.Parameters.AddWithValue("@number", TxtSorumluGuvNo.Text);
                 cmd2.ExecuteNonQuery();
 
-                MessageBox.Show("Şifreniz yenilendi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Şifreniz yenilendi", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 ExaminerLogin examiner = new ExaminerLogin();
                 examiner.Show();
@@ -59,7 +59,7 @@ namespace SoftwareConstructorProject
             }
             else
             {
-                MessageBox.Show("düzgün gir aslan");
+                MessageBox.Show("Lütfen Bilgileri Doğru ve Eksiksiz Giriniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

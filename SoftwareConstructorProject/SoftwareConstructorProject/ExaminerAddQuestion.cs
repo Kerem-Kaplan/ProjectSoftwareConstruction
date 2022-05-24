@@ -154,6 +154,11 @@ namespace SoftwareConstructorProject
             PctSecenekD.ImageLocation = openFileDialog5.FileName;
         }
 
-
+        private void BtnGeri_Click(object sender, EventArgs e)
+        {
+            ExaminerHomePage examinerHomePage = new ExaminerHomePage();
+            examinerHomePage.Show();
+            this.Hide();
+        }
     }
 }

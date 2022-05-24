@@ -42,12 +42,7 @@ namespace SoftwareConstructorProject
                 cmd2.Parameters.AddWithValue("@password", TxtOgrSifre.Text);
                 cmd2.Parameters.AddWithValue("@number", TxtOgrGuvNo.Text);
                 cmd2.ExecuteNonQuery();
-                SqlDataReader reader2 = cmd2.ExecuteReader();
-                if (reader2.Read())
-                {
-                    MessageBox.Show("Şifre yenilendi");
-                    reader2.Close();
-                }
+
                 MessageBox.Show("ŞİFRENİZ YENİLENDİ", "BİLGİ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 StudentLogin studentLogin = new StudentLogin();
@@ -56,7 +51,7 @@ namespace SoftwareConstructorProject
             }
             else
             {
-                MessageBox.Show("Düzgün gir");
+                MessageBox.Show("Lütfen Bilgileri Doğru Giriniz", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

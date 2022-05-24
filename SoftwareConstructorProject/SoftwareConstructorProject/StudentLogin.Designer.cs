@@ -38,7 +38,6 @@ namespace SoftwareConstructorProject
             this.BtnOgrenciGiris = new System.Windows.Forms.Button();
             this.BtnOgrenciSİfreUnuttum = new System.Windows.Forms.Button();
             this.BtnGeri = new System.Windows.Forms.Button();
-            this.LblID = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LblOgrenciGirisSayfasi
@@ -134,22 +133,12 @@ namespace SoftwareConstructorProject
             this.BtnGeri.UseVisualStyleBackColor = false;
             this.BtnGeri.Click += new System.EventHandler(this.BtnGeri_Click);
             // 
-            // LblID
-            // 
-            this.LblID.AutoSize = true;
-            this.LblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblID.Location = new System.Drawing.Point(705, 290);
-            this.LblID.Name = "LblID";
-            this.LblID.Size = new System.Drawing.Size(0, 24);
-            this.LblID.TabIndex = 13;
-            // 
             // StudentLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.LblID);
             this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnOgrenciSİfreUnuttum);
             this.Controls.Add(this.BtnOgrenciGiris);
@@ -178,6 +167,5 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Button BtnOgrenciSİfreUnuttum;
         private System.Windows.Forms.Button BtnGeri;
         public System.Windows.Forms.TextBox TxtOgrenciMail;
-        public System.Windows.Forms.Label LblID;
     }
 }

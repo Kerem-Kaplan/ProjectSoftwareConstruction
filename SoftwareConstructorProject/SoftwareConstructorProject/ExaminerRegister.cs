@@ -33,39 +33,39 @@ namespace SoftwareConstructorProject
 
             if (TxtSinavSorumluIsim.Text == "")
             {
-                MessageBox.Show("Lütfen Geçerli bir isim girin");
+                MessageBox.Show("Lütfen Geçerli Bir İsim Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else if (TxtSinavSorumluSoyIsim.Text == "")
             {
-                MessageBox.Show("Lütfen Gecerli Soyisim girin");
+                MessageBox.Show("Lütfen Geçerli Soyisim Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else if (TxtSinavSorumluMail.Text == "")
             {
-                MessageBox.Show("Lütfen geçerli bir mail girin");
+                MessageBox.Show("Lütfen Geçerli Bir Mail Adresi Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else if (TxtSinavSorumluSifre.Text == "" || TxtSifreTekrar.Text == "")
             {
 
-                MessageBox.Show("Sifreyi bos geçme");
+                MessageBox.Show("Lütfen Şifre Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else if (TxtGuvenlikNo.Text == "")
             {
-                MessageBox.Show("Lütfen Güv No girin");
+                MessageBox.Show("Lütfen Güvenlik Numarası Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else
             {
                 if (TxtSinavSorumluSifre.Text != TxtSifreTekrar.Text)
                 {
-                    MessageBox.Show("Lütfen şifreleri aynı girin");
+                    MessageBox.Show("Lütfen Şifreleri Aynı Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    MessageBox.Show("Şifreler aynı");
+                    MessageBox.Show("Kayıt Başarılı", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     cmd.ExecuteNonQuery();
                     baglanti.connection().Close();
                     ExaminerLogin examinerLogin = new ExaminerLogin();
@@ -75,7 +75,7 @@ namespace SoftwareConstructorProject
 
             }
 
-            
+
 
         }
 

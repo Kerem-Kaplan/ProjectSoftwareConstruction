@@ -74,6 +74,7 @@ namespace SoftwareConstructorProject
             // 
             // DtgSorular
             // 
+            this.DtgSorular.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgSorular.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgSorular.Location = new System.Drawing.Point(11, 239);
             this.DtgSorular.Margin = new System.Windows.Forms.Padding(2);

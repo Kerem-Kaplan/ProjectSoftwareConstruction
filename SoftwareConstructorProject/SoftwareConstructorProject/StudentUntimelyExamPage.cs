@@ -14,7 +14,6 @@ namespace SoftwareConstructorProject
     public partial class StudentUntimelyExamPage : Form
     {
         public int[] id = new int[10];
-        int[] trueAnswer = new int[15];
 
         public StudentUntimelyExamPage()
         {
@@ -67,9 +66,8 @@ namespace SoftwareConstructorProject
 
             if (reader.Read())
             {
-                TxtSoru.Text = reader[0].ToString();
 
-                TxtSoru.Text += reader["QuestionText"].ToString();
+                TxtSoru.Text = reader["QuestionText"].ToString();
                 PctSoru.ImageLocation = reader["QuestionImage"].ToString();
 
                 BtnSoruA.Text = reader["OptionA"].ToString();
@@ -103,7 +101,6 @@ namespace SoftwareConstructorProject
 
             MessageBox.Show("10 SORU İÇERİSİNDEN BAŞARI YÜZDENİZ: %" + Convert.ToString(10 * j), "BAŞARI YÜZDENİZ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
             StudentHomePage studentHomePage = new StudentHomePage();
             studentHomePage.id[0] = id[0];
             studentHomePage.Show();
@@ -116,7 +113,6 @@ namespace SoftwareConstructorProject
             randomvalue.Parameters.AddWithValue("@id", id[0]);
             if (reader["CorrectAnswer"].ToString() == "A")
             {
-                trueAnswer[j] = Convert.ToInt32(reader[0].ToString());
                 j++;
                 BtnSoruA.BackColor = Color.Green;
 
@@ -138,7 +134,7 @@ namespace SoftwareConstructorProject
             randomvalue.Parameters.AddWithValue("@id", id[0]);
             if (reader["CorrectAnswer"].ToString() == "B")
             {
-                trueAnswer[j] = Convert.ToInt32(reader[0].ToString());
+
                 j++;
                 BtnSoruB.BackColor = Color.Green;
 
@@ -160,7 +156,6 @@ namespace SoftwareConstructorProject
             randomvalue.Parameters.AddWithValue("@id", id[0]);
             if (reader["CorrectAnswer"].ToString() == "C")
             {
-                trueAnswer[j] = Convert.ToInt32(reader[0].ToString());
                 j++;
                 BtnSoruC.BackColor = Color.Green;
 
@@ -182,7 +177,6 @@ namespace SoftwareConstructorProject
             randomvalue.Parameters.AddWithValue("@id", id[0]);
             if (reader["CorrectAnswer"].ToString() == "D")
             {
-                trueAnswer[j] = Convert.ToInt32(reader[0].ToString());
                 j++;
                 BtnSoruD.BackColor = Color.Green;
 

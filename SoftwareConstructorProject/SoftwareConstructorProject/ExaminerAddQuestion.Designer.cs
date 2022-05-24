@@ -45,7 +45,7 @@ namespace SoftwareConstructorProject
             this.BtnSecenekCResimEkle = new System.Windows.Forms.Button();
             this.BtnSecenekBResimEkle = new System.Windows.Forms.Button();
             this.BtnEkle = new System.Windows.Forms.Button();
-            this.BtnOnizleme = new System.Windows.Forms.Button();
+            this.BtnGeri = new System.Windows.Forms.Button();
             this.PctSoru = new System.Windows.Forms.PictureBox();
             this.PctSecenekA = new System.Windows.Forms.PictureBox();
             this.PctSecenekB = new System.Windows.Forms.PictureBox();
@@ -230,15 +230,17 @@ namespace SoftwareConstructorProject
             this.BtnEkle.UseVisualStyleBackColor = true;
             this.BtnEkle.Click += new System.EventHandler(this.BtnEkle_Click);
             // 
-            // BtnOnizleme
+            // BtnGeri
             // 
-            this.BtnOnizleme.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOnizleme.Location = new System.Drawing.Point(546, 750);
-            this.BtnOnizleme.Name = "BtnOnizleme";
-            this.BtnOnizleme.Size = new System.Drawing.Size(137, 41);
-            this.BtnOnizleme.TabIndex = 16;
-            this.BtnOnizleme.Text = "Önizleme";
-            this.BtnOnizleme.UseVisualStyleBackColor = true;
+            this.BtnGeri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnGeri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnGeri.Location = new System.Drawing.Point(546, 750);
+            this.BtnGeri.Name = "BtnGeri";
+            this.BtnGeri.Size = new System.Drawing.Size(137, 41);
+            this.BtnGeri.TabIndex = 16;
+            this.BtnGeri.Text = "Geri";
+            this.BtnGeri.UseVisualStyleBackColor = false;
+            this.BtnGeri.Click += new System.EventHandler(this.BtnGeri_Click);
             // 
             // PctSoru
             // 
@@ -333,7 +335,7 @@ namespace SoftwareConstructorProject
             this.Controls.Add(this.PctSecenekB);
             this.Controls.Add(this.PctSecenekA);
             this.Controls.Add(this.PctSoru);
-            this.Controls.Add(this.BtnOnizleme);
+            this.Controls.Add(this.BtnGeri);
             this.Controls.Add(this.BtnEkle);
             this.Controls.Add(this.BtnSecenekBResimEkle);
             this.Controls.Add(this.BtnSecenekCResimEkle);
@@ -381,7 +383,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.Button BtnSecenekCResimEkle;
         private System.Windows.Forms.Button BtnSecenekBResimEkle;
         private System.Windows.Forms.Button BtnEkle;
-        private System.Windows.Forms.Button BtnOnizleme;
         private System.Windows.Forms.PictureBox PctSoru;
         private System.Windows.Forms.PictureBox PctSecenekA;
         private System.Windows.Forms.PictureBox PctSecenekB;
@@ -393,5 +394,6 @@ namespace SoftwareConstructorProject
         private System.Windows.Forms.OpenFileDialog openFileDialog4;
         private System.Windows.Forms.OpenFileDialog openFileDialog5;
         private System.Windows.Forms.ComboBox CmbDogruCevap;
+        private System.Windows.Forms.Button BtnGeri;
     }
 }

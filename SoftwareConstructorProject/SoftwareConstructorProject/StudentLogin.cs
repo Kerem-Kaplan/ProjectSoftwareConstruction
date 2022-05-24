@@ -52,10 +52,8 @@ namespace SoftwareConstructorProject
             reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                LblID.Text = reader["StudentID"].ToString();
                 id[0] = Convert.ToInt32(reader["StudentID"].ToString());
-                MessageBox.Show(Convert.ToString(id[0]));
-                MessageBox.Show("basarılı");
+                MessageBox.Show("Giriş Başarılı", "BİLGİ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 StudentHomePage studentHomePage = new StudentHomePage();
                 studentHomePage.id[0] = id[0];
                 studentHomePage.Show();
@@ -63,9 +61,8 @@ namespace SoftwareConstructorProject
             }
             else
             {
-                MessageBox.Show("yanlış kardeş");
+                MessageBox.Show("Hatalı Giriş Yaptınız Lütfen Tekrar Deneyiniz", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
             reader.Close();
         }
     }

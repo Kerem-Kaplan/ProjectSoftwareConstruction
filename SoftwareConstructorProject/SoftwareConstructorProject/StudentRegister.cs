@@ -41,36 +41,41 @@ namespace SoftwareConstructorProject
 
             if (TxtOgrenciIsim.Text == "")
             {
-                MessageBox.Show("Geçerli isim girin");
+                MessageBox.Show("Lütfen Geçerli Bir İsim Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
 
             else if (TxtOgrenciSoyIsim.Text == "")
             {
-                MessageBox.Show("geçerli soyisim girin");
+                MessageBox.Show("Lütfen Geçerli Soyisim Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
 
             else if (TxtOgrenciMail.Text == "")
             {
-                MessageBox.Show("gecerli mail gir");
+                MessageBox.Show("Lütfen Geçerli Bir Mail Adresi Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
             else if (TxtOgrenciSifre.Text == "" || TxtSifreTekrar.Text == "")
             {
-                MessageBox.Show("şifreyi bos gecmee");
+                MessageBox.Show("Lütfen Şifre Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
             else if (TxtGuvenlikNo.Text == "")
             {
-                MessageBox.Show("güvenlik no girin");
+                MessageBox.Show("Lütfen Güvenlik Numarası Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
 
             else
             {
                 if (TxtOgrenciSifre.Text != TxtSifreTekrar.Text)
                 {
-                    MessageBox.Show("Lütfen şifreleri aynı girin");
+                    MessageBox.Show("Lütfen Şifreleri Aynı Giriniz", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    MessageBox.Show("Şifreler aynı ");
+                    MessageBox.Show("Kayıt Başarılı", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     cmd.ExecuteNonQuery();
                     baglanti.connection().Close();
                     StudentLogin studentLogin = new StudentLogin();

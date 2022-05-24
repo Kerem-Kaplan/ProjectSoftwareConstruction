@@ -51,14 +51,14 @@ namespace SoftwareConstructorProject
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
-                MessageBox.Show("basarılı");
+                MessageBox.Show("Giriş Başarılı", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ExaminerHomePage examinerHomePage = new ExaminerHomePage();
                 examinerHomePage.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Kullanıcı adı veya şifre hatalı");
+                MessageBox.Show("Kullanıcı Adı veya Şifre Hatalı", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

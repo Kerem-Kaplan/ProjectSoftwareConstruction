@@ -40,6 +40,7 @@ namespace SoftwareConstructorProject
             // 
             // DtgOgrenciBilgileri
             // 
+            this.DtgOgrenciBilgileri.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DtgOgrenciBilgileri.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgOgrenciBilgileri.Location = new System.Drawing.Point(12, 199);
             this.DtgOgrenciBilgileri.Name = "DtgOgrenciBilgileri";

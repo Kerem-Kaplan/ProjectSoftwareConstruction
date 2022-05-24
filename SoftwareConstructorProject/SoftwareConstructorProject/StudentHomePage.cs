@@ -17,12 +17,11 @@ namespace SoftwareConstructorProject
         {
             InitializeComponent();
         }
-    
+
         //ogerncinin sureye dayali sinav ekranina yonlendirme islemi
         private void BtnSinavSistemiGiris_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToString(id[0]));
-            MessageBox.Show("Tamam tuşuna bastıktan sonra her soru için 10 dakikanız bulunmaktadır");
+            MessageBox.Show("Tamam Butonuna Bastıktan Sonra Toplam Süreniz 20 Dakika", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             StudentExamPage studentExamPage = new StudentExamPage();
             studentExamPage.id[0] = id[0];
             studentExamPage.Show();
@@ -33,23 +32,18 @@ namespace SoftwareConstructorProject
         //ogrencinin sıklık ayarlama ekranına yonlendirilme islemi
         private void BtnAyarlar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToString(id[0]));
             StudentFrequencySetting studentFrequencySetting = new StudentFrequencySetting();
             studentFrequencySetting.Show();
             studentFrequencySetting.id[0] = id[0];
             this.Hide();
         }
 
-        private void StudentHomePage_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show(Convert.ToString(id[0]));
-        }
+        
 
         //ogrencinin sureye dayali olmayan sinav ekranina yönlendirilmesi
         private void BtnZamansizSinav_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToString(id[0]));
-            MessageBox.Show("Tamam tuşuna bastıktan sonra sınava başlayabilirsiniz", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Tamam Butonuna Bastıktan Sonra Sınava Başlayabilirsiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             StudentUntimelyExamPage studentUntimelyExamPage = new StudentUntimelyExamPage();
             studentUntimelyExamPage.id[0] = id[0];
             studentUntimelyExamPage.Show();
@@ -62,6 +56,13 @@ namespace SoftwareConstructorProject
             StudentAnalysisReport studentAnalysisReport = new StudentAnalysisReport();
             studentAnalysisReport.id[0] = id[0];
             studentAnalysisReport.Show();
+            this.Hide();
+        }
+
+        private void BtnCikis_Click(object sender, EventArgs e)
+        {
+            StudentLogin studentLogin = new StudentLogin();
+            studentLogin.Show();
             this.Hide();
         }
     }
